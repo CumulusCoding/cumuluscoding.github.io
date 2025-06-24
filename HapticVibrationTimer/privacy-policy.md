@@ -26,49 +26,65 @@ Your privacy is important. This Privacy Policy describes how the app '**Haptic V
 
 ---
 
-## Collection of Personal Data
 
-The App does **not collect any personal data**.  
-There is:  
-- No account system  
-- No analytics  
-- No internet communication  
-- No logging of user activity  
-- No background data collection
+
+<details id="collection-of-personal-data">
+  <summary style="font-size: 1.5rem;"><strong>Collection of Personal Data</strong></summary>
+  <p style="margin-top: 1rem;">
+  The App does <strong>not collect any personal data</strong>.  
+    There is:  
+    - No account system  
+    - No analytics  
+    - No internet communication  
+    - No logging of user activity  
+    - No background data collection
 
 All features work locally on your device (iPhone and Apple Watch).
-
-
-<details>
-<summary><strong>Collection of Personal Data</strong></summary>
-The App does **not collect any personal data**.  
-</details>
-
-<details>
-  <summary style="font-size: 1.5rem;"><strong>Collection of Personal Data</strong></summary>
-  <p>The App does <strong>not collect any personal data</strong>.</p>
+  </p>
 </details>
 
 
 
 ---
 
-## Use of Personal Data
 
-Since no data is collected, no personal data is used, processed, or analysed in any form.
+<details id="use-of-personal-data">
+  <summary style="font-size: 1.5rem;"><strong>Use of Personal Data</strong></summary>
+  <p style="margin-top: 1rem;">
+  Since no data is collected, no personal data is used, processed, or analysed in any form.
+
+  </p>
+</details>
+
 
 ---
 
-## Sharing of Personal Data
 
-Your data is never shared with third parties, advertisers, analytics providers, or any external services. The App does not communicate externally.
+
+
+<details id="sharing-of-personal-data">
+  <summary style="font-size: 1.5rem;"><strong>Sharing of Personal Data</strong></summary>
+  <p style="margin-top: 1rem;">
+  Your data is never shared with third parties, advertisers, analytics providers, or any external services. The App does not communicate externally.
+
+  </p>
+</details>
+
 
 ---
 
-## Protection of Personal Data
 
-As no personal data is collected or stored, there is no risk of external data breaches related to this App.  
-All user settings are stored securely in **Apple's UserDefaults system**, local to your device.
+<details id="protection-of-personal-data">
+  <summary style="font-size: 1.5rem;"><strong>Protection of Personal Data</strong></summary>
+  <p style="margin-top: 1rem;">
+  As no personal data is collected or stored, there is no risk of external data breaches related to this App.  
+All user settings are stored securely in <strong>Apple's UserDefaults system</strong>, local to your device.
+
+  </p>
+</details>
+
+
+
 
 ---
 
