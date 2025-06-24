@@ -39,7 +39,7 @@ There is:
 All features work locally on your device (iPhone and Apple Watch).
 
 
-<!-- <details>
+<details>
 <summary><strong>Collection of Personal Data</strong></summary>
 The App does **not collect any personal data**.  
 </details>
@@ -47,7 +47,7 @@ The App does **not collect any personal data**.
 <details>
   <summary style="font-size: 1.5rem;"><strong>Collection of Personal Data</strong></summary>
   <p>The App does <strong>not collect any personal data</strong>.</p>
-</details> -->
+</details>
 
 
 
