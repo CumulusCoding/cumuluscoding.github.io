@@ -88,43 +88,81 @@ All user settings are stored securely in <strong>Apple's UserDefaults system</st
 
 ---
 
-## Your Privacy Rights
 
-You retain full control of the data on your device. No user information is stored elsewhere or accessed by the developer.
+<details id="your-privacy-rights">
+  <summary style="font-size: 1.5rem;"><strong>Your Privacy Rights</strong></summary>
+  <p style="margin-top: 1rem;">
+  You retain full control of the data on your device. No user information is stored elsewhere or accessed by the developer.
 
----
-
-## Children & Privacy
-
-The App is not specifically designed for use by children, and it is intended for general audiences. However, because the App does not collect or process any personal data, its use by children does not pose any privacy risk.
-
+  </p>
+</details>
 
 ---
 
-## Cookies and Other Technologies
+<details id="children--privacy">
+  <summary style="font-size: 1.5rem;"><strong>Children & Privacy</strong></summary>
+  <p style="margin-top: 1rem;">
+  The App is not specifically designed for use by children, and it is intended for general audiences. However, because the App does not collect or process any personal data, its use by children does not pose any privacy risk.
 
-The App does **not** use cookies or similar tracking technologies.
+  </p>
+</details>
+
+
 
 ---
 
-## International Data Transfers
 
-The App does not transmit any data. Therefore, no data crosses international borders or is stored on any remote server.
+
+
+<details id="cookies-and-other-technologies">
+  <summary style="font-size: 1.5rem;"><strong>Cookies and Other Technologiesy</strong></summary>
+  <p style="margin-top: 1rem;">
+  The App does <strong>not</strong> use cookies or similar tracking technologies.
+
+  </p>
+</details>
 
 ---
 
-## Changes to This Policy
 
-This Privacy Policy may be updated in future to reflect changes in functionality or to meet legal requirements.
+
+
+<details id="international-data-transfers">
+  <summary style="font-size: 1.5rem;"><strong>International Data Transfers</strong></summary>
+  <p style="margin-top: 1rem;">
+  The App does not transmit any data. Therefore, no data crosses international borders or is stored on any remote server.
+
+  </p>
+</details>
+
+---
+
+
+
+
+<details id="changes-to-this-policy">
+  <summary style="font-size: 1.5rem;"><strong>Changes to This Policy</strong></summary>
+  <p style="margin-top: 1rem;">
+  This Privacy Policy may be updated in future to reflect changes in functionality or to meet legal requirements.
 
 Any updates will be clearly posted on this page. You are encouraged to review the policy periodically to stay informed. We will endeavour to notify users of any significant changes where appropriate.
 
+  </p>
+</details>
+
 ---
 
-## Contact Us
+<details id="contact-us">
+  <summary style="font-size: 1.5rem;"><strong>Contact Us</strong></summary>
+  <p style="margin-top: 1rem;">
+  If you have questions about this policy, you may contact us at:
 
-If you have questions about this policy, you may contact us at:
+    hello@cumuluscoding.com
 
-hello@cumuluscoding.com
+  </p>
+</details>
+
+
+
 
 ---
