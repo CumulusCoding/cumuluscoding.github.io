@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="App details and download links">
+  <meta name="keywords" content="mobile apps, iOS, download">
+  <meta name="author" content="Cumulus Coding">
+  <title id="page-title">App Details - Cumulus Coding</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3B82F6',
+            secondary: '#64748B',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b border-gray-200">
+    <div class="max-w-4xl mx-auto px-6 py-6">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="text-xl font-semibold text-gray-900 hover:text-primary transition-colors">
+          Cumulus Coding
+        </a>
+        <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">
+          ← Back to Home
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <!-- App Header -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
+        <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+          <svg id="app-icon" class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <div class="flex-1">
+          <h1 id="app-name" class="text-3xl font-bold text-gray-900 mb-2">App Name</h1>
+          <p id="app-platform" class="text-gray-600 mb-3">Platform</p>
+          <p id="app-description" class="text-gray-700 leading-relaxed">
+            App description will be loaded here.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Download Section -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-6">Download</h2>
+      <div id="download-links" class="grid gap-4 md:grid-cols-2">
+        <!-- Download links will be populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Legal Documents -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-6">Legal</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="border border-gray-200 rounded-lg p-6">
+          <h3 class="text-lg font-medium text-gray-900 mb-2">Privacy Policy</h3>
+          <p class="text-gray-600 mb-4 text-sm">
+            Learn how we handle your data and protect your privacy.
+          </p>
+          <a id="privacy-link" href="#" 
+             class="inline-flex items-center text-primary hover:text-blue-600 font-medium">
+            Read Privacy Policy
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="border border-gray-200 rounded-lg p-6">
+          <h3 class="text-lg font-medium text-gray-900 mb-2">Terms of Use</h3>
+          <p class="text-gray-600 mb-4 text-sm">
+            Review the terms and conditions for using our application.
+          </p>
+          <a id="terms-link" href="#" 
+             class="inline-flex items-center text-primary hover:text-blue-600 font-medium">
+            Read Terms of Use
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="max-w-4xl mx-auto px-6 py-8">
+      <div class="text-center text-gray-600">
+        <p>&copy; <span id="year"></span> Cumulus Coding. All rights reserved.</p>
+        <p class="text-sm mt-2">Privacy-focused mobile applications</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // App data - this can be easily extended for more apps
+    const apps = {
+      'haptic-timer': {
+        name: 'Haptic Vibration Timer',
+        platform: 'iOS & watchOS',
+        description: 'A privacy-focused timer app that uses haptic feedback to keep you on track. No data collection, no tracking - just pure functionality that respects your privacy.',
+        icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>`,
+        downloads: [
+          {
+            name: 'App Store',
+            url: '#',
+            icon: `<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>`,
+            color: 'bg-black'
+          }
+        ],
+        privacy: 'HapticVibrationTimer/privacy-policy.md',
+        terms: '#'
+      }
+      // Add more apps here as needed
+    };
+
+    // Get app from URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const appId = urlParams.get('app');
+    const app = apps[appId];
+
+    if (app) {
+      // Update page content
+      document.getElementById('page-title').textContent = `${app.name} - Cumulus Coding`;
+      document.getElementById('app-name').textContent = app.name;
+      document.getElementById('app-platform').textContent = app.platform;
+      document.getElementById('app-description').textContent = app.description;
+      document.getElementById('app-icon').innerHTML = app.icon;
+
+      // Update download links
+      const downloadContainer = document.getElementById('download-links');
+      downloadContainer.innerHTML = app.downloads.map(download => `
+        <a href="${download.url}" 
+           class="flex items-center justify-center px-6 py-4 border border-gray-200 rounded-lg hover:border-gray-300 hover:shadow-sm transition-all duration-200">
+          <div class="w-8 h-8 ${download.color} rounded-lg flex items-center justify-center mr-3">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+              ${download.icon}
+            </svg>
+          </div>
+          <span class="font-medium text-gray-900">Download on ${download.name}</span>
+        </a>
+      `).join('');
+
+      // Update legal links
+      document.getElementById('privacy-link').href = app.privacy;
+      document.getElementById('terms-link').href = app.terms;
+    } else {
+      // App not found - redirect to home
+      window.location.href = 'index.html';
+    }
+
+    // Update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

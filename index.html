@@ -1,117 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Developer Hub – [Your Name or Brand]</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cumulus Coding - Privacy-focused mobile applications">
+  <meta name="keywords" content="mobile apps, iOS, privacy, haptic timer">
+  <meta name="author" content="Cumulus Coding">
+  <title>Cumulus Coding - Privacy-Focused Mobile Applications</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3B82F6',
+            secondary: '#64748B',
+          }
+        }
+      }
+    }
+  </script>
   <style>
-    :root {
-      --bg: #f9f9f9;
-      --fg: #222;
-      --link: #0057cc;
-      --border: #ddd;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-      background: var(--bg);
-      color: var(--fg);
-      line-height: 1.6;
-      padding: 2rem;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.2rem;
-    }
-
-    p.tagline {
-      font-size: 1rem;
-      color: #666;
-    }
-
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    section {
-      margin-bottom: 2.5rem;
-    }
-
-    h2 {
-      font-size: 1.25rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.3rem;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin: 0.5rem 0;
-    }
-
-    a {
-      color: var(--link);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 4rem;
-      font-size: 0.85rem;
-      color: #999;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Cumulus Coding</h1>
-    <p class="tagline">Privacy policies and support links for published applications</p>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b border-gray-200">
+    <div class="max-w-4xl mx-auto px-6 py-8">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">Cumulus Coding</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Creating privacy-focused mobile applications that respect your data
+        </p>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Apps</h2>
-      <ul>
-        <li>
-          <strong>Haptic Vibration Timer</strong><br />
-          <a href="HapticVibrationTimer/privacy-policy.html">Privacy Policy</a>
-          <!-- <a href="app-one/privacy-policy.html">Privacy Policy</a> | -->
-          <!-- <a href="app-one/support.html">Support</a> -->
-        </li>
-        <!-- <li>
-          <strong>App Two</strong><br />
-          <a href="app-two/privacy-policy.html">Privacy Policy</a>
-        </li> -->
-        <!-- Add more apps as needed -->
-      </ul>
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <!-- Apps Section -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">Our Applications</h2>
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!-- App Card -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+          <div class="p-6">
+            <div class="flex items-center mb-4">
+              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900">Haptic Vibration Timer</h3>
+                <p class="text-sm text-gray-500">iOS & watchOS</p>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+              A privacy-focused timer app that uses haptic feedback to keep you on track. 
+              No data collection, no tracking - just pure functionality.
+            </p>
+            <div class="flex flex-col space-y-2">
+              <a href="app.html?app=haptic-timer" 
+                 class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
+                Learn More
+                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder for future apps -->
+        <div class="bg-gray-100 rounded-xl border-2 border-dashed border-gray-300 flex items-center justify-center min-h-[200px]">
+          <div class="text-center text-gray-500">
+            <svg class="w-12 h-12 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+            <p class="text-sm">More apps coming soon</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>
-        For any enquiries, please email:
-        <a href="mailto:hello@cumuluscoding.com">hello@cumuluscoding.com</a>
-      </p>
+    <!-- Contact Section -->
+    <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Get in Touch</h2>
+      <div class="max-w-md mx-auto text-center">
+        <p class="text-gray-600 mb-6">
+          Have questions about our apps or privacy policies? We'd love to hear from you.
+        </p>
+        <a href="mailto:hello@cumuluscoding.com" 
+           class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+          </svg>
+          hello@cumuluscoding.com
+        </a>
+      </div>
     </section>
   </main>
 
-  <footer>
-    &copy; <span id="year"></span> Cumulus Coding. All rights reserved.
+  <!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="max-w-4xl mx-auto px-6 py-8">
+      <div class="text-center text-gray-600">
+        <p>&copy; <span id="year"></span> Cumulus Coding. All rights reserved.</p>
+        <p class="text-sm mt-2">Privacy-focused mobile applications</p>
+      </div>
+    </div>
   </footer>
 
   <script>
