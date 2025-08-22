@@ -1,0 +1,184 @@
+/* Policy page specific styles */
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Policy content styling */
+.policy-content {
+  line-height: 1.7;
+  color: #374151;
+}
+
+.policy-content h2 {
+  color: #111827;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.policy-content h3 {
+  color: #111827;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.policy-content p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.policy-content ul,
+.policy-content ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.policy-content li {
+  margin-bottom: 0.25rem;
+}
+
+.policy-content strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.policy-content a {
+  color: #3B82F6;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.policy-content a:hover {
+  color: #2563EB;
+}
+
+/* Table of contents styling */
+#toc-list a {
+  display: block;
+  padding: 0.5rem 0;
+  color: #6B7280;
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  padding-left: 1rem;
+  transition: all 0.2s ease;
+}
+
+#toc-list a:hover {
+  color: #3B82F6;
+  border-left-color: #3B82F6;
+  background-color: #F8FAFC;
+}
+
+/* Section styling */
+.section-content {
+  margin-top: 1rem;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  
+  .policy-content {
+    font-size: 11pt;
+  }
+  
+  .policy-content h2 {
+    font-size: 14pt;
+    page-break-after: avoid;
+  }
+  
+  .policy-content h3 {
+    font-size: 12pt;
+    page-break-after: avoid;
+  }
+  
+  .policy-content p {
+    margin-bottom: 0.75rem;
+  }
+  
+  .policy-content ul,
+  .policy-content ol {
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Ensure sections don't break across pages */
+  section {
+    page-break-inside: avoid;
+  }
+  
+  /* Add page numbers */
+  @page {
+    margin: 1in;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .policy-content {
+    font-size: 16px;
+  }
+  
+  .policy-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .policy-content h3 {
+    font-size: 1.25rem;
+  }
+  
+  #toc-list a {
+    padding: 0.75rem 0;
+    font-size: 0.95rem;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  #toc-list a {
+    transition: none;
+  }
+}
+
+/* Focus styles for better accessibility */
+.policy-content a:focus,
+#toc-list a:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .policy-content {
+    color: #000;
+  }
+  
+  .policy-content h2,
+  .policy-content h3 {
+    color: #000;
+    border-bottom-color: #000;
+  }
+  
+  .policy-content strong {
+    color: #000;
+  }
+}

@@ -7,6 +7,7 @@ A clean, modern, and minimalist business landing page for Cumulus Coding's mobil
 - **Responsive Design**: Mobile-friendly layout that works on all devices
 - **Modern UI**: Clean, minimalist design using Tailwind CSS
 - **Scalable**: Easy to add new apps and content
+- **Policy System**: Reusable policy page system for Privacy Policies and Terms of Use
 - **SEO Optimized**: Proper meta tags and semantic HTML
 - **Privacy-Focused**: Aligns with the company's privacy-first approach
 
@@ -16,12 +17,82 @@ A clean, modern, and minimalist business landing page for Cumulus Coding's mobil
 cumuluscoding.github.io/
 ├── index.html              # Homepage with app listings
 ├── app.html                # App details page template
+├── policy.html             # Generic policy page template
 ├── styles.css              # Additional custom styles
 ├── README.md               # This documentation
+├── scripts/
+│   └── markdownToJson.js   # Markdown to JSON converter
+├── assets/
+│   ├── policy.js           # Policy page JavaScript
+│   └── policy.css          # Policy page styles
+├── data/
+│   └── policies/           # Generated policy JSON files
+│       └── HapticVibrationTimer/
+│           └── privacy-policy.json
 ├── HapticVibrationTimer/   # App-specific content
 │   └── privacy-policy.md   # Privacy policy document
 └── CNAME                   # Custom domain configuration
 ```
+
+## Policy System
+
+The website includes a modern, reusable policy page system for displaying Privacy Policies and Terms of Use.
+
+### Adding a New Policy
+
+1. **Create the markdown file**: Place your policy markdown file at `<AppName>/<policy-type>.md`
+   - Example: `HapticVibrationTimer/privacy-policy.md`
+
+2. **Convert to JSON**: Run the conversion script:
+   ```bash
+   node scripts/markdownToJson.js \
+     --in HapticVibrationTimer/privacy-policy.md \
+     --app HapticVibrationTimer \
+     --type privacy-policy
+   ```
+
+3. **Link to the policy**: Use the following URL format:
+   ```
+   /policy.html?app=<AppName>&type=<policy-type>
+   ```
+   - Privacy Policy: `/policy.html?app=HapticVibrationTimer&type=privacy-policy`
+   - Terms of Use: `/policy.html?app=HapticVibrationTimer&type=terms-of-use`
+
+### Policy File Structure
+
+Policies are stored as JSON files in `/data/policies/<app>/<type>.json` with the following structure:
+
+```json
+{
+  "appId": "HapticVibrationTimer",
+  "title": "Privacy Policy (Haptic Vibration Timer)",
+  "lastUpdated": "24 June, 2025",
+  "sections": [
+    {
+      "heading": "Section Title",
+      "content": [
+        "Paragraph text...",
+        "- List item 1",
+        "- List item 2"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "hello@cumuluscoding.com"
+  },
+  "meta": {
+    "version": "1.0.0",
+    "locale": "en-GB"
+  }
+}
+```
+
+### Supported Policy Types
+
+- `privacy-policy` - Privacy Policy documents
+- `terms-of-use` - Terms of Use documents
+- `terms-of-service` - Terms of Service documents
+- `cookie-policy` - Cookie Policy documents
 
 ## Adding a New App
 
