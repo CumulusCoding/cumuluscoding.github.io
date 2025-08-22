@@ -64,7 +64,13 @@ class PolicyPage {
     // Update policy header
     document.getElementById('policy-title').textContent = this.policy.title;
     document.getElementById('app-name').textContent = this.policy.appId;
-    document.getElementById('update-date').textContent = this.policy.lastUpdated;
+    
+    // Format and display the last updated date
+    const lastUpdated = this.policy.metadata?.lastUpdated || this.policy.lastUpdated;
+    if (lastUpdated) {
+      const formattedDate = this.formatDate(lastUpdated);
+      document.getElementById('update-date').textContent = formattedDate;
+    }
 
     // Update app icon if available
     this.updateAppIcon(this.policy.appId);
@@ -196,6 +202,14 @@ class PolicyPage {
       contactEmail.href = `mailto:${this.policy.contact.email}`;
       contactEmail.textContent = this.policy.contact.email;
     }
+  }
+
+  formatDate(dateString) {
+    const date = new Date(dateString);
+    const day = date.getDate();
+    const month = date.toLocaleDateString('en-GB', { month: 'long' });
+    const year = date.getFullYear();
+    return `${day} ${month} ${year}`;
   }
 
   showError(message) {
