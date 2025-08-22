@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Policy document">
+  <meta name="keywords" content="policy, privacy, terms">
+  <meta name="author" content="Cumulus Coding">
+  <title id="page-title">Policy - Cumulus Coding</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3B82F6',
+            secondary: '#64748B',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    
+    /* Policy-specific styles */
+    .policy-content h2 {
+      @apply text-2xl font-semibold text-gray-900 mt-8 mb-4 pb-2 border-b border-gray-200;
+    }
+    
+    .policy-content h3 {
+      @apply text-xl font-medium text-gray-900 mt-6 mb-3;
+    }
+    
+    .policy-content p {
+      @apply text-gray-700 leading-relaxed mb-4;
+    }
+    
+    .policy-content ul {
+      @apply list-disc list-inside text-gray-700 mb-4 space-y-1;
+    }
+    
+    .policy-content ol {
+      @apply list-decimal list-inside text-gray-700 mb-4 space-y-1;
+    }
+    
+    .policy-content li {
+      @apply text-gray-700;
+    }
+    
+    .policy-content strong {
+      @apply font-semibold text-gray-900;
+    }
+    
+    .policy-content a {
+      @apply text-primary hover:text-blue-600 underline;
+    }
+    
+    /* Print styles */
+    @media print {
+      .no-print { display: none !important; }
+      .policy-content { font-size: 12pt; }
+      .policy-content h2 { font-size: 16pt; }
+      .policy-content h3 { font-size: 14pt; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b border-gray-200 no-print">
+    <div class="max-w-4xl mx-auto px-6 py-6">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="text-xl font-semibold text-gray-900 hover:text-primary transition-colors">
+          Cumulus Coding
+        </a>
+        <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">
+          ← Back to Home
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <!-- Loading State -->
+    <div id="loading" class="text-center py-12">
+      <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+      <p class="text-gray-600">Loading policy...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error" class="hidden bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
+      <div class="flex items-center mb-4">
+        <svg class="w-6 h-6 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <h2 class="text-lg font-semibold text-red-900">Policy Not Found</h2>
+      </div>
+      <p class="text-red-700 mb-4">
+        The requested policy could not be found. Please check the URL and try again.
+      </p>
+      <a href="index.html" class="inline-flex items-center px-4 py-2 bg-red-600 text-white text-sm font-medium rounded-lg hover:bg-red-700 transition-colors">
+        Return to Home
+      </a>
+    </div>
+
+    <!-- Policy Content -->
+    <div id="policy-content" class="hidden">
+      <!-- Policy Header -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+        <div class="flex items-start gap-6">
+          <div id="app-icon" class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center flex-shrink-0">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h1 id="policy-title" class="text-3xl font-bold text-gray-900 mb-2">Policy Title</h1>
+            <p id="app-name" class="text-lg text-gray-600 mb-2">App Name</p>
+            <p id="last-updated" class="text-sm text-gray-500">Last updated: <span id="update-date">Date</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table of Contents -->
+      <div id="toc" class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8 no-print">
+        <h2 class="text-xl font-semibold text-gray-900 mb-4">Contents</h2>
+        <nav id="toc-list" class="space-y-2">
+          <!-- TOC items will be populated by JavaScript -->
+        </nav>
+      </div>
+
+      <!-- Policy Sections -->
+      <div id="policy-sections" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+        <div id="sections-content" class="policy-content">
+          <!-- Policy sections will be populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div id="contact-info" class="bg-gray-50 rounded-xl p-6 mt-8 no-print">
+        <h2 class="text-lg font-semibold text-gray-900 mb-4">Contact Us</h2>
+        <p class="text-gray-700 mb-2">
+          If you have questions about this policy, please contact us:
+        </p>
+        <a id="contact-email" href="mailto:hello@cumuluscoding.com" 
+           class="inline-flex items-center text-primary hover:text-blue-600 font-medium">
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+          </svg>
+          hello@cumuluscoding.com
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 mt-16 no-print">
+    <div class="max-w-4xl mx-auto px-6 py-8">
+      <div class="text-center text-gray-600">
+        <p>&copy; <span id="year"></span> Cumulus Coding. All rights reserved.</p>
+        <p class="text-sm mt-2">Privacy-focused mobile applications</p>
+      </div>
+    </div>
+  </footer>
+
+  <link rel="stylesheet" href="assets/policy.css">
+  <script src="assets/policy.js"></script>
+</body>
+</html>
