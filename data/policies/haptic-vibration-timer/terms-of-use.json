@@ -1,5 +1,5 @@
 {
-  "appId": "HapticVibrationTimer",
+  "appId": "haptic-vibration-timer",
   "title": "Terms of Use (Haptic Vibration Timer)",
   "lastUpdated": "24 June, 2025",
   "sections": [
@@ -34,12 +34,6 @@
       "heading": "Disclaimer",
       "content": [
         "The App is provided \"as is\" without warranties of any kind. We are not responsible for any damages arising from your use of the App."
-      ]
-    },
-    {
-      "heading": "Contact Us",
-      "content": [
-        "If you have questions about these terms, please contact us at: hello@cumuluscoding.com"
       ]
     }
   ],

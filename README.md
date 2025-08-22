@@ -23,14 +23,19 @@ cumuluscoding.github.io/
 ├── scripts/
 │   └── markdownToJson.js   # Markdown to JSON converter
 ├── assets/
+│   ├── apps/               # App icons directory
+│   │   └── haptic-vibration-timer/
+│   │       └── icon.png    # App icon
 │   ├── policy.js           # Policy page JavaScript
 │   └── policy.css          # Policy page styles
 ├── data/
 │   └── policies/           # Generated policy JSON files
-│       └── HapticVibrationTimer/
-│           └── privacy-policy.json
-├── HapticVibrationTimer/   # App-specific content
-│   └── privacy-policy.md   # Privacy policy document
+│       └── haptic-vibration-timer/
+│           ├── privacy-policy.json
+│           └── terms-of-use.json
+├── haptic-vibration-timer/ # App-specific content
+│   ├── privacy-policy.md
+│   └── terms-of-use.md
 └── CNAME                   # Custom domain configuration
 ```
 
@@ -40,23 +45,23 @@ The website includes a modern, reusable policy page system for displaying Privac
 
 ### Adding a New Policy
 
-1. **Create the markdown file**: Place your policy markdown file at `<AppName>/<policy-type>.md`
-   - Example: `HapticVibrationTimer/privacy-policy.md`
+1. **Create the markdown file**: Place your policy markdown file at `<app-name>/<policy-type>.md`
+   - Example: `haptic-vibration-timer/privacy-policy.md`
 
 2. **Convert to JSON**: Run the conversion script:
    ```bash
    node scripts/markdownToJson.js \
-     --in HapticVibrationTimer/privacy-policy.md \
-     --app HapticVibrationTimer \
+     --in haptic-vibration-timer/privacy-policy.md \
+     --app haptic-vibration-timer \
      --type privacy-policy
    ```
 
 3. **Link to the policy**: Use the following URL format:
    ```
-   /policy.html?app=<AppName>&type=<policy-type>
+   /policy.html?app=<app-name>&type=<policy-type>
    ```
-   - Privacy Policy: `/policy.html?app=HapticVibrationTimer&type=privacy-policy`
-   - Terms of Use: `/policy.html?app=HapticVibrationTimer&type=terms-of-use`
+   - Privacy Policy: `/policy.html?app=haptic-vibration-timer&type=privacy-policy`
+   - Terms of Use: `/policy.html?app=haptic-vibration-timer&type=terms-of-use`
 
 ### Policy File Structure
 
@@ -64,7 +69,7 @@ Policies are stored as JSON files in `/data/policies/<app>/<type>.json` with the
 
 ```json
 {
-  "appId": "HapticVibrationTimer",
+  "appId": "haptic-vibration-timer",
   "title": "Privacy Policy (Haptic Vibration Timer)",
   "lastUpdated": "24 June, 2025",
   "sections": [
@@ -175,6 +180,26 @@ YourApp/
 ├── terms-of-use.md
 └── app-icon.png (optional)
 ```
+
+### 4. Add App Icon (Optional)
+
+To display your app's icon throughout the website:
+
+1. **Create the icon directory:**
+   ```bash
+   mkdir -p assets/apps/your-app-name
+   ```
+
+2. **Add your app icon:**
+   - Place your icon as `assets/apps/your-app-name/icon.png`
+   - Recommended format: PNG with transparent background
+   - Recommended size: 512x512px or 1024x1024px
+   - The system will automatically scale it down
+
+3. **The icon will appear in:**
+   - Homepage app cards
+   - App details page header
+   - Policy pages header
 
 ## Customization
 

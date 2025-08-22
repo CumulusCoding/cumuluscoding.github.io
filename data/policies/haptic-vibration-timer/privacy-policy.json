@@ -1,5 +1,5 @@
 {
-  "appId": "HapticVibrationTimer",
+  "appId": "haptic-vibration-timer",
   "title": "Privacy Policy (Haptic Vibration Timer)",
   "lastUpdated": "24 June, 2025",
   "sections": [
@@ -57,13 +57,6 @@
       "content": [
         "This Privacy Policy may be updated in future to reflect changes in functionality or to meet legal requirements.",
         "Any updates will be clearly posted on this page. You are encouraged to review the policy periodically to stay informed. We will endeavour to notify users of any significant changes where appropriate."
-      ]
-    },
-    {
-      "heading": "Contact Us",
-      "content": [
-        "If you have questions about this policy, you may contact us at:",
-        "hello@cumuluscoding.com"
       ]
     }
   ],

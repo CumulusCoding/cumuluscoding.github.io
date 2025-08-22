@@ -44,35 +44,8 @@
     <section class="mb-16">
       <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">Our Applications</h2>
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        <!-- App Card -->
-        <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
-          <div class="p-6">
-            <div class="flex items-center mb-4">
-              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
-                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-lg font-semibold text-gray-900">Haptic Vibration Timer</h3>
-                <p class="text-sm text-gray-500">iOS & watchOS</p>
-              </div>
-            </div>
-            <p class="text-gray-600 mb-4 text-sm leading-relaxed">
-              A privacy-focused timer app that uses haptic feedback to keep you on track. 
-              No data collection, no tracking - just pure functionality.
-            </p>
-            <div class="flex flex-col space-y-2">
-              <a href="app.html?app=haptic-timer" 
-                 class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
-                Learn More
-                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        <!-- App Cards will be populated by JavaScript -->
+        <div id="app-cards"></div>
 
         <!-- Placeholder for future apps -->
         <div class="bg-gray-100 rounded-xl border-2 border-dashed border-gray-300 flex items-center justify-center min-h-[200px]">
@@ -91,7 +64,7 @@
       <h2 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Get in Touch</h2>
       <div class="max-w-md mx-auto text-center">
         <p class="text-gray-600 mb-6">
-          Have questions about our apps or privacy policies? We'd love to hear from you.
+          Have questions about our apps or policies? We'd love to hear from you.
         </p>
         <a href="mailto:hello@cumuluscoding.com" 
            class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
@@ -115,7 +88,91 @@
   </footer>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    // App data - this can be easily extended for more apps
+    const apps = [
+      {
+        id: 'haptic-timer',
+        appId: 'haptic-vibration-timer',
+        name: 'Haptic Vibration Timer',
+        platform: 'iOS & watchOS',
+        description: 'A privacy-focused timer app that uses haptic feedback to keep you on track. No data collection, no tracking - just pure functionality.',
+        icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>`
+      }
+      // Add more apps here as needed
+    ];
+
+    // Function to create app card with icon
+    function createAppCard(app) {
+      const card = document.createElement('div');
+      card.className = 'bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-300';
+      
+      card.innerHTML = `
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div id="app-icon-${app.id}" class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                ${app.icon}
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900">${app.name}</h3>
+              <p class="text-sm text-gray-500">${app.platform}</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+            ${app.description}
+          </p>
+          <div class="flex flex-col space-y-2">
+            <a href="app.html?app=${app.id}" 
+               class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
+              Learn More
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      `;
+      
+      return card;
+    }
+
+    // Function to load app icon
+    function loadAppIcon(appId, elementId) {
+      const iconPath = `assets/apps/${appId}/icon.png`;
+      const iconContainer = document.getElementById(elementId);
+      
+      const img = new Image();
+      img.onload = function() {
+        iconContainer.innerHTML = '';
+        iconContainer.classList.remove('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
+        iconContainer.classList.add('bg-white', 'p-1');
+        iconContainer.appendChild(img);
+        img.className = 'w-full h-full rounded-xl object-cover';
+      };
+      img.onerror = function() {
+        // Keep the default SVG icon if image fails to load
+        console.log(`App icon not found for ${appId}, using default icon`);
+      };
+      img.src = iconPath;
+    }
+
+    // Initialize the page
+    document.addEventListener('DOMContentLoaded', function() {
+      // Update year
+      document.getElementById("year").textContent = new Date().getFullYear();
+      
+      // Load app cards
+      const appCardsContainer = document.getElementById('app-cards');
+      
+      apps.forEach(app => {
+        const card = createAppCard(app);
+        appCardsContainer.appendChild(card);
+        
+        // Load the app icon
+        loadAppIcon(app.appId, `app-icon-${app.id}`);
+      });
+    });
   </script>
 </body>
 </html>
