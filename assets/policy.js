@@ -80,21 +80,29 @@ class PolicyPage {
   }
 
   updateAppIcon(appId) {
-    // Try to load app-specific icon
+    const iconContainer = document.getElementById('app-icon');
     const iconPath = `assets/apps/${appId}/icon.png`;
     
-    // For now, we'll use a default icon
-    // In the future, you can add actual app icons at assets/apps/{appId}/icon.png
-    const iconContainer = document.getElementById('app-icon');
-    
-    // You can customize this based on app ID
-    if (appId === 'HapticVibrationTimer') {
+    // Try to load the actual app icon
+    const img = new Image();
+    img.onload = function() {
+      iconContainer.innerHTML = '';
+      iconContainer.classList.remove('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
+      iconContainer.classList.add('bg-white', 'p-1');
+      iconContainer.appendChild(img);
+      img.className = 'w-full h-full rounded-xl object-cover';
+    };
+    img.onerror = function() {
+      // Fallback to default SVG icon
+      iconContainer.classList.add('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
+      iconContainer.classList.remove('bg-white', 'p-1');
       iconContainer.innerHTML = `
         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
       `;
-    }
+    };
+    img.src = iconPath;
   }
 
   renderTableOfContents() {

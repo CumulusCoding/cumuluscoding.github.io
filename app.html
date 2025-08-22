@@ -45,8 +45,8 @@
     <!-- App Header -->
     <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
       <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
-        <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0">
-          <svg id="app-icon" class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div id="app-icon" class="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+          <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
         </div>
@@ -120,6 +120,7 @@
         platform: 'iOS & watchOS',
         description: 'A privacy-focused timer app that uses haptic feedback to keep you on track. No data collection, no tracking - just pure functionality that respects your privacy.',
         icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>`,
+        appId: 'haptic-vibration-timer', // This maps to the folder name for icons
         downloads: [
           {
             name: 'App Store',
@@ -128,8 +129,8 @@
             color: 'bg-black'
           }
         ],
-        privacy: 'policy.html?app=HapticVibrationTimer&type=privacy-policy',
-        terms: 'policy.html?app=HapticVibrationTimer&type=terms-of-use'
+        privacy: 'policy.html?app=haptic-vibration-timer&type=privacy-policy',
+        terms: 'policy.html?app=haptic-vibration-timer&type=terms-of-use'
       }
       // Add more apps here as needed
     };
@@ -145,7 +146,8 @@
       document.getElementById('app-name').textContent = app.name;
       document.getElementById('app-platform').textContent = app.platform;
       document.getElementById('app-description').textContent = app.description;
-      document.getElementById('app-icon').innerHTML = app.icon;
+      // Update app icon
+      loadAppIcon(app.appId, 'app-icon');
 
       // Update download links
       const downloadContainer = document.getElementById('download-links');
@@ -167,6 +169,30 @@
     } else {
       // App not found - redirect to home
       window.location.href = 'index.html';
+    }
+
+    // Function to load app icon (reused from index.html)
+    function loadAppIcon(appId, elementId) {
+      console.log('Loading icon for:', appId, 'in element:', elementId);
+      const iconPath = `assets/apps/${appId}/icon.png`;
+      console.log('Icon path:', iconPath);
+      const iconContainer = document.getElementById(elementId);
+      console.log('Icon container found:', iconContainer);
+      
+      const img = new Image();
+      img.onload = function() {
+        console.log('Icon loaded successfully!');
+        iconContainer.innerHTML = '';
+        iconContainer.classList.remove('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
+        iconContainer.classList.add('bg-white', 'p-2');
+        iconContainer.appendChild(img);
+        img.className = 'w-full h-full rounded-xl object-cover';
+        console.log('Icon container classes after update:', iconContainer.className);
+      };
+      img.onerror = function() {
+        console.log('Icon failed to load, using default icon');
+      };
+      img.src = iconPath;
     }
 
     // Update year
