@@ -44,19 +44,22 @@
   <main class="max-w-4xl mx-auto px-6 py-12">
     <!-- App Header -->
     <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
-      <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
-        <div id="app-icon" class="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0">
-          <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <!-- App Title and Icon Row -->
+      <div class="flex items-center gap-6 mb-6">
+        <div id="app-icon" class="w-28 h-28 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl flex items-center justify-center flex-shrink-0">
+          <svg class="w-14 h-14 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
         </div>
-        <div class="flex-1">
+        <div>
           <h1 id="app-name" class="text-3xl font-bold text-gray-900 mb-2">App Name</h1>
-          <p id="app-platform" class="text-gray-600 mb-3">Platform</p>
-          <p id="app-description" class="text-gray-700 leading-relaxed">
-            App description will be loaded here.
-          </p>
+          <p id="app-platform" class="text-gray-600">Platform</p>
         </div>
+      </div>
+      
+      <!-- App Description -->
+      <div id="app-description" class="text-gray-700 leading-relaxed">
+        App description will be loaded here.
       </div>
     </div>
 
@@ -118,9 +121,24 @@
       'haptic-timer': {
         name: 'Haptic Vibration Timer',
         platform: 'iOS & watchOS',
-        description: 'A privacy-focused timer app that uses haptic feedback to keep you on track. No data collection, no tracking - just pure functionality that respects your privacy.',
         icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>`,
         appId: 'haptic-vibration-timer', // This maps to the folder name for icons
+        downloads: [
+          {
+            name: 'App Store',
+            url: '#',
+            icon: `<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l9-11h-7z"/>`,
+            color: 'bg-black'
+          }
+        ],
+        privacy: 'policy.html?app=haptic-vibration-timer&type=privacy-policy',
+        terms: 'policy.html?app=haptic-vibration-timer&type=terms-of-use'
+      },
+      'trail-pacing': {
+        name: 'Trail Pacing',
+        platform: 'iOS',
+        icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>`,
+        appId: 'trail-pacing', // This maps to the folder name for icons
         downloads: [
           {
             name: 'App Store',
@@ -129,8 +147,8 @@
             color: 'bg-black'
           }
         ],
-        privacy: 'policy.html?app=haptic-vibration-timer&type=privacy-policy',
-        terms: 'policy.html?app=haptic-vibration-timer&type=terms-of-use'
+        privacy: 'policy.html?app=trail-pacing&type=privacy-policy',
+        terms: 'policy.html?app=trail-pacing&type=terms-of-use'
       }
       // Add more apps here as needed
     };
@@ -141,13 +159,16 @@
     const app = apps[appId];
 
     if (app) {
-      // Update page content
-      document.getElementById('page-title').textContent = `${app.name} - Cumulus Coding`;
-      document.getElementById('app-name').textContent = app.name;
-      document.getElementById('app-platform').textContent = app.platform;
-      document.getElementById('app-description').textContent = app.description;
-      // Update app icon
-      loadAppIcon(app.appId, 'app-icon');
+      // Load app description from JSON file
+      loadAppDescription(app.appId).then(description => {
+        // Update page content
+        document.getElementById('page-title').textContent = `${app.name} - Cumulus Coding`;
+        document.getElementById('app-name').textContent = app.name;
+        document.getElementById('app-platform').textContent = app.platform;
+        document.getElementById('app-description').innerHTML = description;
+        // Update app icon
+        loadAppIcon(app.appId, 'app-icon');
+      });
 
       // Update download links
       const downloadContainer = document.getElementById('download-links');
@@ -171,10 +192,24 @@
       window.location.href = 'index.html';
     }
 
+    // Function to load app description from JSON file
+    async function loadAppDescription(appId) {
+      try {
+        const response = await fetch(`apps/${appId}/app-description.json`);
+        if (response.ok) {
+          const appData = await response.json();
+          return appData.longDescription;
+        }
+      } catch (error) {
+        console.error(`Failed to load description for ${appId}:`, error);
+      }
+      return 'Description not available';
+    }
+
     // Function to load app icon (reused from index.html)
     function loadAppIcon(appId, elementId) {
       console.log('Loading icon for:', appId, 'in element:', elementId);
-      const iconPath = `assets/apps/${appId}/icon.png`;
+              const iconPath = `apps/${appId}/assets/icon.png`;
       console.log('Icon path:', iconPath);
       const iconContainer = document.getElementById(elementId);
       console.log('Icon container found:', iconContainer);

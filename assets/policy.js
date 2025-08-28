@@ -33,7 +33,7 @@ class PolicyPage {
 
   async loadPolicy(app, type) {
     try {
-      const response = await fetch(`data/policies/${app}/${type}.json`);
+      const response = await fetch(`apps/${app}/policies/${type}.json`);
       
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
@@ -63,7 +63,6 @@ class PolicyPage {
 
     // Update policy header
     document.getElementById('policy-title').textContent = this.policy.title;
-    document.getElementById('app-name').textContent = this.policy.appId;
     
     // Format and display the last updated date
     const lastUpdated = this.policy.metadata?.lastUpdated || this.policy.lastUpdated;
@@ -87,23 +86,23 @@ class PolicyPage {
 
   updateAppIcon(appId) {
     const iconContainer = document.getElementById('app-icon');
-    const iconPath = `assets/apps/${appId}/icon.png`;
+    const iconPath = `apps/${appId}/assets/icon.png`;
     
     // Try to load the actual app icon
     const img = new Image();
     img.onload = function() {
       iconContainer.innerHTML = '';
       iconContainer.classList.remove('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
-      iconContainer.classList.add('bg-white', 'p-1');
+      iconContainer.classList.add('bg-white', 'p-2');
       iconContainer.appendChild(img);
-      img.className = 'w-full h-full rounded-xl object-cover';
+      img.className = 'w-full h-full rounded-3xl object-cover';
     };
     img.onerror = function() {
       // Fallback to default SVG icon
       iconContainer.classList.add('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
       iconContainer.classList.remove('bg-white', 'p-1');
       iconContainer.innerHTML = `
-        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-14 h-14 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
       `;
