@@ -95,16 +95,35 @@
         appId: 'haptic-vibration-timer',
         name: 'Haptic Vibration Timer',
         platform: 'iOS & watchOS',
-        description: 'A privacy-focused timer app that uses haptic feedback to keep you on track. No data collection, no tracking - just pure functionality.',
         icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>`
+      },
+      {
+        id: 'trail-pacing',
+        appId: 'trail-pacing',
+        name: 'Trail Pacing',
+        platform: 'iOS',
+        icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>`
       }
       // Add more apps here as needed
     ];
 
     // Function to create app card with icon
-    function createAppCard(app) {
+    async function createAppCard(app) {
       const card = document.createElement('div');
       card.className = 'bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-300';
+      
+      // Load app description from JSON file
+      let description = 'Loading description...';
+      try {
+        const response = await fetch(`apps/${app.appId}/app-description.json`);
+        if (response.ok) {
+          const appData = await response.json();
+          description = appData.shortDescription;
+        }
+      } catch (error) {
+        console.error(`Failed to load description for ${app.appId}:`, error);
+        description = 'Description not available';
+      }
       
       card.innerHTML = `
         <div class="p-6">
@@ -120,7 +139,7 @@
             </div>
           </div>
           <p class="text-gray-600 mb-4 text-sm leading-relaxed">
-            ${app.description}
+            ${description}
           </p>
           <div class="flex flex-col space-y-2">
             <a href="app.html?app=${app.id}" 
@@ -139,7 +158,7 @@
 
     // Function to load app icon
     function loadAppIcon(appId, elementId) {
-      const iconPath = `assets/apps/${appId}/icon.png`;
+              const iconPath = `apps/${appId}/assets/icon.png`;
       const iconContainer = document.getElementById(elementId);
       
       const img = new Image();
@@ -158,20 +177,20 @@
     }
 
     // Initialize the page
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', async function() {
       // Update year
       document.getElementById("year").textContent = new Date().getFullYear();
       
       // Load app cards
       const appCardsContainer = document.getElementById('app-cards');
       
-      apps.forEach(app => {
-        const card = createAppCard(app);
+      for (const app of apps) {
+        const card = await createAppCard(app);
         appCardsContainer.appendChild(card);
         
         // Load the app icon
         loadAppIcon(app.appId, `app-icon-${app.id}`);
-      });
+      }
     });
   </script>
 </body>

@@ -1,0 +1,132 @@
+{
+  "appId": "trail-pacing",
+  "title": "Terms of Use (Trail Pacing)",
+  "sections": [
+    {
+      "heading": "TL;DR (Too Long; Didn’t Read)",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>TrailPacing is a <strong>personal, on-device hiking tool</strong> for distance and interval notifications.</li>",
+        "<li><strong>No accounts, no servers, no ads.</strong> You control permissions (Location, Notifications, Health data).</li>",
+        "<li>Use TrailPacing <strong>at your own risk</strong>. It is <strong>not a safety, medical, or primary navigation device</strong>. Always carry appropriate maps, a compass, and safety equipment.</li>",
+        "<li>We limit our liability to the extent permitted by law. See <strong>Disclaimers and Limitation of Liability</strong>.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "content": [
+        "<p class=\"mb-4\">These Terms of Use (“<strong>Terms</strong>”) govern your use of <strong>TrailPacing</strong> (the “<strong>App</strong>”, “<strong>we</strong>”, “<strong>us</strong>”). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
+        "<p class=\"mb-4\">TrailPacing provides distance tracking, interval notifications, and related hiking metrics. Features depend on device capabilities and permissions you grant (e.g., Location, Notifications, Health data).</p>",
+        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=Trail%20Pacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
+      ]
+    },
+    {
+      "heading": "Your Use of the Services",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Licence.</strong> We grant you a personal, revocable, non-exclusive, non-transferable licence to use the App on devices you own or control, in accordance with these Terms and the App Store rules.</li>",
+        "<li><strong>Personal use.</strong> The App is for personal, non-commercial use unless we agree otherwise in writing.</li>",
+        "<li><strong>Requirements.</strong> You are responsible for having a compatible device, sufficient battery, and connectivity (where required).</li>",
+        "<li><strong>Permissions.</strong> Some features require Location, Notifications, or optional Health data access. You can change permissions in iOS Settings at any time; related features may then not function.</li>",
+        "<li><strong>No reliance.</strong> The App provides <strong>training and informational</strong> outputs. It is <strong>not</strong> a substitute for professional instruction, emergency services, or primary navigation. GPS/altitude readings can be inaccurate due to terrain, weather, or device limitations.</li>",
+        "<li><strong>Safety.</strong> Do not use the App where using a device could be unsafe. Stay aware of surroundings and comply with laws, park rules, and access restrictions.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "User Conduct and Community Guidelines",
+      "content": [
+        "<p class=\"mb-4\">While the App has no public community features, you agree that you will <strong>not</strong>:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Use the App unlawfully or in a manner that infringes rights of others.</li>",
+        "<li>Attempt to interfere with or circumvent security, permissions, or technical limitations.</li>",
+        "<li>Decompile, reverse engineer, or create derivative works of the App except to the extent permitted by law.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Intellectual Property",
+      "content": [
+        "<p class=\"mb-4\">The App and all related software, designs, text, and graphics are owned by us or our licensors and are protected by intellectual property laws. Except for the limited licence above, <strong>no rights</strong> are granted to you. Apple, iOS, HealthKit, and other Apple marks are trademarks of Apple Inc.</p>"
+      ]
+    },
+    {
+      "heading": "Third-Party Content and Advertisements",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No ads.</strong> The App does not include third-party advertising.</li>",
+        "<li><strong>Platform services.</strong> The App may use Apple services and frameworks (e.g., Core Location, UserNotifications, HealthKit). Your use of those services is subject to Apple’s terms.</li>",
+        "<li><strong>Health data.</strong> If enabled, the App <strong>reads</strong> Step Count and Active Energy from HealthKit to display “this session” metrics. We do <strong>not</strong> write Health data and do <strong>not</strong> share it with third parties.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Pricing, Payment & Refunds",
+      "content": [
+        "<p class=\"mb-4\">The App is a paid download available through the Apple App Store. Payment processing (including taxes/VAT and currency conversion) is handled by Apple; we do not process payments or collect your payment details. There are <strong>no subscriptions or in-app purchases</strong>.</p>",
+        "<p class=\"mb-4\"><strong>Refunds and cooling-off:</strong> Refunds (including any statutory right of withdrawal for digital content) are administered by Apple under the App Store’s policies. To request a refund, contact Apple via https://reportaproblem.apple.com.  We cannot issue refunds directly.</p>",
+        "<p class=\"mb-4\"><strong>App Store terms & licence:</strong> Your purchase and use of the App are also governed by Apple’s terms, including the Apple Media Services terms and Apple’s Standard Licensed Application End User Licence Agreement. If there is any conflict between these Terms and Apple’s terms regarding purchase, payment, or licensing, Apple’s terms apply.</p>",
+        "<p class=\"mb-4\"><strong>Price changes:</strong> We may change the price of the App for future purchases at any time. Price changes do not affect purchases already completed, and we do not offer price adjustments or credits for past purchases.</p>"
+      ]
+    },
+    {
+      "heading": "Privacy",
+      "content": [
+        "<p class=\"mb-4\">Your use of the App is subject to our <strong>Privacy Policy</strong>, which explains what data is processed (mostly on-device) and your choices. Please read it carefully.</p>",
+        "<p class=\"mb-4\"><strong><a href=\"https://cumuluscoding.com/policy.html?app=trail-pacing&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong></p>"
+      ]
+    },
+    {
+      "heading": "Termination and Suspension",
+      "content": [
+        "<p class=\"mb-4\">We may suspend or terminate your access to the App at any time if you breach these Terms, if required by law, or if we withdraw or materially change the App. You may stop using and uninstall the App at any time. Upon termination, the licence granted to you ends and you must cease use.</p>"
+      ]
+    },
+    {
+      "heading": "Disclaimers and Limitation of Liability",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No warranties.</strong> The App is provided <strong>“as is”</strong> and <strong>“as available”</strong>. To the fullest extent permitted by law, we disclaim all warranties (express or implied), including fitness for a particular purpose, reliability, and availability.</li>",
+        "<li><strong>Not a safety/medical device.</strong> The App is <strong>not</strong> a medical device, emergency service, or primary navigation tool. Metrics (including distance, elevation, speed, steps, energy) are <strong>estimates</strong> and may be inaccurate. Do not rely on the App for decisions where inaccurate data could cause harm.</li>",
+        "<li><strong>Your responsibility.</strong> You are responsible for safe use, maintaining device power, carrying backup navigation and safety equipment, and complying with applicable laws and access rules.</li>",
+        "<li><strong>Limitation.</strong> To the maximum extent permitted by law, we will <strong>not be liable</strong> for:</li>",
+        "<li>any indirect, consequential, special, or punitive damages; or</li>",
+        "<li>any loss of profits, data, goodwill, or opportunities; arising out of or in connection with your use of the App. Our total aggregate liability for all claims relating to the App shall not exceed <strong>the amount you paid (if any) to purchase the App</strong>.</li>",
+        "<li><strong>Nothing in these Terms</strong> excludes or limits liability where it would be unlawful to do so (e.g., for death or personal injury caused by negligence, or for fraud).</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Indemnity",
+      "content": [
+        "<p class=\"mb-4\">You agree to <strong>indemnify and hold us harmless</strong> from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in connection with: (a) your breach of these Terms; (b) your unlawful use of the App; or (c) infringement of third-party rights caused by your use.</p>"
+      ]
+    },
+    {
+      "heading": "Governing Law and Jurisdiction",
+      "content": [
+        "<p class=\"mb-4\">These Terms and any dispute or claim arising out of or in connection with them are governed by the laws of <strong>England and Wales</strong>, and the courts of <strong>England and Wales</strong> shall have exclusive jurisdiction. If you are a consumer in another country, you may have mandatory rights under your local laws which remain unaffected.</p>"
+      ]
+    },
+    {
+      "heading": "Changes to These Terms",
+      "content": [
+        "<p class=\"mb-4\">We may update these Terms from time to time. Changes will be effective when posted or when the App notifies you. The “Last updated” date at the top will reflect the most recent version. If you continue to use the App after changes take effect, you agree to the updated Terms.</p>"
+      ]
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Trail%20Pacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-08-28",
+    "effectiveDate": "2025-08-28",
+    "locale": "en-GB"
+  }
+}
