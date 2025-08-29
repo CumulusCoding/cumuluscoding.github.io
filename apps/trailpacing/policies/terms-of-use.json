@@ -1,6 +1,6 @@
 {
-  "appId": "trail-pacing",
-  "title": "Terms of Use (Trail Pacing)",
+  "appId": "trailpacing",
+  "title": "Terms of Use (TrailPacing)",
   "sections": [
     {
       "heading": "TL;DR (Too Long; Didn’t Read)",
@@ -74,7 +74,7 @@
       "heading": "Privacy",
       "content": [
         "<p class=\"mb-4\">Your use of the App is subject to our <strong>Privacy Policy</strong>, which explains what data is processed (mostly on-device) and your choices. Please read it carefully.</p>",
-        "<p class=\"mb-4\"><strong><a href=\"https://cumuluscoding.com/policy.html?app=trail-pacing&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong></p>"
+        "<p class=\"mb-4\"><strong><a href=\"https://cumuluscoding.com/policy.html?app=trailpacing&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong></p>"
       ]
     },
     {
