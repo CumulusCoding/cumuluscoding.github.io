@@ -43,12 +43,14 @@
     <!-- Apps Section -->
     <section class="mb-16">
       <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">Our Applications</h2>
-      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
         <!-- App Cards will be populated by JavaScript -->
-        <div id="app-cards"></div>
-
-        <!-- Placeholder for future apps -->
-        <div class="bg-gray-100 rounded-xl border-2 border-dashed border-gray-300 flex items-center justify-center min-h-[200px]">
+        <div id="app-cards" class="contents"></div>
+      </div>
+      
+      <!-- Future apps placeholder - positioned below the grid -->
+      <div class="text-center mt-12">
+        <div class="inline-block bg-gray-100 rounded-xl border-2 border-dashed border-gray-300 p-8">
           <div class="text-center text-gray-500">
             <svg class="w-12 h-12 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
@@ -133,7 +135,7 @@
       }
       
       card.innerHTML = `
-        <div class="p-6">
+        <div class="p-6 flex flex-col h-full">
           <div class="flex items-center mb-4">
             <div id="app-icon-${app.id}" class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -145,10 +147,10 @@
               <p class="text-sm text-gray-500">${app.platform}</p>
             </div>
           </div>
-          <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+          <p class="text-gray-600 mb-4 text-sm leading-relaxed flex-grow">
             ${description}
           </p>
-          <div class="flex flex-col space-y-2">
+          <div class="mt-auto">
             <a href="app.html?app=${app.id}" 
                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
               Learn More
@@ -191,6 +193,7 @@
       // Load app cards
       const appCardsContainer = document.getElementById('app-cards');
       
+      // Create app cards and add them to the grid
       for (const app of apps) {
         const card = await createAppCard(app);
         appCardsContainer.appendChild(card);
