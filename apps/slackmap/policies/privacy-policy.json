@@ -1,14 +1,19 @@
 {
   "appId": "slackmap",
-  "title": "Privacy Policy (SlackMap)",
-  "lastUpdated": "2024-08-29",
+  "title": "Privacy Policy (Slackmap)",
   "sections": [
     {
-      "title": "Privacy Policy",
+      "heading": "Coming Soon",
       "content": [
-        "<p class='mb-4'>This privacy policy will be updated soon with detailed information about how SlackMap handles your data.</p>",
-        "<p class='mb-4'>Please check back later for the complete privacy policy.</p>"
+        "This privacy policy will be updated soon with detailed information about how Slackmap collects and uses your data."
       ]
     }
-  ]
+  ],
+
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-08-22",
+    "effectiveDate": "2025-08-22",
+    "locale": "en-GB"
+  }
 }
