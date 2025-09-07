@@ -1,14 +1,19 @@
 {
   "appId": "slackmap",
-  "title": "Terms of Use (SlackMap)",
-  "lastUpdated": "2024-08-29",
+  "title": "Terms of Use (Slackmap)",
   "sections": [
     {
-      "title": "Terms of Use",
+      "heading": "Coming Soon",
       "content": [
-        "<p class='mb-4'>These terms of use will be updated soon with detailed information about using SlackMap.</p>",
-        "<p class='mb-4'>Please check back later for the complete terms of use.</p>"
+        "These Terms of Use will be updated soon with detailed information about how Slackmap collects and uses your data."
       ]
     }
-  ]
+  ],
+  
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-08-22",
+    "effectiveDate": "2025-08-22",
+    "locale": "en-GB"
+  }
 }
