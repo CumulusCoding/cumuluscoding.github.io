@@ -132,7 +132,7 @@
       "heading": "Contact Us",
       "content": [
         "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
-        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Trail%20Pacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>"
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=TrailPacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>"
       ]
     }
   ],
