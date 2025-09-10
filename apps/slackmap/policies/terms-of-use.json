@@ -26,41 +26,18 @@
     {
       "heading": "Introduction",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section sets out what these Terms are, who they apply to, and what they cover. It defines the relationship between you (the user) and us (the provider of the App), and outlines the scope of this agreement.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\"><strong>These Terms of Use</strong> (“<strong>Terms</strong>”) govern your access to and use of <strong>SlackMap</strong> (the “<strong>App</strong>”), which includes our <strong>mobile application</strong>, <strong>website</strong>, and any <strong>related services</strong>. They form a <strong>legally binding agreement</strong> between you and the creators and maintainers of SlackMap (“<strong>we</strong>”, “<strong>us</strong>”, or “<strong>our</strong>”).</p>",
         "<p class=\"mb-4\">By <strong>accessing</strong>, <strong>downloading</strong>, or <strong>using</strong> the App, you confirm that you <strong>understand and agree</strong> to these Terms. <strong>If you do not agree, you must not use the App.</strong> “<strong>You</strong>” refers to any individual who accesses or uses the App. <strong>If you’re using the App on behalf of an organisation or group, you confirm that you’re authorised to accept these Terms on its behalf.</strong></p>",
         "<p class=\"mb-4\">To make these Terms easier to navigate, we’ve included <strong>short summaries</strong> at the start of some sections. These summaries are provided to help you understand the content quickly, <strong>but they are not a substitute for the full legal text—you should still read each section in full.</strong></p>",
         "<p class=\"mb-4\">These Terms explain your <strong>rights and responsibilities</strong>, including <strong>how your content is handled</strong>, <strong>how we expect users to behave</strong>, and <strong>what happens if the rules are broken</strong>. They also set out <strong>limitations on liability</strong>, <strong>how disputes will be handled</strong>, and <strong>how the App may change over time.</strong></p>",
         "<p class=\"mb-4\">These Terms are <strong>separate from our Privacy Policy</strong>, which explains how we <strong>handle your personal data</strong>. <strong>If you access the App through a third-party platform (such as the Apple App Store or Google Play), you may also be subject to that platform’s own terms and conditions, which are not governed by us.</strong></p>",
         "<p class=\"mb-4\">If anything is <strong>unclear</strong>, or if you have <strong>questions about your use of the App</strong>, you can contact using the details in the <a href=\"#contact-us\" class=\"text-primary hover:text-blue-600 underline\">Contact Us</a> section.</p>"
-      ]
+      ],
+      "summary": "Summary: This section sets out what these Terms are, who they apply to, and what they cover. It defines the relationship between you (the user) and us (the provider of the App), and outlines the scope of this agreement."
     },
     {
       "heading": "Account Eligibility and Registration",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section outlines who is eligible to create an account, the requirements for registration, and your responsibilities in maintaining account security.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\"><strong>Eligibility</strong></p>",
         "<p class=\"mb-4\">To use certain features of the <strong>App</strong>, you must <strong>create an account</strong>. You confirm that you are <strong>at least 13 years old</strong> or have reached the <strong>age of majority</strong> in your jurisdiction, and have the <strong>legal capacity</strong> to enter into this agreement.</p>",
         "<p class=\"mb-4\">While the App itself does <strong>not contain inappropriate content</strong> and is designed to be suitable for <strong>all users</strong>, it includes <strong>user-generated content</strong> that we cannot fully control. We <strong>endeavour to monitor and remove</strong> any inappropriate content, but <strong>cannot guarantee</strong> that all content will be appropriate for children.</p>",
@@ -69,44 +46,22 @@
         "<p class=\"mb-4\">When registering, you agree to <strong>provide accurate and complete information</strong>. You are <strong>responsible for maintaining the confidentiality</strong> of your <strong>account credentials</strong>, including your <strong>Apple ID and associated email address</strong> (or Apple’s private relay address), and for <strong>any activity</strong> that occurs under your account.</p>",
         "<p class=\"mb-4\">You must <strong>notify us immediately</strong> if you suspect any <strong>unauthorised use</strong> of your account or any other <strong>security breach</strong>.</p>",
         "<p class=\"mb-4\">We <strong>reserve the right</strong> to <strong>refuse or terminate accounts</strong> that <strong>violate these Terms</strong> or are otherwise <strong>inappropriate</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: This section outlines who is eligible to create an account, the requirements for registration, and your responsibilities in maintaining account security."
     },
     {
       "heading": "Your Use of the Services",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section explains how you may and may not use the App, including your responsibilities and any restrictions.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">You agree to <strong>use the App in accordance with all applicable laws and regulations</strong>. You must <strong>not use the App</strong> for any <strong>unlawful, harmful, fraudulent, or malicious purposes</strong>.</p>",
         "<p class=\"mb-4\">You agree <strong>not to interfere with or disrupt</strong> the operation of the App, or <strong>attempt to gain unauthorised access</strong> to any part of the App or related systems.</p>",
         "<p class=\"mb-4\">You are <strong>responsible for all activity</strong> conducted through your account and for <strong>ensuring that your use of the App does not violate these Terms or the rights of others</strong>.</p>",
         "<p class=\"mb-4\">We may <strong>monitor usage</strong> and <strong>suspend or restrict access</strong> to the App if we <strong>reasonably believe</strong> you have <strong>violated these Terms</strong> or <strong>posed a risk</strong> to the App or its users.</p>"
-      ]
+      ],
+      "summary": "Summary: This section explains how you may and may not use the App, including your responsibilities and any restrictions."
     },
     {
       "heading": "User Conduct and Community Guidelines",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section outlines the standards of behaviour expected when using the App, including rules to maintain a safe, respectful, and positive community environment.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">When using the <strong>App</strong>, you agree to <strong>behave responsibly and respectfully</strong>. You must not:</p>",
         "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
         "<li><strong>Use the App to harass, bully, or threaten others.</strong></li>",
@@ -128,23 +83,12 @@
         "</ul>",
         "<p class=\"mb-4\">We <strong>encourage constructive and respectful participation</strong> to help maintain a <strong>welcoming community</strong> for all users.</p>",
         "<p class=\"mb-4\"><strong>Violation of these guidelines</strong> may result in <strong>content removal, suspension, or termination</strong> of your account as described in the <a href=\"#content-moderation-and-enforcement\" class=\"text-primary hover:text-blue-600 underline\">Content Moderation and Enforcement</a> section.</p>"
-      ]
+      ],
+      "summary": "Summary: This section outlines the standards of behaviour expected when using the App, including rules to maintain a safe, respectful, and positive community environment."
     },
     {
       "heading": "User-Generated Content",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section explains your responsibilities for content you create, how your content transitions into community data, and how we manage and moderate that content to maintain a safe and valuable community.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\"><strong>Your Content:</strong></p>",
         "<p class=\"mb-4\">When you <strong>create or submit any content</strong> through the <strong>App</strong> — such as <strong>reviews, comments, photos, or other materials</strong> (“<strong>Your Content</strong>”) — you <strong>retain ownership</strong> of that original content. However, by <strong>submitting Your Content</strong>, you <strong>grant us a worldwide, non-exclusive, royalty-free, transferable licence</strong> to <strong>use, display, reproduce, modify, and distribute</strong> it in connection with <strong>operating and promoting the App</strong>.</p>",
         "<p class=\"mb-4\"><strong>Community Data:</strong></p>",
@@ -155,23 +99,12 @@
         "<p class=\"mb-4\">We <strong>reserve the right</strong> to <strong>review, moderate, remove, or restrict access</strong> to any <a href=\"#user-generated-content\" class=\"text-primary hover:text-blue-600 underline\">User-Generated Content</a> that <strong>violates these Terms</strong>, <strong>applicable laws</strong>, or our <a href=\"#content-moderation-and-enforcement\" class=\"text-primary hover:text-blue-600 underline\">Content Moderation and Enforcement</a>. We may <strong>suspend or terminate accounts</strong> that <strong>repeatedly breach these standards</strong>.</p>",
         "<p class=\"mb-4\"><strong>No Obligation to Publish:</strong></p>",
         "<p class=\"mb-4\">We are <strong>not obligated</strong> to <strong>publish, display, or maintain</strong> any <a href=\"#user-generated-content\" class=\"text-primary hover:text-blue-600 underline\">User-Generated Content</a> and may <strong>remove any content at our discretion</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: This section explains your responsibilities for content you create, how your content transitions into community data, and how we manage and moderate that content to maintain a safe and valuable community."
     },
     {
       "heading": "Content Moderation and Enforcement",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section outlines how we monitor and manage content submitted by users to maintain a safe, respectful, and lawful community. It explains our rights to remove content and take enforcement actions, including suspensions and account terminations.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\"><strong>Content Review and Moderation:</strong></p>",
         "<p class=\"mb-4\">We may monitor, review, and moderate User-Generated Content on the App to ensure it <strong>complies with these Terms</strong>, <strong>applicable laws</strong>, and our <a href=\"#user-conduct-and-community-guidelines\" class=\"text-primary hover:text-blue-600 underline\">User Conduct and Community Guidelines</a>. Content that we determine is <strong>inappropriate, offensive, illegal</strong>, or otherwise <strong>in breach of these Terms</strong> may be removed or restricted.</p>",
         "<p class=\"mb-4\"><strong>Reporting Inappropriate Content:</strong></p>",
@@ -182,23 +115,12 @@
         "<p class=\"mb-4\">While we <strong>strive to maintain a safe environment</strong>, we <strong>do not guarantee</strong> that all content is free from <strong>objectionable or harmful material</strong>. We are <strong>not responsible for content posted by users</strong>, but we <strong>commit to acting reasonably and promptly</strong> when issues are brought to our attention.</p>",
         "<p class=\"mb-4\"><strong>Our Discretion:</strong></p>",
         "<p class=\"mb-4\">All decisions regarding <strong>moderation and enforcement</strong> are at our <strong>sole discretion</strong> and are <strong>final</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: This section outlines how we monitor and manage content submitted by users to maintain a safe, respectful, and lawful community. It explains our rights to remove content and take enforcement actions, including suspensions and account terminations."
     },
     {
       "heading": "Intellectual Property",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section explains what content you own, what rights you grant us, and what intellectual property rights we retain in the App.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">All <strong>content, features, and functionality</strong> within the App — including but not limited to <strong>text, graphics, logos, images, software, and designs</strong> — are <strong>owned or licensed by us</strong> and <strong>protected by copyright and other intellectual property laws</strong>.</p>",
         "<p class=\"mb-4\"><strong>Your Content and Ownership</strong></p>",
         "<p class=\"mb-4\">You <strong>retain ownership</strong> of any <strong>original content</strong> you create or submit through the App (“<strong>Your Content</strong>”), such as <strong>reviews, comments, photos, or other materials</strong>. By submitting Your Content, you <strong>grant us a worldwide, non-exclusive, royalty-free, transferable licence</strong> to <strong>use, display, reproduce, modify, and distribute</strong> it in connection with <strong>operating and promoting the App</strong>.</p>",
@@ -208,47 +130,26 @@
         "<p class=\"mb-4\">We <strong>retain all rights, title, and interest</strong> in the App and its content (<strong>excluding Your Content</strong>). This includes all <strong>intellectual property rights, trade secrets, and know-how</strong> associated with the App and its technology.</p>",
         "<p class=\"mb-4\"><strong>Additional Rights We Retain:</strong></p>",
         "<p class=\"mb-4\">We <strong>reserve the right</strong> to <strong>update, modify, or remove</strong> any content within the App as necessary to <strong>comply with these Terms</strong>, <strong>applicable laws</strong>, or to <strong>protect the community</strong>. This includes the <strong>right to remove inappropriate content</strong> or <strong>suspend accounts</strong> that <strong>violate these Terms</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: This section explains what content you own, what rights you grant us, and what intellectual property rights we retain in the App."
     },
     {
       "heading": "Third-Party Content and Advertisements",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section explains that the App may include content or advertisements from third parties, and your responsibilities regarding them.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">The App may display <strong>content, advertisements, or promotions provided by third parties</strong>. Such <strong>third-party content</strong> is <strong>not controlled or endorsed by us</strong>, and <strong>we do not guarantee</strong> its <strong>accuracy, quality, or reliability</strong>.</p>",
         "<p class=\"mb-4\">You acknowledge that <strong>any dealings or interactions with third-party advertisers or content providers</strong> are <strong>solely between you and the third party</strong>. <strong>We are not responsible</strong> for any <strong>loss or damage</strong> arising from these interactions.</p>",
         "<p class=\"mb-4\">If and when <strong>advertisements</strong> are introduced to the App, <strong>we will include them in a manner consistent with applicable laws and industry standards</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: This section explains that the App may include content or advertisements from third parties, and your responsibilities regarding them."
     },
     {
       "heading": "Privacy",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section explains how we collect, use, and protect your personal data. It also directs you to our full Privacy Policy for more detailed information.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">Your <strong>privacy is important to us</strong>. When you use the App, we may <strong>collect certain personal and community data</strong> to <strong>enable core functionality</strong> and <strong>support the community features</strong>. This includes data such as <strong>account registration details</strong>, <strong>location submissions</strong>, and <strong>reviews</strong>.</p>",
         "<p class=\"mb-4\">We <strong>handle all personal data in accordance with our Privacy Policy</strong>, which details <strong>what data is collected</strong>, <strong>how it is used</strong>, <strong>stored</strong>, and <strong>your rights concerning your data</strong>.</p>",
         "<p class=\"mb-4\">Please <strong>read these Terms alongside our <a href=\"https://cumuluscoding.com/policy.html?app=slackmap&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong>. <strong>If you do not agree with our data practices, please do not use the App.</strong></p>"
-      ]
+      ],
+      "summary": "Summary: This section explains how we collect, use, and protect your personal data. It also directs you to our full Privacy Policy for more detailed information."
     },
     {
       "heading": "Termination and Suspension",
@@ -259,39 +160,16 @@
     {
       "heading": "Disclaimers and Limitation of Liability",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: This section limits our liability for issues arising from your use of the App and clarifies that the App is provided “as is” without warranties.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">The App and all <strong>content, services, and features</strong> are provided on an <strong>“as is”</strong> and <strong>“as available”</strong> basis, <strong>without warranties of any kind</strong>, either express or implied. <strong>We do not guarantee</strong> that the App will be <strong>uninterrupted, error-free, or free of viruses or other harmful components</strong>.</p>",
         "<p class=\"mb-4\">To the <strong>fullest extent permitted by law</strong>, <strong>we disclaim all warranties</strong>, including but not limited to <strong>implied warranties of merchantability, fitness for a particular purpose, and non-infringement</strong>.</p>",
         "<p class=\"mb-4\">In no event shall <strong>we, our affiliates, officers, employees, or agents</strong> be liable for any <strong>indirect, incidental, special, consequential, or punitive damages</strong> arising out of or relating to your <strong>use or inability to use the App</strong>, even if we have been <strong>advised of the possibility</strong> of such damages.</p>",
         "<p class=\"mb-4\">Our <strong>total liability to you</strong> for any claim arising from your use of the App shall <strong>not exceed the amount you have paid</strong>, if any, to <strong>access or use the App</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: This section limits our liability for issues arising from your use of the App and clarifies that the App is provided “as is” without warranties."
     },
     {
       "heading": "Indemnity",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: You agree to protect us from any claims or losses resulting from your use of the App or violation of these Terms.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">You agree to <strong>indemnify, defend, and hold harmless</strong> us, our <strong>affiliates, officers, employees, and agents</strong> from and against any <strong>claims, liabilities, damages, losses, and expenses</strong>, including <strong>reasonable legal fees and costs</strong>, arising out of or in any way connected with:</p>",
         "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
         "<li><strong>Your use of the App;</strong></li>",
@@ -299,7 +177,8 @@
         "<li><strong>Your violation of any third-party rights, including intellectual property or privacy rights.</strong></li>",
         "</ul>",
         "<p class=\"mb-4\">This <strong>indemnity obligation will survive</strong> the <strong>termination of your account</strong> or <strong>access to the App</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: You agree to protect us from any claims or losses resulting from your use of the App or violation of these Terms."
     },
     {
       "heading": "Governing Law and Jurisdiction",
@@ -310,22 +189,11 @@
     {
       "heading": "Changes to These Terms",
       "content": [
-        "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 rounded-r-lg px-4 py-2 mb-4 shadow-sm\">",
-        "<div class=\"flex items-start\">",
-        "<div class=\"flex-shrink-0 mr-3\">",
-        "<svg class=\"w-5 h-5 text-blue-500 mt-0.5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">",
-        "<path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\" clip-rule=\"evenodd\"></path>",
-        "</svg>",
-        "</div>",
-        "<div class=\"flex-1\">",
-        "<p class=\"text-gray-800 font-medium leading-tight mb-0\"><strong>Summary: We may update these Terms occasionally, and your continued use of the App means you accept those changes.</strong></p>",
-        "</div>",
-        "</div>",
-        "</div>",
         "<p class=\"mb-4\">We <strong>reserve the right to modify or update these Terms</strong> at any time. For <strong>significant changes</strong> that <strong>materially affect your rights or use of the App</strong>, we will make <strong>reasonable efforts to notify you</strong>, such as via <strong>in-app notifications</strong> or <strong>email</strong>.</p>",
         "<p class=\"mb-4\">We <strong>encourage you to review these Terms periodically</strong>. Your <strong>continued access to or use of the App after changes take effect</strong> constitutes your <strong>acceptance of the updated Terms</strong>.</p>",
         "<p class=\"mb-4\">If you <strong>do not agree to any changes</strong>, you <strong>must stop using the App</strong>.</p>"
-      ]
+      ],
+      "summary": "Summary: We may update these Terms occasionally, and your continued use of the App means you accept those changes."
     },
     {
       "heading": "Contact Us",
