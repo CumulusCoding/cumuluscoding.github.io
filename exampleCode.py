@@ -285,8 +285,8 @@ def convert_inline_markdown(text: str) -> str:
 
 def parse_sections(md_text: str):
     """
-    Parses level-2 sections '## Heading'. Returns list of {heading, content:[paragraphs]}.
-    Converts all Markdown content to proper HTML.
+    Parses level-2 sections '## Heading'. Returns list of {heading, summary, content:[paragraphs]}.
+    Separates summary content (lines starting with >) from main content.
     """
     matches = list(re.finditer(r'(?m)^\s*##\s+(.+?)\s*$', md_text))
     sections = []
@@ -296,13 +296,44 @@ def parse_sections(md_text: str):
         end = matches[i + 1].start() if i + 1 < len(matches) else len(md_text)
         body = md_text[start:end].strip()
 
-        # Convert the entire section body to HTML
-        html_content = convert_markdown_to_html(body)
+        # Split body into lines and separate summary from content
+        lines = body.split('\n')
+        summary_lines = []
+        content_lines = []
         
-        # Split into content blocks (paragraphs, lists, headers)
-        content_blocks = [block.strip() for block in html_content.split('\n') if block.strip()]
+        for line in lines:
+            line = line.strip()
+            if line.startswith('> '):
+                # Remove the "> " prefix and add to summary
+                summary_lines.append(line[2:])
+            elif line.startswith('>'):
+                # Handle case where there's no space after >
+                summary_lines.append(line[1:])
+            else:
+                # Regular content
+                content_lines.append(line)
         
-        sections.append({"heading": heading, "content": content_blocks})
+        # Convert summary to plain text (no HTML formatting)
+        summary_text = ""
+        if summary_lines:
+            summary_text = ' '.join(summary_lines)
+            # Remove markdown formatting from summary
+            summary_text = re.sub(r'\*\*(.*?)\*\*', r'\1', summary_text)  # Remove bold
+            summary_text = re.sub(r'__(.*?)__', r'\1', summary_text)      # Remove bold alt
+            summary_text = re.sub(r'\*(.*?)\*', r'\1', summary_text)      # Remove italic
+            summary_text = re.sub(r'_(.*?)_', r'\1', summary_text)        # Remove italic alt
+            summary_text = re.sub(r'`(.*?)`', r'\1', summary_text)        # Remove code
+            summary_text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', summary_text)  # Remove links
+        
+        # Convert main content to HTML
+        content_html = convert_markdown_to_html('\n'.join(content_lines))
+        content_blocks = [block.strip() for block in content_html.split('\n') if block.strip()]
+        
+        section_data = {"heading": heading, "content": content_blocks}
+        if summary_text:
+            section_data["summary"] = summary_text
+        
+        sections.append(section_data)
     return sections
 
 def md_to_json_structure(md_path: Path, version: str, locale: str):
