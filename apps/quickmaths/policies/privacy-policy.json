@@ -1,0 +1,139 @@
+{
+  "appId": "quickmaths",
+  "title": "Privacy Policy (QuickMaths)",
+  "sections": [
+    {
+      "heading": "TL;DR (Too Long; Didn't Read)",
+      "content": [
+        "<p class=\"mb-4\">This summary gives you the key points of our Privacy Policy in plain language. It does <strong>not</strong> replace the full policy, which you should read for complete details about how your data is handled.</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Data Storage:</strong> QuickMaths operates entirely offline and stores all data locally on your device.</li>",
+        "<li><strong>No Personal Data Collection:</strong> We do not collect, store, or transmit any personal information.</li>",
+        "<li><strong>Local Data Only:</strong> Game progress, scores, and settings are stored locally on your device using secure system APIs.</li>",
+        "<li><strong>No Third-Party Services:</strong> The app does not use any external services or analytics platforms.</li>",
+        "<li><strong>No Internet Required:</strong> The app functions completely offline with no network connectivity requirements.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "content": [
+        "<p class=\"mb-4\">Welcome to <strong>QuickMaths</strong>. This Privacy Policy explains how we handle your data when you use our application (hereafter referred to as \"<strong>the App</strong>\").</p>",
+        "<p class=\"mb-4\">QuickMaths is designed with privacy as a core principle. The App operates entirely offline and does not collect, store, or transmit any personal data. All game progress, scores, and settings are stored locally on your device using secure system APIs provided by your device's operating system.</p>",
+        "<p class=\"mb-4\">We are committed to maintaining your privacy and have designed the App to function without requiring any personal information or internet connectivity. By using the App, you agree to the terms outlined in this Privacy Policy.</p>"
+      ]
+    },
+    {
+      "heading": "Collection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">QuickMaths does not collect any personal data. The App is designed to operate entirely offline and does not require any personal information to function.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">What We Don't Collect</h3></p>",
+        "<p class=\"mb-4\">We do not collect:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Personal identification information (names, email addresses, etc.)</li>",
+        "<li>Device identifiers or tracking information</li>",
+        "<li>Usage analytics or behavioural data</li>",
+        "<li>Location data</li>",
+        "<li>Any other personal or sensitive information</li>",
+        "</ul>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Local Data Storage</h3></p>",
+        "<p class=\"mb-4\">The only data stored by the App is:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Game progress and high scores (stored locally on your device)</li>",
+        "<li>App settings and preferences (stored locally on your device)</li>",
+        "<li>User preferences for difficulty levels and game modes (stored locally on your device)</li>",
+        "</ul>",
+        "<p class=\"mb-4\">This local data is stored using secure system APIs and is not transmitted anywhere or accessible to us or any third parties.</p>"
+      ]
+    },
+    {
+      "heading": "Use of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">Since QuickMaths does not collect any personal data, there is no personal data to use. The App operates entirely on your device using only the local data mentioned above to provide the gaming experience.</p>",
+        "<p class=\"mb-4\">Local data is used solely to:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Maintain your game progress and high scores</li>",
+        "<li>Remember your preferred settings and difficulty levels</li>",
+        "<li>Provide a personalised gaming experience based on your local preferences</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Sharing of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">QuickMaths does not share any data with third parties because we do not collect any data to share. All information remains on your device and is not transmitted anywhere.</p>"
+      ]
+    },
+    {
+      "heading": "Third-Party Services",
+      "content": [
+        "<p class=\"mb-4\">QuickMaths does not integrate with any third-party services, analytics platforms, or external APIs. The App is completely self-contained and operates entirely offline.</p>"
+      ]
+    },
+    {
+      "heading": "Cookies and Other Technologies",
+      "content": [
+        "<p class=\"mb-4\">QuickMaths does not use cookies, tracking pixels, or similar technologies. The App does not require internet connectivity and therefore does not use any web-based tracking technologies.</p>"
+      ]
+    },
+    {
+      "heading": "International Data Transfers",
+      "content": [
+        "<p class=\"mb-4\">Since QuickMaths does not collect or transmit any data, there are no international data transfers to consider.</p>"
+      ]
+    },
+    {
+      "heading": "Data Retention & Storage",
+      "content": [
+        "<p class=\"mb-4\">All data associated with QuickMaths is stored locally on your device. This data will persist until you either:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Delete the App from your device</li>",
+        "<li>Reset your device to factory settings</li>",
+        "<li>Manually clear the App's data through your device's settings</li>",
+        "</ul>",
+        "<p class=\"mb-4\">We have no access to or control over this local data, and it is not backed up to any external servers.</p>"
+      ]
+    },
+    {
+      "heading": "Protection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">Since QuickMaths does not collect personal data, there is no personal data to protect. The local data stored on your device is protected by your device's built-in security measures and operating system safeguards.</p>"
+      ]
+    },
+    {
+      "heading": "Your Privacy Rights & Choices",
+      "content": [
+        "<p class=\"mb-4\">Since QuickMaths does not collect any personal data, there are no personal data rights to exercise. You have complete control over the local data stored on your device and can delete it at any time by uninstalling the App or clearing its data through your device settings.</p>"
+      ]
+    },
+    {
+      "heading": "Children & Privacy",
+      "content": [
+        "<p class=\"mb-4\">QuickMaths is designed to be safe for users of all ages, including children. Since the App does not collect any personal data and operates entirely offline, there are no privacy concerns for children using the App.</p>",
+        "<p class=\"mb-4\">The App contains no inappropriate content and is suitable for educational use by children and students.</p>"
+      ]
+    },
+    {
+      "heading": "Changes to This Policy",
+      "content": [
+        "<p class=\"mb-4\">We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. When we make changes, we will update the date at the top of this policy.</p>",
+        "<p class=\"mb-4\">Since QuickMaths does not collect personal data, any changes to this policy will primarily be for clarity and legal compliance rather than changes to our data practices.</p>"
+      ]
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about this policy, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=QuickMaths%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>QuickMaths - [Your Subject Here]</code></p>"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-27",
+    "effectiveDate": "2025-01-27",
+    "locale": "en-GB"
+  }
+}

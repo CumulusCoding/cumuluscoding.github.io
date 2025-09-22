@@ -1,0 +1,135 @@
+{
+  "appId": "quickmaths",
+  "title": "Terms of Use (QuickMaths)",
+  "sections": [
+    {
+      "heading": "TL;DR (Too Long; Didn't Read)",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Agreement:</strong> By using QuickMaths, you agree to follow these Terms. If you don't agree, please don't use the app.</li>",
+        "<li><strong>Eligibility:</strong> The app is suitable for users of all ages, including children.</li>",
+        "<li><strong>Use of the App:</strong> Use the app for its intended purpose of mental arithmetic practice. Don't attempt to reverse engineer or modify the app.</li>",
+        "<li><strong>Privacy:</strong> The app operates entirely offline and does not collect any personal data. See our <a href=\"https://cumuluscoding.com/policy.html?app=quickmaths&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a> for details.</li>",
+        "<li><strong>Intellectual Property:</strong> The app and its content are protected by copyright and other intellectual property laws.</li>",
+        "<li><strong>Liability:</strong> QuickMaths is provided \"as is.\" We're not liable for damages beyond what you've paid to use the app.</li>",
+        "<li><strong>Changes:</strong> We may update these Terms. Continuing to use QuickMaths means you accept the changes.</li>",
+        "<li><strong>Law:</strong> Governed by the laws of England and Wales.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">This summary doesn't replace the full Terms—read the full text for complete details.</p>"
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "content": [
+        "<p class=\"mb-4\"><strong>These Terms of Use</strong> (\"<strong>Terms</strong>\") govern your access to and use of <strong>QuickMaths</strong> (the \"<strong>App</strong>\"), which includes our <strong>mobile application</strong> and any <strong>related services</strong>. They form a <strong>legally binding agreement</strong> between you and the creators and maintainers of QuickMaths (\"<strong>we</strong>\", \"<strong>us</strong>\", or \"<strong>our</strong>\").</p>",
+        "<p class=\"mb-4\">By <strong>accessing</strong>, <strong>downloading</strong>, or <strong>using</strong> the App, you confirm that you <strong>understand and agree</strong> to these Terms. <strong>If you do not agree, you must not use the App.</strong> \"<strong>You</strong>\" refers to any individual who accesses or uses the App.</p>",
+        "<p class=\"mb-4\">QuickMaths is designed to be a fun and educational tool for improving mental arithmetic skills. The App operates entirely offline and does not require any personal information or internet connectivity to function.</p>",
+        "<p class=\"mb-4\">These Terms explain your <strong>rights and responsibilities</strong> when using the App, including <strong>how the app works</strong>, <strong>what you can and cannot do</strong>, and <strong>limitations on liability</strong>.</p>"
+      ],
+      "summary": "Summary: This section sets out what these Terms are, who they apply to, and what they cover. It defines the relationship between you (the user) and us (the provider of the App)."
+    },
+    {
+      "heading": "Eligibility and Use",
+      "content": [
+        "<p class=\"mb-4\"><strong>Eligibility</strong></p>",
+        "<p class=\"mb-4\">QuickMaths is suitable for users of all ages, including children. The App contains no inappropriate content and is designed for educational purposes.</p>",
+        "<p class=\"mb-4\"><strong>Permitted Use</strong></p>",
+        "<p class=\"mb-4\">You may use QuickMaths for its intended purpose of practising mental arithmetic skills. This includes:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Playing the various game modes and difficulty levels</li>",
+        "<li>Using the App for educational purposes</li>",
+        "<li>Sharing the App with others for educational use</li>",
+        "</ul>",
+        "<p class=\"mb-4\"><strong>Prohibited Use</strong></p>",
+        "<p class=\"mb-4\">You must not:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Attempt to reverse engineer, decompile, or disassemble the App</li>",
+        "<li>Modify, adapt, or create derivative works based on the App</li>",
+        "<li>Use the App for any unlawful or unauthorised purpose</li>",
+        "<li>Distribute or redistribute the App without permission</li>",
+        "</ul>"
+      ],
+      "summary": "Summary: This section outlines who can use the App and how it may and may not be used."
+    },
+    {
+      "heading": "Privacy and Data",
+      "content": [
+        "<p class=\"mb-4\">QuickMaths is designed with privacy as a core principle. The App operates entirely offline and does not collect, store, or transmit any personal data.</p>",
+        "<p class=\"mb-4\">All game progress, scores, and settings are stored locally on your device using secure system APIs. We have no access to this data, and it is not transmitted anywhere.</p>",
+        "<p class=\"mb-4\">For complete details about our data practices, please review our <a href=\"https://cumuluscoding.com/policy.html?app=quickmaths&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a>.</p>"
+      ],
+      "summary": "Summary: This section explains that the App operates offline and does not collect personal data, directing you to our Privacy Policy for complete details."
+    },
+    {
+      "heading": "Intellectual Property",
+      "content": [
+        "<p class=\"mb-4\">All <strong>content, features, and functionality</strong> within the App — including but not limited to <strong>text, graphics, logos, images, software, and designs</strong> — are <strong>owned or licensed by us</strong> and <strong>protected by copyright and other intellectual property laws</strong>.</p>",
+        "<p class=\"mb-4\"><strong>Our Rights</strong></p>",
+        "<p class=\"mb-4\">We <strong>retain all rights, title, and interest</strong> in the App and its content. This includes all <strong>intellectual property rights, trade secrets, and know-how</strong> associated with the App and its technology.</p>",
+        "<p class=\"mb-4\"><strong>Your Rights</strong></p>",
+        "<p class=\"mb-4\">You are granted a limited, non-exclusive, non-transferable licence to use the App for its intended purpose in accordance with these Terms.</p>"
+      ],
+      "summary": "Summary: This section explains what intellectual property rights we retain in the App and what limited rights you have to use it."
+    },
+    {
+      "heading": "Disclaimers and Limitation of Liability",
+      "content": [
+        "<p class=\"mb-4\">The App and all <strong>content, services, and features</strong> are provided on an <strong>\"as is\"</strong> and <strong>\"as available\"</strong> basis, <strong>without warranties of any kind</strong>, either express or implied. <strong>We do not guarantee</strong> that the App will be <strong>uninterrupted, error-free, or free of viruses or other harmful components</strong>.</p>",
+        "<p class=\"mb-4\">To the <strong>fullest extent permitted by law</strong>, <strong>we disclaim all warranties</strong>, including but not limited to <strong>implied warranties of merchantability, fitness for a particular purpose, and non-infringement</strong>.</p>",
+        "<p class=\"mb-4\">In no event shall <strong>we, our affiliates, officers, employees, or agents</strong> be liable for any <strong>indirect, incidental, special, consequential, or punitive damages</strong> arising out of or relating to your <strong>use or inability to use the App</strong>, even if we have been <strong>advised of the possibility</strong> of such damages.</p>",
+        "<p class=\"mb-4\">Our <strong>total liability to you</strong> for any claim arising from your use of the App shall <strong>not exceed the amount you have paid</strong>, if any, to <strong>access or use the App</strong>.</p>"
+      ],
+      "summary": "Summary: This section limits our liability for issues arising from your use of the App and clarifies that the App is provided \"as is\" without warranties."
+    },
+    {
+      "heading": "Indemnity",
+      "content": [
+        "<p class=\"mb-4\">You agree to <strong>indemnify, defend, and hold harmless</strong> us, our <strong>affiliates, officers, employees, and agents</strong> from and against any <strong>claims, liabilities, damages, losses, and expenses</strong>, including <strong>reasonable legal fees and costs</strong>, arising out of or in any way connected with:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Your use of the App;</strong></li>",
+        "<li><strong>Your violation of these Terms;</strong> or</li>",
+        "<li><strong>Your violation of any third-party rights, including intellectual property or privacy rights.</strong></li>",
+        "</ul>",
+        "<p class=\"mb-4\">This <strong>indemnity obligation will survive</strong> the <strong>termination of your access to the App</strong>.</p>"
+      ],
+      "summary": "Summary: You agree to protect us from any claims or losses resulting from your use of the App or violation of these Terms."
+    },
+    {
+      "heading": "Termination",
+      "content": [
+        "<p class=\"mb-4\">We may <strong>suspend or terminate your access</strong> to the App at any time if you <strong>breach these Terms</strong> or if we <strong>withdraw or materially change the App</strong>. You may <strong>stop using and uninstall the App</strong> at any time.</p>",
+        "<p class=\"mb-4\">Upon termination, the <strong>licence granted to you ends</strong> and you <strong>must cease use</strong> of the App.</p>"
+      ]
+    },
+    {
+      "heading": "Governing Law and Jurisdiction",
+      "content": [
+        "<p class=\"mb-4\">These Terms and any dispute or claim arising out of or in connection with them are governed by the laws of <strong>England and Wales</strong>, and the courts of <strong>England and Wales</strong> shall have exclusive jurisdiction. If you are a consumer in another country, you may have mandatory rights under your local laws which remain unaffected.</p>"
+      ]
+    },
+    {
+      "heading": "Changes to These Terms",
+      "content": [
+        "<p class=\"mb-4\">We <strong>reserve the right to modify or update these Terms</strong> at any time. For <strong>significant changes</strong> that <strong>materially affect your rights or use of the App</strong>, we will make <strong>reasonable efforts to notify you</strong>.</p>",
+        "<p class=\"mb-4\">We <strong>encourage you to review these Terms periodically</strong>. Your <strong>continued access to or use of the App after changes take effect</strong> constitutes your <strong>acceptance of the updated Terms</strong>.</p>",
+        "<p class=\"mb-4\">If you <strong>do not agree to any changes</strong>, you <strong>must stop using the App</strong>.</p>"
+      ],
+      "summary": "Summary: We may update these Terms occasionally, and your continued use of the App means you accept those changes."
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about these Terms, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=QuickMaths%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>QuickMaths - [Your Subject Here]</code></p>"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-27",
+    "effectiveDate": "2025-01-27",
+    "locale": "en-GB"
+  }
+}

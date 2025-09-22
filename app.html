@@ -126,7 +126,7 @@
         downloads: [
           {
             name: 'App Store',
-            url: '#',
+            url: 'https://apps.apple.com/gb/app/haptic-vibration-timer/id6747902090',
             icon: `<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l9-11h-7z"/>`,
             color: 'bg-black'
           }
@@ -142,7 +142,7 @@
         downloads: [
           {
             name: 'App Store',
-            url: '#',
+            url: 'https://apps.apple.com/gb/app/trailpacing/id6751707974',
             icon: `<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>`,
             color: 'bg-black'
           }
@@ -165,6 +165,22 @@
         ],
         privacy: 'policy.html?app=slackmap&type=privacy-policy',
         terms: 'policy.html?app=slackmap&type=terms-of-use'
+      },
+      'quickmaths': {
+        name: 'QuickMaths',
+        platform: 'iOS',
+        icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>`,
+        appId: 'quickmaths', // This maps to the folder name for icons
+        downloads: [
+          {
+            name: 'App Store',
+            url: '#',
+            icon: `<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>`,
+            color: 'bg-black'
+          }
+        ],
+        privacy: 'policy.html?app=quickmaths&type=privacy-policy',
+        terms: 'policy.html?app=quickmaths&type=terms-of-use'
       }
       // Add more apps here as needed
     };
@@ -188,17 +204,30 @@
 
       // Update download links
       const downloadContainer = document.getElementById('download-links');
-      downloadContainer.innerHTML = app.downloads.map(download => `
-        <a href="${download.url}" 
-           class="flex items-center justify-center px-6 py-4 border border-gray-200 rounded-lg hover:border-gray-300 hover:shadow-sm transition-all duration-200">
-          <div class="w-8 h-8 ${download.color} rounded-lg flex items-center justify-center mr-3">
-            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-              ${download.icon}
-            </svg>
-          </div>
-          <span class="font-medium text-gray-900">Download on ${download.name}</span>
-        </a>
-      `).join('');
+      downloadContainer.innerHTML = app.downloads.map(download => {
+        if (download.name === 'App Store') {
+          return `
+            <a href="${download.url}" 
+               class="flex items-center justify-center hover:opacity-80 transition-opacity duration-200">
+              <img src="assets/download_on_the_app_store.svg" 
+                   alt="Download on the App Store" 
+                   class="h-12 w-auto">
+            </a>
+          `;
+        } else {
+          return `
+            <a href="${download.url}" 
+               class="flex items-center justify-center px-6 py-4 border border-gray-200 rounded-lg hover:border-gray-300 hover:shadow-sm transition-all duration-200">
+              <div class="w-8 h-8 ${download.color} rounded-lg flex items-center justify-center mr-3">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  ${download.icon}
+                </svg>
+              </div>
+              <span class="font-medium text-gray-900">Download on ${download.name}</span>
+            </a>
+          `;
+        }
+      }).join('');
 
       // Update legal links
       document.getElementById('privacy-link').href = app.privacy;
