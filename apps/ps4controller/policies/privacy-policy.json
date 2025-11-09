@@ -1,0 +1,130 @@
+{
+  "appId": "ps4controller",
+  "title": "Privacy Policy (PS4Controller)",
+  "sections": [
+    {
+      "heading": "TL;DR (Too Long; Didn't Read)",
+      "content": [
+        "<p class=\"mb-4\">This summary gives you the key points of our Privacy Policy in plain language. It does <strong>not</strong> replace the full policy, which you should read for complete details about how your data is handled.</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No Data Collection:</strong> The App does <strong>not collect any personal data</strong> whatsoever.</li>",
+        "<li>No account system</li>",
+        "<li>No analytics</li>",
+        "<li>No internet communication</li>",
+        "<li>No logging of user activity</li>",
+        "<li>No background data collection</li>",
+        "</ul>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Local Operation:</strong> All features work entirely locally on your device. No data leaves your device.</li>",
+        "</ul>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No Sharing:</strong> Your data is never shared with third parties, advertisers, analytics providers, or any external services.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "content": [
+        "<p class=\"mb-4\">Welcome to <strong>PS4Controller</strong>. This Privacy Policy explains how we handle your personal information when you use our application (hereafter referred to as \"<strong>the App</strong>\").</p>",
+        "<p class=\"mb-4\">The App does <strong>not collect, store, or transmit any personal data</strong>. All functionality operates entirely on your device without any external communication or data collection.</p>",
+        "<p class=\"mb-4\">We are committed to safeguarding your privacy. By using the App, you agree to the terms outlined in this Privacy Policy.</p>"
+      ]
+    },
+    {
+      "heading": "Collection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">The App does <strong>not collect any personal data</strong>.</p>",
+        "<p class=\"mb-4\">There is:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>No account system</li>",
+        "<li>No analytics</li>",
+        "<li>No internet communication</li>",
+        "<li>No logging of user activity</li>",
+        "<li>No background data collection</li>",
+        "</ul>",
+        "<p class=\"mb-4\">All features work locally on your device. Any settings or preferences you configure are stored only on your device using the operating system's standard storage mechanisms (such as UserDefaults on iOS).</p>"
+      ]
+    },
+    {
+      "heading": "Use of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">Since no data is collected, no personal data is used, processed, or analysed in any form.</p>"
+      ]
+    },
+    {
+      "heading": "Sharing of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">Your data is never shared with third parties, advertisers, analytics providers, or any external services. The App does not communicate externally.</p>"
+      ]
+    },
+    {
+      "heading": "Third-Party Services",
+      "content": [
+        "<p class=\"mb-4\">The App does not integrate with or utilise any third-party services that would collect, process, or store your personal data.</p>"
+      ]
+    },
+    {
+      "heading": "Cookies and Other Technologies",
+      "content": [
+        "<p class=\"mb-4\">The App does <strong>not</strong> use cookies, tracking pixels, or similar technologies to collect personal data.</p>",
+        "<p class=\"mb-4\">Any settings or preferences are stored locally on your device to enhance usability, but these do not involve tracking or transmitting personal information.</p>"
+      ]
+    },
+    {
+      "heading": "International Data Transfers",
+      "content": [
+        "<p class=\"mb-4\">The App does not transmit any data. Therefore, no data crosses international borders or is stored on any remote server.</p>"
+      ]
+    },
+    {
+      "heading": "Data Retention & Storage",
+      "content": [
+        "<p class=\"mb-4\">Since the App does not collect any personal data, there is no personal data to retain or store.</p>",
+        "<p class=\"mb-4\">Any settings or preferences you configure are stored locally on your device and remain under your control. You can delete the App at any time, which will remove all locally stored data.</p>"
+      ]
+    },
+    {
+      "heading": "Protection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">As no personal data is collected or stored, there is no risk of external data breaches related to this App.</p>",
+        "<p class=\"mb-4\">All user settings are stored securely in the device's local storage system (such as <strong>Apple's UserDefaults system</strong> on iOS), local to your device.</p>"
+      ]
+    },
+    {
+      "heading": "Your Privacy Rights & Choices",
+      "content": [
+        "<p class=\"mb-4\">You retain full control of the data on your device. No user information is stored elsewhere or accessed by the developer.</p>",
+        "<p class=\"mb-4\">Since the App does not collect any personal data, there is no personal data to access, correct, or delete beyond what is stored locally on your device, which you can manage through your device settings or by deleting the App.</p>"
+      ]
+    },
+    {
+      "heading": "Children & Privacy",
+      "content": [
+        "<p class=\"mb-4\">The App is not specifically designed for use by children, and it is intended for general audiences. However, because the App does not collect or process any personal data, its use by children does not pose any privacy risk.</p>"
+      ]
+    },
+    {
+      "heading": "Changes to This Policy",
+      "content": [
+        "<p class=\"mb-4\">This Privacy Policy may be updated in future to reflect changes in functionality or to meet legal requirements.</p>",
+        "<p class=\"mb-4\">Any updates will be clearly posted on this page. You are encouraged to review the policy periodically to stay informed. We will endeavour to notify users of any significant changes where appropriate.</p>",
+        "<p class=\"mb-4\">Continued use of the App after changes have been made constitutes your acceptance of the updated policy.</p>"
+      ]
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=PS4%20Controller%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>PS4Controller - [Your Subject Here]</code></p>"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-10-09",
+    "effectiveDate": "2025-10-09",
+    "locale": "en-GB"
+  }
+}
