@@ -1,0 +1,70 @@
+{
+  "appId": "food-nutrient-profiles",
+  "title": "Privacy Policy (Food Nutrient Profiles)",
+  "sections": [
+    {
+      "heading": "Collection of Personal Data",
+      "content": [
+        "The App does <strong>not collect any personal data</strong>.  \n    There is:  \n    - No account system  \n    - No analytics  \n    - No internet communication  \n    - No logging of user activity  \n    - No background data collection",
+        "All features work locally on your device. Any food preferences or favourites you save are stored only on your device."
+      ]
+    },
+    {
+      "heading": "Use of Personal Data",
+      "content": [
+        "Since no data is collected, no personal data is used, processed, or analysed in any form."
+      ]
+    },
+    {
+      "heading": "Sharing of Personal Data",
+      "content": [
+        "Your data is never shared with third parties, advertisers, analytics providers, or any external services. The App does not communicate externally."
+      ]
+    },
+    {
+      "heading": "Protection of Personal Data",
+      "content": [
+        "As no personal data is collected or stored externally, there is no risk of external data breaches related to this App.  \nAll user preferences and favourites are stored securely in <strong>Apple's UserDefaults system</strong>, local to your device."
+      ]
+    },
+    {
+      "heading": "Your Privacy Rights",
+      "content": [
+        "You retain full control of the data on your device. No user information is stored elsewhere or accessed by the developer."
+      ]
+    },
+    {
+      "heading": "Children & Privacy",
+      "content": [
+        "The App is not specifically designed for use by children, and it is intended for general audiences. However, because the App does not collect or process any personal data, its use by children does not pose any privacy risk."
+      ]
+    },
+    {
+      "heading": "Cookies and Other Technologies",
+      "content": [
+        "The App does <strong>not</strong> use cookies or similar tracking technologies."
+      ]
+    },
+    {
+      "heading": "International Data Transfers",
+      "content": [
+        "The App does not transmit any data. Therefore, no data crosses international borders or is stored on any remote server."
+      ]
+    },
+    {
+      "heading": "Changes to This Policy",
+      "content": [
+        "This Privacy Policy may be updated in future to reflect changes in functionality or to meet legal requirements.",
+        "Any updates will be clearly posted on this page. You are encouraged to review the policy periodically to stay informed. We will endeavour to notify users of any significant changes where appropriate."
+      ]
+    }
+  ],
+
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-27",
+    "effectiveDate": "2025-01-27",
+    "locale": "en-GB"
+  }
+}
+
