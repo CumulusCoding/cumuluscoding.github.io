@@ -1,0 +1,53 @@
+{
+  "appId": "food-nutrient-profiles",
+  "title": "Terms of Use (Food Nutrient Profiles)",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": [
+        "These Terms of Use govern your use of the Food Nutrient Profiles application. By using the App, you agree to these terms."
+      ]
+    },
+    {
+      "heading": "Acceptance of Terms",
+      "content": [
+        "By downloading, installing, or using the App, you accept and agree to be bound by these Terms of Use."
+      ]
+    },
+    {
+      "heading": "Use of the App",
+      "content": [
+        "The App is provided for personal, non-commercial use only. You may not:",
+        "- Use the App for any illegal purpose",
+        "- Attempt to reverse engineer the App",
+        "- Distribute copies of the App without permission"
+      ]
+    },
+    {
+      "heading": "Medical Disclaimer",
+      "content": [
+        "The nutritional information provided in this App is for informational purposes only and is not intended as medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition or dietary requirements."
+      ]
+    },
+    {
+      "heading": "Privacy",
+      "content": [
+        "Your privacy is important to us. Please review our Privacy Policy to understand how we handle your information."
+      ]
+    },
+    {
+      "heading": "Disclaimer",
+      "content": [
+        "The App is provided \"as is\" without warranties of any kind. We are not responsible for any damages arising from your use of the App."
+      ]
+    }
+  ],
+  
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-27",
+    "effectiveDate": "2025-01-27",
+    "locale": "en-GB"
+  }
+}
+
