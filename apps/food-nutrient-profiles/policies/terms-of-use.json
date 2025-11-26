@@ -21,7 +21,7 @@
       "content": [
         "<p class=\"mb-4\">These Terms of Use (\"<strong>Terms</strong>\") govern your use of <strong>Food Nutrient Profiles</strong> (the \"<strong>App</strong>\", \"<strong>we</strong>\", \"<strong>us</strong>\"). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
         "<p class=\"mb-4\">The App is a nutrition database application that displays food composition information from published scientific sources. The App operates entirely on your device without collecting or transmitting any data.</p>",
-        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=FOOD%20NUTRIENT%20PROFILES%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
+        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=Food%20Nutrient%20Profiles%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
       ]
     },
     {
@@ -97,7 +97,7 @@
       "heading": "Contact Us",
       "content": [
         "<p class=\"mb-4\">If you have questions about this policy or the app, please contact:</p>",
-        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=FOOD%20NUTRIENT%20PROFILES%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Food%20Nutrient%20Profiles%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
         "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
         "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>Food Nutrient Profiles - [Your Subject Here]</code></p>"
       ]

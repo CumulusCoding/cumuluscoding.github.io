@@ -57,9 +57,18 @@
         "This Privacy Policy may be updated in future to reflect changes in functionality or to meet legal requirements.",
         "Any updates will be clearly posted on this page. You are encouraged to review the policy periodically to stay informed. We will endeavour to notify users of any significant changes where appropriate."
       ]
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Haptic%20Vibration%20Timer%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>Haptic Vibration Timer - [Your Subject Here]</code></p>"
+      ]
     }
   ],
-
+  
   "metadata": {
     "version": "1.0.0",
     "lastUpdated": "2025-08-22",
