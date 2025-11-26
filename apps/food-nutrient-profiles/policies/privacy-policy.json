@@ -117,7 +117,7 @@
       "heading": "Contact Us",
       "content": [
         "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
-        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=FOOD%20NUTRIENT%20PROFILES%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Food%20Nutrient%20Profiles%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
         "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
         "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>Food Nutrient Profiles - [Your Subject Here]</code></p>"
       ]
