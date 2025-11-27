@@ -9,6 +9,7 @@
         "<li><strong>Agreement:</strong> By using Food Nutrient Profiles, you agree to follow these Terms. If you don't agree, please don't use the app.</li>",
         "<li><strong>Use:</strong> The App is provided for personal, non-commercial use only.</li>",
         "<li><strong>Data Source:</strong> The App displays food composition data from published scientific sources and food composition databases.</li>",
+        "<li><strong>Sensitive Groups:</strong> If you have specific dietary requirements, are in a sensitive age group, or have medically-restricted nutritional needs, consult a healthcare professional before making dietary decisions based on this App.</li>",
         "<li><strong>Privacy:</strong> The App does not collect any personal data. See our <a href=\"https://cumuluscoding.com/policy.html?app=food-nutrient-profiles&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a>.</li>",
         "<li><strong>Liability:</strong> The App is provided \"as is.\" We're not liable for damages beyond what you've paid to use the app.</li>",
         "<li><strong>Changes:</strong> We may update these Terms. Continuing to use the App means you accept the changes.</li>",
@@ -44,7 +45,16 @@
       "content": [
         "<p class=\"mb-4\">The App displays food composition data from published scientific sources and food composition databases. This data is derived from direct analysis, analytical surveys, scientific literature, and published food composition tables.</p>",
         "<p class=\"mb-4\">All nutrient values are expressed per 100g for easy comparison. The data is provided for informational purposes only and should not be used as a substitute for professional medical or nutritional advice.</p>",
-        "<p class=\"mb-4\">While we strive to present accurate information, nutrient values may vary based on factors such as food preparation, storage, and natural variation. We do not guarantee the accuracy, completeness, or timeliness of the data displayed in the App.</p>"
+        "<p class=\"mb-4\">While we strive to present accurate information, nutrient values may vary based on factors such as food preparation, storage, and natural variation. We do not guarantee the accuracy, completeness, or timeliness of the data displayed in the App.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">About the Data</h3></p>",
+        "<p class=\"mb-4\">This App presents nutritional information drawn from multiple published references and official data sources. The values shown may have been processed, reformatted, or converted for use within the App. While great care has been taken to maintain accuracy, occasional errors or discrepancies may still occur. If you rely on a particular value for medical, dietary, or specialist purposes, please check it against the original source.</p>",
+        "<p class=\"mb-4\">Nutrient values in published datasets represent typical averages and may not reflect every food item, brand, or preparation method. Because the App performs calculations, conversions, and classification steps, there is a small possibility of translation or processing errors. For sensitive or clinical use, primary sources should always be considered authoritative.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">For Sensitive Groups and Special Dietary Requirements</h3></p>",
+        "<p class=\"mb-4\">If you have specific dietary requirements, are in a sensitive age group (very young or elderly), or have medically-restricted nutritional needs, we strongly advise that you:</p>",
+        "<p class=\"mb-4\">1. Consult a qualified healthcare professional or registered dietitian before making dietary decisions based on information in this App.</p>",
+        "<p class=\"mb-4\">2. Verify any critical nutritional values directly with the original published source material.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Reporting Issues</h3></p>",
+        "<p class=\"mb-4\">If you notice any inconsistencies between the App and a published reference, please report them using \"Report a Problem\" so we can investigate and correct them.</p>"
       ]
     },
     {
