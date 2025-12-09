@@ -27,22 +27,34 @@
 </head>
 <body class="bg-gray-50 text-gray-900">
   <!-- Header -->
-  <header class="bg-white shadow-sm border-b border-gray-200">
-    <div class="max-w-4xl mx-auto px-6 py-8">
+  <header class="bg-white border-b border-gray-200">
+    <div class="max-w-4xl mx-auto px-6 py-4">
       <div class="text-center">
-        <h1 class="text-4xl font-bold text-gray-900 mb-2">Cumulus Coding</h1>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Minimal by design, customisable by choice
-        </p>
+        <h1 class="text-2xl font-semibold text-gray-900">Cumulus Coding</h1>
       </div>
     </div>
   </header>
 
   <!-- Main Content -->
   <main class="max-w-4xl mx-auto px-6 py-12">
-    <!-- Apps Section -->
+    <!-- Hero Section -->
+    <section class="mb-20 text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">Software That Works the Way You Think</h2>
+      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        We build custom applications for the Apple ecosystem shaped to how you think, creating software that aligns with your natural rhythms and supports the way you work.
+      </p>
+      <a href="#contact" 
+         class="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
+        Get in Touch
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </a>
+    </section>
+
+    <!-- Apple Portfolio Section -->
     <section class="mb-16">
-      <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">Our Applications</h2>
+      <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">Public Portfolio</h2>
       <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
         <!-- App Cards will be populated by JavaScript -->
         <div id="app-cards" class="contents"></div>
@@ -62,11 +74,11 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-      <h2 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Get in Touch</h2>
+    <section id="contact" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Contact Us</h2>
       <div class="max-w-md mx-auto text-center">
         <p class="text-gray-600 mb-6">
-          Have questions about our apps or policies? We'd love to hear from you.
+          Interested in custom development services? We'd love to discuss your project and how we can help translate your needs into tailored software solutions.
         </p>
         <a href="mailto:hello@cumuluscoding.com" 
            class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
@@ -157,13 +169,17 @@
       card.innerHTML = `
         <div class="p-6 flex flex-col h-full">
           <div class="flex items-center mb-4">
-            <div id="app-icon-${app.id}" class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
-              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                ${app.icon}
-              </svg>
-            </div>
-            <div>
-              <h3 class="text-lg font-semibold text-gray-900">${app.name}</h3>
+            <a href="app.html?app=${app.id}" class="flex-shrink-0">
+              <div id="app-icon-${app.id}" class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4 hover:opacity-80 transition-opacity duration-200 cursor-pointer">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  ${app.icon}
+                </svg>
+              </div>
+            </a>
+            <div class="flex-grow">
+              <a href="app.html?app=${app.id}" class="block hover:text-primary transition-colors duration-200">
+                <h3 class="text-lg font-semibold text-gray-900">${app.name}</h3>
+              </a>
               <p class="text-sm text-gray-500">${app.platform}</p>
             </div>
           </div>
