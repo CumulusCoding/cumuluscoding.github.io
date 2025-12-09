@@ -21,7 +21,7 @@
       "heading": "Introduction",
       "content": [
         "<p class=\"mb-4\">These Terms of Use (\"<strong>Terms</strong>\") govern your use of <strong>Food Nutrient Profiles</strong> (the \"<strong>App</strong>\", \"<strong>we</strong>\", \"<strong>us</strong>\"). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
-        "<p class=\"mb-4\">The App is a nutrition database application that displays food composition information from published scientific sources. The App operates entirely on your device without collecting or transmitting any data.</p>",
+        "<p class=\"mb-4\">The App displays published nutrition data in an easy-to-understand format. It presents nutritional information from multiple published references and official data sources. The App does not provide medical, dietary, or nutritional advice. The App operates entirely on your device without collecting or transmitting any data.</p>",
         "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=Food%20Nutrient%20Profiles%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
       ]
     },
@@ -43,25 +43,55 @@
     {
       "heading": "Data Source and Accuracy",
       "content": [
-        "<p class=\"mb-4\">The App displays food composition data from published scientific sources and food composition databases. This data is derived from direct analysis, analytical surveys, scientific literature, and published food composition tables.</p>",
-        "<p class=\"mb-4\">All nutrient values are expressed per 100g for easy comparison. The data is provided for informational purposes only and should not be used as a substitute for professional medical or nutritional advice.</p>",
-        "<p class=\"mb-4\">While we strive to present accurate information, nutrient values may vary based on factors such as food preparation, storage, and natural variation. We do not guarantee the accuracy, completeness, or timeliness of the data displayed in the App.</p>",
+        "<p class=\"mb-4\">This App displays published nutrition data in an easy-to-understand format. It presents nutritional information from multiple published references and official data sources. The App does not provide medical, dietary, or nutritional advice.</p>",
+        "<p class=\"mb-4\">The information provided is for informational purposes only and should not replace professional medical advice. For any dietary decisions or health concerns, consult a qualified healthcare professional or registered dietitian.</p>",
         "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">About the Data</h3></p>",
-        "<p class=\"mb-4\">This App presents nutritional information drawn from multiple published references and official data sources. The values shown may have been processed, reformatted, or converted for use within the App. While great care has been taken to maintain accuracy, occasional errors or discrepancies may still occur. If you rely on a particular value for medical, dietary, or specialist purposes, please check it against the original source.</p>",
-        "<p class=\"mb-4\">Nutrient values in published datasets represent typical averages and may not reflect every food item, brand, or preparation method. Because the App performs calculations, conversions, and classification steps, there is a small possibility of translation or processing errors. For sensitive or clinical use, primary sources should always be considered authoritative.</p>",
+        "<p class=\"mb-4\">This App presents nutritional information drawn from multiple published references and official data sources. While care has been taken in collecting and displaying this information, errors may occur during translation or display. While great care has been taken to maintain accuracy, occasional errors or discrepancies may still occur.</p>",
+        "<p class=\"mb-4\">All nutrient values are expressed per 100g of food (or per 100ml for alcoholic beverages) for easy comparison. The data is derived from analytical surveys, literature sources, calculated values, and manufacturer data.</p>",
+        "<p class=\"mb-4\">Nutrient values in published datasets represent typical averages and may not reflect every food item, brand, or preparation method. Due to natural variability in foods, the values published should be regarded as typical rather than definitive. A particular food item is unlikely to have precisely the same composition as given in these tables, especially for unprocessed foods such as cereals, dairy products, eggs, meat, fish, fruit and vegetables.</p>",
+        "<p class=\"mb-4\">Because the App performs calculations, conversions, and classification steps, there is a small possibility of translation or processing errors. The values shown may have been processed, reformatted, or converted for use within the App. For critical use, always verify values with the original published sources. If you rely on a particular value for medical, dietary, or specialist purposes, always verify values with the original published sources. For sensitive or clinical use, primary sources should always be considered authoritative.</p>",
         "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">For Sensitive Groups and Special Dietary Requirements</h3></p>",
+        "<p class=\"mb-4\">For specific dietary requirements, sensitive age groups, or medically-restricted nutritional needs, consult a qualified healthcare professional or registered dietitian.</p>",
         "<p class=\"mb-4\">If you have specific dietary requirements, are in a sensitive age group (very young or elderly), or have medically-restricted nutritional needs, we strongly advise that you:</p>",
         "<p class=\"mb-4\">1. Consult a qualified healthcare professional or registered dietitian before making dietary decisions based on information in this App.</p>",
         "<p class=\"mb-4\">2. Verify any critical nutritional values directly with the original published source material.</p>",
         "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Reporting Issues</h3></p>",
-        "<p class=\"mb-4\">If you notice any inconsistencies between the App and a published reference, please report them using \"Report a Problem\" so we can investigate and correct them.</p>"
+        "<p class=\"mb-4\">If you notice any inconsistencies between the App and a published reference, please report them using \"Report a Problem\" so we can investigate and correct them. If you notice any inconsistencies, please report them using \"Report a Problem\".</p>"
+      ]
+    },
+    {
+      "heading": "Daily Reference Values",
+      "content": [
+        "<p class=\"mb-4\">The daily reference values shown in this App are published reference values from authoritative sources (UK, US, EU). These are reference values, not dietary recommendations.</p>",
+        "<p class=\"mb-4\">The App allows you to access published daily reference values based on your profile. These are published reference values, not dietary recommendations. Individual nutritional needs may vary based on health conditions, activity levels, and other factors.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Custom Daily Reference Values</h3></p>",
+        "<p class=\"mb-4\">The App includes features that allow you to customise daily reference values and nutrient thresholds. Individual nutrient settings should only be modified with advice from a qualified healthcare professional or registered dietitian.</p>",
+        "<p class=\"mb-4\">Changing DRVs or thresholds without proper guidance could lead to misinterpretation of nutrient values and may not align with your health needs. Always consult a medical professional before making significant changes to nutrient reference values. If you choose to set a custom DRV for any nutrient, please do so only with guidance from a qualified healthcare professional.</p>"
+      ]
+    },
+    {
+      "heading": "Data Sources and Attribution",
+      "content": [
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Primary Data Source</h3></p>",
+        "<p class=\"mb-4\">The primary nutritional data in this App is sourced from <strong>McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021</strong>, maintained by Public Health England (at the time of publication). This dataset is provided under the <strong>Open Government Licence v3.0</strong>.</p>",
+        "<p class=\"mb-4\">The nutritional data in this application has not been modified or changed in any way and is exactly the same as the original source data from CoFID 2021.</p>",
+        "<p class=\"mb-4\">Source URL: https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Additional Reference Sources</h3></p>",
+        "<p class=\"mb-4\">The App also references daily reference values from:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>UK:</strong> Department of Health Dietary Reference Values</li>",
+        "<li><strong>US:</strong> Dietary Reference Intakes from the National Academies</li>",
+        "<li><strong>EU:</strong> Reference Intakes from EU Regulation</li>",
+        "<li><strong>Average:</strong> Calculated average of UK and US values</li>",
+        "</ul>"
       ]
     },
     {
       "heading": "Intellectual Property",
       "content": [
         "<p class=\"mb-4\">The App and all related software, designs, text, and graphics are owned by us or our licensors and are protected by intellectual property laws. Except for the limited licence above, <strong>no rights</strong> are granted to you.</p>",
-        "<p class=\"mb-4\">The food composition data included in the App is from various published scientific sources and food composition databases, and is subject to their respective terms and conditions.</p>",
+        "<p class=\"mb-4\">The primary food composition data included in the App is from McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, which is provided under the Open Government Licence v3.0. The food composition data from other published scientific sources and food composition databases is subject to their respective terms and conditions.</p>",
+        "<p class=\"mb-4\">Users must respect copyright and licensing terms for all data sources. The App interface and functionality are proprietary.</p>",
         "<p class=\"mb-4\">Apple, iOS, and other Apple marks are trademarks of Apple Inc.</p>"
       ]
     },
@@ -75,14 +105,17 @@
       "heading": "Disclaimers and Limitation of Liability",
       "content": [
         "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
-        "<li><strong>No warranties.</strong> The App is provided <strong>\"as is\"</strong> and <strong>\"as available\"</strong>. To the fullest extent permitted by law, we disclaim all warranties (express or implied), including fitness for a particular purpose, reliability, and availability.</li>",
-        "<li><strong>Not medical advice.</strong> The App provides nutritional information for informational purposes only. It is not intended to be, and should not be used as, a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition or dietary requirements.</li>",
-        "<li><strong>Your responsibility.</strong> You are responsible for safe and lawful use of the App and for making your own decisions regarding your health and nutrition based on the information provided.</li>",
+        "<li><strong>No warranties.</strong> The App is provided <strong>\"as is\"</strong> and <strong>\"as available\"</strong> without warranties of any kind. To the fullest extent permitted by law, we disclaim all warranties (express or implied), including fitness for a particular purpose, reliability, and availability. We make no guarantee of accuracy, completeness, or fitness for a particular purpose.</li>",
+        "<li><strong>Not medical advice.</strong> This App displays published nutrition data and does not provide medical, dietary, or nutritional advice. The App provides nutritional information for informational purposes only. It is not intended to be, and should not be used as, a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition or dietary requirements.</li>",
+        "<li><strong>Data accuracy limitations.</strong> While care has been taken in collecting and displaying this information, errors may occur during translation or display. We do not guarantee the accuracy, completeness, or timeliness of the data displayed in the App. The App performs calculations, conversions, and classification steps, and values may be reformatted or displayed differently than original sources. The App does not modify the underlying CoFID data itself, but display and translation processes may introduce errors.</li>",
+        "<li><strong>No liability for data errors.</strong> We are not liable for any errors, omissions, or inaccuracies in the data. We are not liable for any decisions made based on App information.</li>",
+        "<li><strong>Your responsibility.</strong> You are responsible for safe and lawful use of the App and for making your own decisions regarding your health and nutrition based on the information provided. You are responsible for verifying information with original sources. You should consult healthcare professionals for medical/dietary decisions. You should not rely solely on App information for critical health decisions. You acknowledge that nutritional needs vary individually. Users assume all risks associated with use of the information.</li>",
         "<li><strong>Limitation.</strong> To the maximum extent permitted by law, we will <strong>not be liable</strong> for:</li>",
         "<li>any indirect, consequential, special, or punitive damages; or</li>",
         "<li>any loss of profits, data, goodwill, or opportunities; arising out of or in connection with your use of the App. Our total aggregate liability for all claims relating to the App shall not exceed <strong>the amount you paid (if any) to purchase the App</strong>.</li>",
         "<li><strong>Nothing in these Terms</strong> excludes or limits liability where it would be unlawful to do so (e.g., for death or personal injury caused by negligence, or for fraud).</li>",
-        "</ul>"
+        "</ul>",
+        "<p class=\"mb-4\">The information above does not substitute for the Privacy Policy and Terms of Use. By continuing to use this App, you acknowledge that you have read, understood, and agree to be bound by these policies. Please review these policies in Settings.</p>"
       ]
     },
     {
@@ -100,7 +133,8 @@
     {
       "heading": "Changes to These Terms",
       "content": [
-        "<p class=\"mb-4\">We may update these Terms from time to time. Changes will be effective when posted or when the App notifies you. The \"Last updated\" date at the top will reflect the most recent version. If you continue to use the App after changes take effect, you agree to the updated Terms.</p>"
+        "<p class=\"mb-4\">We may update these Terms from time to time. Changes will be effective when posted or when the App notifies you. The \"Last updated\" date at the top will reflect the most recent version. If you continue to use the App after changes take effect, you agree to the updated Terms.</p>",
+        "<p class=\"mb-4\">Data may be updated periodically, and App functionality may change. We have no obligation to update or maintain specific features. Users should review policies regularly.</p>"
       ]
     },
     {
@@ -115,8 +149,8 @@
   ],
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2025-11-24",
-    "effectiveDate": "2025-11-24",
+    "lastUpdated": "2025-12-09",
+    "effectiveDate": "2025-12-09",
     "locale": "en-GB"
   }
 }
