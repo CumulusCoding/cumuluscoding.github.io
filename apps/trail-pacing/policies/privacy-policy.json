@@ -1,13 +1,13 @@
 {
-  "appId": "trailpacing",
-  "title": "Privacy Policy (TrailPacing)",
+  "appId": "trail-pacing",
+  "title": "Privacy Policy (Trail Pacing)",
   "sections": [
     {
       "heading": "TL;DR (Too Long; Didn’t Read)",
       "content": [
         "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
         "<li>The app uses your <strong>location</strong> to measure distance and trigger interval notifications while you hike.</li>",
-        "<li><strong>Health data is optional</strong>. If you allow it, TrailPacing can read <strong>Step Count</strong> and <strong>Active Energy</strong> (kilocalories) to enhance session stats.</li>",
+        "<li><strong>Health data is optional</strong>. If you allow it, Trail Pacing can read <strong>Step Count</strong> and <strong>Active Energy</strong> (kilocalories) to enhance session stats.</li>",
         "<li><strong>No accounts, no servers, no analytics, no ads.</strong> Processing happens on your device.</li>",
         "<li>We <strong>don’t sell or share</strong> your data with third parties.</li>",
         "<li>You can change permissions at any time in <strong>iOS Settings</strong> (Location/Notifications/Health)</li>",
@@ -18,7 +18,7 @@
     {
       "heading": "Introduction",
       "content": [
-        "<p class=\"mb-4\">This Privacy Policy explains how <strong>TrailPacing</strong> (“the App”, “we”, “us”) handles your personal data when you use the App. TrailPacing supports outdoor navigation skills by tracking distance and providing interval notifications. We collect and process <strong>the minimum data necessary</strong>, keep processing <strong>on-device</strong>, and are transparent about your <strong>choices</strong>.</p>",
+        "<p class=\"mb-4\">This Privacy Policy explains how <strong>Trail Pacing</strong> (“the App”, “we”, “us”) handles your personal data when you use the App. Trail Pacing supports outdoor navigation skills by tracking distance and providing interval notifications. We collect and process <strong>the minimum data necessary</strong>, keep processing <strong>on-device</strong>, and are transparent about your <strong>choices</strong>.</p>",
         "<p class=\"mb-4\">If you do not agree with this policy, please do not use the App.</p>"
       ]
     },
@@ -70,7 +70,7 @@
     {
       "heading": "Cookies and Other Technologies",
       "content": [
-        "<p class=\"mb-4\">TrailPacing is a native iOS application and <strong>does not use cookies</strong> or web trackers. We use local storage (<strong>UserDefaults</strong>) only to keep your preferences on-device.</p>"
+        "<p class=\"mb-4\">Trail Pacing is a native iOS application and <strong>does not use cookies</strong> or web trackers. We use local storage (<strong>UserDefaults</strong>) only to keep your preferences on-device.</p>"
       ]
     },
     {
@@ -108,9 +108,9 @@
         "<p class=\"mb-4\">Subject to local law, you may have rights to <strong>access</strong>, <strong>rectify</strong>, <strong>erase</strong>, <strong>restrict</strong> or <strong>object</strong> to processing, and <strong>portability</strong>. Because we do not operate a server or maintain user accounts, these rights generally relate to data stored on your device. Contact us if you need assistance exercising your rights.</p>",
         "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Your choices in iOS and the App</h3></p>",
         "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
-        "<li><strong>Health data (Steps/Active Energy):</strong> Enable or revoke at any time via <strong>Settings → Privacy & Security → Health → TrailPacing</strong>.</li>",
-        "<li><strong>Location:</strong> Change at any time in <strong>Settings → Privacy & Security → Location Services → TrailPacing</strong>.</li>",
-        "<li><strong>Notifications:</strong> Manage in <strong>Settings → Notifications → TrailPacing</strong>.</li>",
+        "<li><strong>Health data (Steps/Active Energy):</strong> Enable or revoke at any time via <strong>Settings → Privacy & Security → Health → Trail Pacing</strong>.</li>",
+        "<li><strong>Location:</strong> Change at any time in <strong>Settings → Privacy & Security → Location Services → Trail Pacing</strong>.</li>",
+        "<li><strong>Notifications:</strong> Manage in <strong>Settings → Notifications → Trail Pacing</strong>.</li>",
         "<li><strong>In-app preferences:</strong> Adjust interval size and stat cards in the App’s settings.</li>",
         "</ul>",
         "<p class=\"mb-4\">Withdrawing a permission may limit related features.</p>"
@@ -132,7 +132,7 @@
       "heading": "Contact Us",
       "content": [
         "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
-        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=TrailPacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>"
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Trail Pacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>"
       ]
     }
   ],
