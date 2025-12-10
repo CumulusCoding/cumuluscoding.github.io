@@ -1,14 +1,14 @@
 {
-  "appId": "trailpacing",
-  "title": "Terms of Use (TrailPacing)",
+  "appId": "trail-pacing",
+  "title": "Terms of Use (Trail Pacing)",
   "sections": [
     {
       "heading": "TL;DR (Too Long; Didn’t Read)",
       "content": [
         "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
-        "<li>TrailPacing is a <strong>personal, on-device hiking tool</strong> for distance and interval notifications.</li>",
+        "<li>Trail Pacing is a <strong>personal, on-device hiking tool</strong> for distance and interval notifications.</li>",
         "<li><strong>No accounts, no servers, no ads.</strong> You control permissions (Location, Notifications, Health data).</li>",
-        "<li>Use TrailPacing <strong>at your own risk</strong>. It is <strong>not a safety, medical, or primary navigation device</strong>. Always carry appropriate maps, a compass, and safety equipment.</li>",
+        "<li>Use Trail Pacing <strong>at your own risk</strong>. It is <strong>not a safety, medical, or primary navigation device</strong>. Always carry appropriate maps, a compass, and safety equipment.</li>",
         "<li>We limit our liability to the extent permitted by law. See <strong>Disclaimers and Limitation of Liability</strong>.</li>",
         "</ul>"
       ]
@@ -16,9 +16,9 @@
     {
       "heading": "Introduction",
       "content": [
-        "<p class=\"mb-4\">These Terms of Use (“<strong>Terms</strong>”) govern your use of <strong>TrailPacing</strong> (the “<strong>App</strong>”, “<strong>we</strong>”, “<strong>us</strong>”). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
-        "<p class=\"mb-4\">TrailPacing provides distance tracking, interval notifications, and related hiking metrics. Features depend on device capabilities and permissions you grant (e.g., Location, Notifications, Health data).</p>",
-        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=TrailPacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
+        "<p class=\"mb-4\">These Terms of Use (“<strong>Terms</strong>”) govern your use of <strong>Trail Pacing</strong> (the “<strong>App</strong>”, “<strong>we</strong>”, “<strong>us</strong>”). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
+        "<p class=\"mb-4\">Trail Pacing provides distance tracking, interval notifications, and related hiking metrics. Features depend on device capabilities and permissions you grant (e.g., Location, Notifications, Health data).</p>",
+        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=Trail Pacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
       ]
     },
     {
@@ -73,8 +73,7 @@
     {
       "heading": "Privacy",
       "content": [
-        "<p class=\"mb-4\">Your use of the App is subject to our <strong>Privacy Policy</strong>, which explains what data is processed (mostly on-device) and your choices. Please read it carefully.</p>",
-        "<p class=\"mb-4\"><strong><a href=\"https://cumuluscoding.com/policy.html?app=trailpacing&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong></p>"
+        "<p class=\"mb-4\">Your use of the App is subject to our <strong><a href=\"https://cumuluscoding.com/policy.html?app=trail-pacing&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong>, which explains what data is processed (mostly on-device) and your choices. Please read it carefully.</p>"
       ]
     },
     {
@@ -119,7 +118,7 @@
       "heading": "Contact Us",
       "content": [
         "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
-        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=TrailPacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>"
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Trail Pacing%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>"
       ]
     }
   ],
