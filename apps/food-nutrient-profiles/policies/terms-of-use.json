@@ -96,6 +96,15 @@
       ]
     },
     {
+      "heading": "Pricing, Payment & Refunds",
+      "content": [
+        "<p class=\"mb-4\">The App is a paid download available through the Apple App Store. Payment processing (including taxes/VAT and currency conversion) is handled by Apple; we do not process payments or collect your payment details. There are <strong>no subscriptions or in-app purchases</strong>.</p>",
+        "<p class=\"mb-4\"><strong>Refunds and cooling-off:</strong> Refunds (including any statutory right of withdrawal for digital content) are administered by Apple under the App Store's policies. To request a refund, contact Apple via https://reportaproblem.apple.com.  We cannot issue refunds directly.</p>",
+        "<p class=\"mb-4\"><strong>App Store terms & licence:</strong> Your purchase and use of the App are also governed by Apple's terms, including the Apple Media Services terms and Apple's Standard Licensed Application End User Licence Agreement. If there is any conflict between these Terms and Apple's terms regarding purchase, payment, or licensing, Apple's terms apply.</p>",
+        "<p class=\"mb-4\"><strong>Price changes:</strong> We may change the price of the App for future purchases at any time. Price changes do not affect purchases already completed, and we do not offer price adjustments or credits for past purchases.</p>"
+      ]
+    },
+    {
       "heading": "Privacy",
       "content": [
         "<p class=\"mb-4\">Your use of the App is subject to our <strong><a href=\"https://cumuluscoding.com/policy.html?app=food-nutrient-profiles&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong>, which explains that the App does not collect any personal data. Please read it carefully.</p>"
@@ -149,8 +158,8 @@
   ],
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2025-12-09",
-    "effectiveDate": "2025-12-09",
+    "lastUpdated": "2025-12-14",
+    "effectiveDate": "2025-12-14",
     "locale": "en-GB"
   }
 }

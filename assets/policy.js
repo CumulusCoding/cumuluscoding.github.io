@@ -19,8 +19,31 @@ class PolicyPage {
       return;
     }
     
+    // Set up "Back to App" link
+    this.setupBackToAppLink(app);
+    
     // Load and render policy
     this.loadPolicy(app, type);
+  }
+
+  setupBackToAppLink(appFolderName) {
+    // Map folder name (from policy URL) to app page ID
+    const appIdMap = {
+      'haptic-vibration-timer': 'haptic-timer',
+      'trail-pacing': 'trailpacing',
+      'slackmap': 'slackmap',
+      'quick-maths': 'quickmaths',
+      'ps4controller': 'ps4controller',
+      'food-nutrient-profiles': 'food-nutrient-profiles'
+    };
+    
+    const appId = appIdMap[appFolderName] || appFolderName;
+    const backToAppLink = document.getElementById('back-to-app');
+    
+    if (backToAppLink && appId) {
+      backToAppLink.href = `app.html?app=${appId}`;
+      backToAppLink.classList.remove('hidden');
+    }
   }
 
   getQueryParams() {
