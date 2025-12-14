@@ -30,10 +30,10 @@
   <header class="bg-white shadow-sm border-b border-gray-200">
     <div class="max-w-4xl mx-auto px-6 py-6">
       <div class="flex items-center justify-between">
-        <a href="index.html" class="text-xl font-semibold text-gray-900 hover:text-primary transition-colors">
+        <a href="/" class="text-xl font-semibold text-gray-900 hover:text-primary transition-colors">
           Cumulus Coding
         </a>
-        <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">
+        <a href="/" class="text-gray-600 hover:text-gray-900 transition-colors">
           ← Back to Home
         </a>
       </div>
@@ -167,10 +167,10 @@
         terms: 'policy.html?app=slackmap&type=terms-of-use'
       },
       'quickmaths': {
-        name: 'QuickMaths',
+        name: 'Quick Maths',
         platform: 'iOS',
         icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>`,
-        appId: 'quickmaths', // This maps to the folder name for icons
+        appId: 'quick-maths', // This maps to the folder name for icons
         downloads: [
           {
             name: 'App Store',
@@ -179,8 +179,8 @@
             color: 'bg-black'
           }
         ],
-        privacy: 'policy.html?app=quickmaths&type=privacy-policy',
-        terms: 'policy.html?app=quickmaths&type=terms-of-use'
+        privacy: 'policy.html?app=quick-maths&type=privacy-policy',
+        terms: 'policy.html?app=quick-maths&type=terms-of-use'
       },
       'ps4controller': {
         name: 'PS4Controller',
@@ -266,7 +266,7 @@
       document.getElementById('terms-link').href = app.terms;
     } else {
       // App not found - redirect to home
-      window.location.href = 'index.html';
+      window.location.href = '/';
     }
 
     // Function to load app description from JSON file
