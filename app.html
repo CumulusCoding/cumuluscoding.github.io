@@ -8,29 +8,15 @@
   <meta name="author" content="Cumulus Coding">
   <title id="page-title">App Details - Cumulus Coding</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#3B82F6',
-            secondary: '#64748B',
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    body { font-family: 'Inter', sans-serif; }
-  </style>
+  <script src="assets/config.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gradient-to-b from-gray-50 to-white text-gray-900">
   <!-- Header -->
-  <header class="bg-white shadow-sm border-b border-gray-200">
-    <div class="max-w-4xl mx-auto px-6 py-6">
+  <header class="bg-white/80 backdrop-blur-xl border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-5">
       <div class="flex items-center justify-between">
-        <a href="/" class="text-xl font-semibold text-gray-900 hover:text-primary transition-colors">
+        <a href="/" class="text-xl font-semibold text-gray-900 hover:text-primary transition-colors tracking-tight">
           Cumulus Coding
         </a>
         <a href="/" class="text-gray-600 hover:text-gray-900 transition-colors">
@@ -41,60 +27,60 @@
   </header>
 
   <!-- Main Content -->
-  <main class="max-w-4xl mx-auto px-6 py-12">
+  <main class="max-w-5xl mx-auto px-6 py-16">
     <!-- App Header -->
-    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+    <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-sm border border-gray-100 p-10 md:p-12 mb-8 apple-shadow-hover fade-in">
       <!-- App Title and Icon Row -->
       <div class="flex items-center gap-6 mb-6">
-        <div id="app-icon" class="w-28 h-28 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl flex items-center justify-center flex-shrink-0">
+        <div id="app-icon" class="w-28 h-28 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl flex items-center justify-center flex-shrink-0 shadow-sm">
           <svg class="w-14 h-14 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
         </div>
         <div>
-          <h1 id="app-name" class="text-3xl font-bold text-gray-900 mb-2">App Name</h1>
+          <h1 id="app-name" class="text-3xl md:text-4xl font-semibold text-gray-900 mb-2 tracking-tight">App Name</h1>
           <p id="app-platform" class="text-gray-600">Platform</p>
         </div>
       </div>
       
       <!-- App Description -->
-      <div id="app-description" class="text-gray-700 leading-relaxed">
+      <div id="app-description" class="text-gray-700 leading-relaxed text-lg">
         App description will be loaded here.
       </div>
     </div>
 
     <!-- Download Section -->
-    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
-      <h2 class="text-2xl font-semibold text-gray-900 mb-6">Download</h2>
+    <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-sm border border-gray-100 p-10 md:p-12 mb-8 apple-shadow-hover fade-in">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-8 tracking-tight">Download</h2>
       <div id="download-links" class="grid gap-4 md:grid-cols-2">
         <!-- Download links will be populated by JavaScript -->
       </div>
     </div>
 
     <!-- Legal Documents -->
-    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-      <h2 class="text-2xl font-semibold text-gray-900 mb-6">Legal</h2>
-      <div class="grid gap-4 md:grid-cols-2">
-        <div class="border border-gray-200 rounded-lg p-6">
-          <h3 class="text-lg font-medium text-gray-900 mb-2">Privacy Policy</h3>
-          <p class="text-gray-600 mb-4 text-sm">
+    <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-sm border border-gray-100 p-10 md:p-12 apple-shadow-hover fade-in">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-8 tracking-tight">Legal</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div class="border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all duration-300">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2 tracking-tight">Privacy Policy</h3>
+          <p class="text-gray-600 mb-4 text-sm leading-relaxed">
             Learn how we handle your data and protect your privacy.
           </p>
           <a id="privacy-link" href="#" 
-             class="inline-flex items-center text-primary hover:text-blue-600 font-medium">
+             class="inline-flex items-center text-primary hover:text-blue-600 font-medium transition-colors duration-200">
             Read Privacy Policy
             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
             </svg>
           </a>
         </div>
-        <div class="border border-gray-200 rounded-lg p-6">
-          <h3 class="text-lg font-medium text-gray-900 mb-2">Terms of Use</h3>
-          <p class="text-gray-600 mb-4 text-sm">
+        <div class="border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all duration-300">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2 tracking-tight">Terms of Use</h3>
+          <p class="text-gray-600 mb-4 text-sm leading-relaxed">
             Review the terms and conditions for using our application.
           </p>
           <a id="terms-link" href="#" 
-             class="inline-flex items-center text-primary hover:text-blue-600 font-medium">
+             class="inline-flex items-center text-primary hover:text-blue-600 font-medium transition-colors duration-200">
             Read Terms of Use
             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
@@ -106,9 +92,9 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-white border-t border-gray-200 mt-16">
-    <div class="max-w-4xl mx-auto px-6 py-8">
-      <div class="text-center text-gray-600">
+  <footer class="bg-white/60 backdrop-blur-sm border-t border-gray-100 mt-20">
+    <div class="max-w-5xl mx-auto px-6 py-10">
+      <div class="text-center text-gray-500 text-sm">
         <p>&copy; <span id="year"></span> Cumulus Coding. All rights reserved.</p>
         <p class="text-sm mt-2">Privacy-focused mobile applications</p>
       </div>
@@ -298,7 +284,7 @@
         iconContainer.classList.remove('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
         iconContainer.classList.add('bg-white', 'p-2');
         iconContainer.appendChild(img);
-        img.className = 'w-full h-full rounded-xl object-cover';
+        img.className = 'w-full h-full rounded-3xl object-cover';
         console.log('Icon container classes after update:', iconContainer.className);
       };
       img.onerror = function() {

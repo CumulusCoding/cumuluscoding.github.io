@@ -119,6 +119,7 @@ class PolicyPage {
       iconContainer.classList.add('bg-white', 'p-2');
       iconContainer.appendChild(img);
       img.className = 'w-full h-full rounded-3xl object-cover';
+      iconContainer.classList.add('shadow-sm');
     };
     img.onerror = function() {
       // Fallback to default SVG icon

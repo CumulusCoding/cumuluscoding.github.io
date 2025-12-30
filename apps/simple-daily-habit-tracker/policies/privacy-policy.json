@@ -1,0 +1,147 @@
+{
+    "appId": "simple-daily-habit-tracker",
+    "title": "Privacy Policy (Simple Daily Habit Tracker)",
+    "sections": [
+      {
+        "heading": "TL;DR (Too Long; Didn't Read)",
+        "content": [
+          "<p class=\"mb-4\">This summary gives you the key points of our Privacy Policy in plain language. It does <strong>not</strong> replace the full policy, which you should read for complete details about how your data is handled.</p>",
+          "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+          "<li><strong>No Data Collection:</strong> The App does <strong>not collect any personal data</strong> whatsoever.</li>",
+          "<li>No account system</li>",
+          "<li>No analytics</li>",
+          "<li>No internet communication</li>",
+          "<li>No logging of user activity</li>",
+          "<li>No background data collection</li>",
+          "</ul>",
+          "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+          "<li><strong>Local Operation:</strong> All features work entirely locally on your device. Habit tracking data is stored <strong>only on your device</strong> or within your <strong>iCloud</strong> account.</li>",
+          "</ul>",
+          "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+          "<li><strong>No Sharing:</strong> Your data is never shared with third parties, advertisers, analytics providers, or any external services. The creators of the App <strong>cannot see any of your data</strong>.</li>",
+          "</ul>",
+          "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+          "<li><strong>Data Storage:</strong> Habit tracking data is stored on your device and within your iCloud account. Some settings are saved via UserDefaults and are removed when the app is deleted.</li>",
+          "</ul>"
+        ]
+      },
+      {
+        "heading": "Introduction",
+        "content": [
+          "<p class=\"mb-4\">Welcome to <strong>Simple Daily Habit Tracker</strong>. This Privacy Policy explains how we handle your personal information when you use our application (hereafter referred to as \"<strong>the App</strong>\").</p>",
+          "<p class=\"mb-4\">The App does <strong>not collect, store, or transmit any personal data</strong> to external servers or to the creators of the App. All functionality operates entirely on your device without any external communication or data collection. Habit tracking data is stored locally on your device or within your personal iCloud account, which is under your control.</p>",
+          "<p class=\"mb-4\">We are committed to safeguarding your privacy. By using the App, you agree to the terms outlined in this Privacy Policy.</p>"
+        ]
+      },
+      {
+        "heading": "Collection of Personal Data",
+        "content": [
+          "<p class=\"mb-4\">The App does <strong>not collect any personal data</strong>.</p>",
+          "<p class=\"mb-4\">There is:</p>",
+          "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+          "<li>No account system</li>",
+          "<li>No analytics</li>",
+          "<li>No internet communication</li>",
+          "<li>No logging of user activity</li>",
+          "<li>No background data collection</li>",
+          "</ul>",
+          "<p class=\"mb-4\">All features work locally on your device. Habit tracking data is stored <strong>only on your device</strong> or within your <strong>iCloud</strong> account, which is managed by Apple and under your control. The creators of the App have <strong>no access</strong> to this data.</p>",
+          "<p class=\"mb-4\">Some settings or preferences you configure are stored only on your device using the operating system's standard storage mechanisms (such as <strong>UserDefaults</strong> on iOS). These settings are removed when the app is deleted.</p>"
+        ]
+      },
+      {
+        "heading": "Use of Personal Data",
+        "content": [
+          "<p class=\"mb-4\">Since no data is collected, no personal data is used, processed, or analysed by the creators of the App in any form.</p>",
+          "<p class=\"mb-4\">All habit tracking data is processed <strong>entirely within the App</strong> on your device. This data never leaves your device or your iCloud account, and the creators of the App cannot see any of this data.</p>"
+        ]
+      },
+      {
+        "heading": "Sharing of Personal Data",
+        "content": [
+          "<p class=\"mb-4\">Your data is never shared with third parties, advertisers, analytics providers, or any external services. The App does not communicate externally. The creators of the App <strong>cannot see any of your data</strong>, including habit tracking data or settings.</p>"
+        ]
+      },
+      {
+        "heading": "Third-Party Services",
+        "content": [
+          "<p class=\"mb-4\">The App does not integrate with or utilise any third-party services that would collect, process, or store your personal data.</p>",
+          "<p class=\"mb-4\">The App may use <strong>iCloud</strong> to sync your habit tracking data across your devices. This is a service provided by Apple and operates under Apple's privacy policies and terms. Your iCloud data is stored in your personal iCloud account and is not accessible to the creators of the App. For information about how Apple handles iCloud data, please refer to <a href=\"https://www.apple.com/privacy/\" class=\"text-primary hover:text-blue-600 underline\">Apple's Privacy Policy</a>.</p>"
+        ]
+      },
+      {
+        "heading": "Cookies and Other Technologies",
+        "content": [
+          "<p class=\"mb-4\">The App does <strong>not</strong> use cookies, tracking pixels, or similar technologies to collect personal data.</p>",
+          "<p class=\"mb-4\">Any settings or preferences are stored locally on your device to enhance usability, but these do not involve tracking or transmitting personal information.</p>"
+        ]
+      },
+      {
+        "heading": "International Data Transfers",
+        "content": [
+          "<p class=\"mb-4\">The App does not transmit any data to external servers. Therefore, no data crosses international borders or is stored on any remote server operated by the creators of the App.</p>",
+          "<p class=\"mb-4\">If you choose to use iCloud to sync your habit tracking data, any data stored in iCloud is handled by Apple in accordance with their privacy policies and terms. Apple may store this data in data centres located outside of your country of residence, subject to Apple's data protection measures.</p>"
+        ]
+      },
+      {
+        "heading": "Data Retention & Storage",
+        "content": [
+          "<p class=\"mb-4\">Since the App does not collect any personal data, there is no personal data retained or stored by the creators of the App.</p>",
+          "<p class=\"mb-4\"><strong>Habit Tracking Data:</strong> Your habit tracking data is stored on your device and, if you enable iCloud sync, within your personal iCloud account. This data remains under your control and is not accessible to the creators of the App.</p>",
+          "<p class=\"mb-4\"><strong>Settings:</strong> Any settings or preferences you configure are stored locally on your device using UserDefaults and remain under your control. These settings are <strong>automatically removed when you delete the App</strong>.</p>",
+          "<p class=\"mb-4\"><strong>iCloud Data:</strong> If you wish to delete data from iCloud, you can do so by following Apple's iCloud deletion guidance. This includes managing your iCloud storage and deleting specific app data through your device settings or iCloud.com.</p>"
+        ]
+      },
+      {
+        "heading": "Protection of Personal Data",
+        "content": [
+          "<p class=\"mb-4\">As no personal data is collected or stored by the creators of the App, there is no risk of external data breaches related to this App from our systems.</p>",
+          "<p class=\"mb-4\">All user settings are stored securely in the device's local storage system (such as <strong>Apple's UserDefaults system</strong> on iOS), local to your device.</p>",
+          "<p class=\"mb-4\">Habit tracking data stored in iCloud is protected by Apple's security measures and encryption. The creators of the App have no access to this data and cannot view, modify, or delete it.</p>"
+        ]
+      },
+      {
+        "heading": "Your Privacy Rights & Choices",
+        "content": [
+          "<p class=\"mb-4\">You retain full control of the data on your device and in your iCloud account. No user information is stored elsewhere or accessed by the creators of the App.</p>",
+          "<p class=\"mb-4\">Since the App does not collect any personal data, there is no personal data to access, correct, or delete beyond what is stored locally on your device or in your iCloud account, which you can manage through your device settings or by deleting the App.</p>",
+          "<p class=\"mb-4\"><strong>To delete app data:</strong></p>",
+          "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+          "<li><strong>Device data:</strong> Deleting the App will remove all locally stored settings and data.</li>",
+          "<li><strong>iCloud data:</strong> You can delete iCloud data by following Apple's iCloud deletion guidance, which includes managing your iCloud storage through your device settings or iCloud.com.</li>",
+          "</ul>"
+        ]
+      },
+      {
+        "heading": "Children & Privacy",
+        "content": [
+          "<p class=\"mb-4\">The App is not specifically designed for use by children, and it is intended for general audiences. However, because the App does not collect or process any personal data, its use by children does not pose any privacy risk from the App itself.</p>",
+          "<p class=\"mb-4\">Parents or guardians should be aware that if iCloud sync is enabled, habit tracking data may be stored in the child's iCloud account, which is subject to Apple's privacy policies and terms.</p>"
+        ]
+      },
+      {
+        "heading": "Changes to This Policy",
+        "content": [
+          "<p class=\"mb-4\">This Privacy Policy may be updated in future to reflect changes in functionality or to meet legal requirements.</p>",
+          "<p class=\"mb-4\">Any updates will be clearly posted on this page. You are encouraged to review the policy periodically to stay informed. We will endeavour to notify users of any significant changes where appropriate.</p>",
+          "<p class=\"mb-4\">Continued use of the App after changes have been made constitutes your acceptance of the updated policy.</p>"
+        ]
+      },
+      {
+        "heading": "Contact Us",
+        "content": [
+          "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
+          "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Simple%20Daily%20Habit%20Tracker%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+          "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+          "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>Simple Daily Habit Tracker - [Your Subject Here]</code></p>"
+        ]
+      }
+    ],
+    "metadata": {
+      "version": "1.0.0",
+      "lastUpdated": "2025-12-30",
+      "effectiveDate": "2025-12-30",
+      "locale": "en-GB"
+    }
+  }
+  

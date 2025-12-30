@@ -8,43 +8,30 @@
   <meta name="author" content="Cumulus Coding">
   <title>Cumulus Coding – Minimal by design, customisable by choice | Apps for iPhone, iPad & Apple Watch</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#3B82F6',
-            secondary: '#64748B',
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    body { font-family: 'Inter', sans-serif; }
-  </style>
+  <script src="assets/config.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gradient-to-b from-gray-50 to-white text-gray-900">
   <!-- Header -->
-  <header class="bg-white border-b border-gray-200">
-    <div class="max-w-4xl mx-auto px-6 py-4">
+  <header class="bg-white/80 backdrop-blur-xl border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-5">
       <div class="text-center">
-        <h1 class="text-2xl font-semibold text-gray-900">Cumulus Coding</h1>
+        <h1 class="text-2xl font-semibold text-gray-900 tracking-tight">Cumulus Coding</h1>
       </div>
     </div>
   </header>
 
   <!-- Main Content -->
-  <main class="max-w-4xl mx-auto px-6 py-12">
+  <main class="max-w-5xl mx-auto px-6 py-16">
     <!-- Hero Section -->
-    <section class="mb-20 text-center">
-      <h2 class="text-4xl font-bold text-gray-900 mb-4">Software That Works the Way You Think</h2>
-      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+    <section class="mb-24 text-center fade-in">
+      <h2 class="text-5xl md:text-6xl font-semibold text-gray-900 mb-3 tracking-tight leading-tight">Software That Works the Way You Think</h2>
+      <h3 class="text-2xl md:text-3xl font-light text-gray-600 mb-6 tracking-tight">If you can map it, you can improve it</h3>
+      <p class="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
         We build custom applications for the Apple ecosystem shaped to how you think, creating software that aligns with your natural rhythms and supports the way you work.
       </p>
       <a href="#contact" 
-         class="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
+         class="inline-flex items-center px-8 py-3.5 bg-primary text-white font-medium rounded-xl hover:bg-blue-600 transition-all duration-300 shadow-sm hover:shadow-md hover-lift">
         Get in Touch
         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -53,35 +40,35 @@
     </section>
 
     <!-- Apple Portfolio Section -->
-    <section class="mb-16">
-      <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">Public Portfolio</h2>
-      <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+    <section class="mb-20 fade-in">
+      <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-12 text-center tracking-tight">Public Portfolio</h2>
+      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         <!-- App Cards will be populated by JavaScript -->
         <div id="app-cards" class="contents"></div>
       </div>
       
       <!-- Future apps placeholder - positioned below the grid -->
-      <div class="text-center mt-12">
-        <div class="inline-block bg-gray-100 rounded-xl border-2 border-dashed border-gray-300 p-8">
-          <div class="text-center text-gray-500">
-            <svg class="w-12 h-12 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+      <div class="text-center mt-16">
+        <div class="inline-block bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200/60 p-10">
+          <div class="text-center text-gray-400">
+            <svg class="w-12 h-12 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
             </svg>
-            <p class="text-sm">More apps coming soon</p>
+            <p class="text-sm font-medium">More apps coming soon</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-      <h2 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Contact Us</h2>
+    <section id="contact" class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-sm border border-gray-100 p-10 md:p-12 apple-shadow-hover">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center tracking-tight">Contact Us</h2>
       <div class="max-w-md mx-auto text-center">
-        <p class="text-gray-600 mb-6">
+        <p class="text-gray-600 mb-8 leading-relaxed">
           Interested in custom development services? We'd love to discuss your project and how we can help translate your needs into tailored software solutions.
         </p>
         <a href="mailto:hello@cumuluscoding.com" 
-           class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
+           class="inline-flex items-center px-8 py-3.5 bg-primary text-white font-medium rounded-xl hover:bg-blue-600 transition-all duration-300 shadow-sm hover:shadow-md hover-lift">
           <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
           </svg>
@@ -92,9 +79,9 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-white border-t border-gray-200 mt-16">
-    <div class="max-w-4xl mx-auto px-6 py-8">
-      <div class="text-center text-gray-600">
+  <footer class="bg-white/60 backdrop-blur-sm border-t border-gray-100 mt-20">
+    <div class="max-w-5xl mx-auto px-6 py-10">
+      <div class="text-center text-gray-500 text-sm">
         <p>&copy; <span id="year"></span> Cumulus Coding. All rights reserved.</p>
       </div>
     </div>
@@ -145,14 +132,22 @@
         name: 'Food Nutrient Profiles',
         platform: 'iOS',
         icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>`
-      }
+      },
+      // Simple Daily Habit Tracker - commented out for now, can be re-enabled later
+      // {
+      //   id: 'simple-daily-habit-tracker',
+      //   appId: 'simple-daily-habit-tracker',
+      //   name: 'Simple Daily Habit Tracker',
+      //   platform: 'iOS',
+      //   icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>`
+      // }
       // Add more apps here as needed
     ];
 
     // Function to create app card with icon
     async function createAppCard(app) {
       const card = document.createElement('div');
-      card.className = 'bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-300';
+      card.className = 'bg-white/80 backdrop-blur-xl rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300 hover-lift apple-shadow-hover';
       
       // Load app description from JSON file
       let description = 'Loading description...';
@@ -171,7 +166,7 @@
         <div class="p-6 flex flex-col h-full">
           <div class="flex items-center mb-4">
             <a href="app.html?app=${app.id}" class="flex-shrink-0">
-              <div id="app-icon-${app.id}" class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4 hover:opacity-80 transition-opacity duration-200 cursor-pointer">
+              <div id="app-icon-${app.id}" class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mr-4 hover:opacity-80 transition-all duration-300 cursor-pointer shadow-sm">
                 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   ${app.icon}
                 </svg>
@@ -179,17 +174,17 @@
             </a>
             <div class="flex-grow">
               <a href="app.html?app=${app.id}" class="block hover:text-primary transition-colors duration-200">
-                <h3 class="text-lg font-semibold text-gray-900">${app.name}</h3>
+                <h3 class="text-lg font-semibold text-gray-900 tracking-tight">${app.name}</h3>
               </a>
-              <p class="text-sm text-gray-500">${app.platform}</p>
+              <p class="text-sm text-gray-500 mt-0.5">${app.platform}</p>
             </div>
           </div>
-          <p class="text-gray-600 mb-4 text-sm leading-relaxed flex-grow">
+          <p class="text-gray-600 mb-5 text-sm leading-relaxed flex-grow">
             ${description}
           </p>
           <div class="mt-auto">
             <a href="app.html?app=${app.id}" 
-               class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors duration-200">
+               class="inline-flex items-center justify-center px-5 py-2.5 bg-primary text-white text-sm font-medium rounded-xl hover:bg-blue-600 transition-all duration-300 shadow-sm hover:shadow-md">
               Learn More
               <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -213,7 +208,7 @@
         iconContainer.classList.remove('bg-gradient-to-br', 'from-blue-500', 'to-purple-600');
         iconContainer.classList.add('bg-white', 'p-1');
         iconContainer.appendChild(img);
-        img.className = 'w-full h-full rounded-xl object-cover';
+        img.className = 'w-full h-full rounded-2xl object-cover';
       };
       img.onerror = function() {
         // Keep the default SVG icon if image fails to load

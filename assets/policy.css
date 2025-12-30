@@ -48,14 +48,14 @@ html {
 }
 
 .policy-content a {
-  color: #3B82F6;
+  color: #007AFF;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
 
 .policy-content a:hover {
-  color: #2563EB;
+  color: #0051D5;
 }
 
 /* Table of contents styling */
@@ -70,8 +70,8 @@ html {
 }
 
 #toc-list a:hover {
-  color: #3B82F6;
-  border-left-color: #3B82F6;
+  color: #007AFF;
+  border-left-color: #007AFF;
   background-color: #F8FAFC;
 }
 
@@ -161,7 +161,7 @@ html {
 /* Focus styles for better accessibility */
 .policy-content a:focus,
 #toc-list a:focus {
-  outline: 2px solid #3B82F6;
+  outline: 2px solid #007AFF;
   outline-offset: 2px;
   border-radius: 4px;
 }
