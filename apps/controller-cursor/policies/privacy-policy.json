@@ -1,6 +1,6 @@
 {
-  "appId": "ps4controller",
-  "title": "Privacy Policy (PS4Controller)",
+  "appId": "controller-cursor",
+  "title": "Privacy Policy (Gamepad & Controller Cursor)",
   "sections": [
     {
       "heading": "TL;DR (Too Long; Didn't Read)",
@@ -25,7 +25,7 @@
     {
       "heading": "Introduction",
       "content": [
-        "<p class=\"mb-4\">Welcome to <strong>PS4Controller</strong>. This Privacy Policy explains how we handle your personal information when you use our application (hereafter referred to as \"<strong>the App</strong>\").</p>",
+        "<p class=\"mb-4\">Welcome to <strong>Gamepad & Controller Cursor</strong>. This Privacy Policy explains how we handle your personal information when you use our application (hereafter referred to as \"<strong>the App</strong>\").</p>",
         "<p class=\"mb-4\">The App does <strong>not collect, store, or transmit any personal data</strong>. All functionality operates entirely on your device without any external communication or data collection.</p>",
         "<p class=\"mb-4\">We are committed to safeguarding your privacy. By using the App, you agree to the terms outlined in this Privacy Policy.</p>"
       ]
@@ -115,16 +115,16 @@
       "heading": "Contact Us",
       "content": [
         "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
-        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=PS4%20Controller%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Controller%20Cursor%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
         "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
-        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>PS4Controller - [Your Subject Here]</code></p>"
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>Controller Cursor - [Your Subject Here]</code></p>"
       ]
     }
   ],
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2025-10-09",
-    "effectiveDate": "2025-10-09",
+    "lastUpdated": "2026-05-13",
+    "effectiveDate": "2026-05-13",
     "locale": "en-GB"
   }
 }
