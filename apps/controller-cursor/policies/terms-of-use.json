@@ -1,14 +1,14 @@
 {
-  "appId": "ps4controller",
-  "title": "Terms of Use (PS4Controller)",
+  "appId": "controller-cursor",
+  "title": "Terms of Use (Gamepad & Controller Cursor)",
   "sections": [
     {
       "heading": "TL;DR (Too Long; Didn't Read)",
       "content": [
         "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
-        "<li><strong>Agreement:</strong> By using PS4Controller, you agree to follow these Terms. If you don't agree, please don't use the app.</li>",
+        "<li><strong>Agreement:</strong> By using Gamepad & Controller Cursor, you agree to follow these Terms. If you don't agree, please don't use the app.</li>",
         "<li><strong>Use:</strong> The App is provided for personal, non-commercial use only.</li>",
-        "<li><strong>Privacy:</strong> The App does not collect any personal data. See our <a href=\"https://cumuluscoding.com/policy.html?app=ps4controller&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a>.</li>",
+        "<li><strong>Privacy:</strong> The App does not collect any personal data. See our <a href=\"https://cumuluscoding.com/policy.html?app=controller-cursor&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a>.</li>",
         "<li><strong>Liability:</strong> The App is provided \"as is.\" We're not liable for damages beyond what you've paid to use the app.</li>",
         "<li><strong>Changes:</strong> We may update these Terms. Continuing to use the App means you accept the changes.</li>",
         "</ul>",
@@ -18,9 +18,9 @@
     {
       "heading": "Introduction",
       "content": [
-        "<p class=\"mb-4\">These Terms of Use (\"<strong>Terms</strong>\") govern your use of <strong>PS4Controller</strong> (the \"<strong>App</strong>\", \"<strong>we</strong>\", \"<strong>us</strong>\"). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
+        "<p class=\"mb-4\">These Terms of Use (\"<strong>Terms</strong>\") govern your use of <strong>Gamepad & Controller Cursor</strong> (the \"<strong>App</strong>\", \"<strong>we</strong>\", \"<strong>us</strong>\"). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
         "<p class=\"mb-4\">The App is a simple utility application that operates entirely on your device without collecting or transmitting any data.</p>",
-        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=PS4%20Controller%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
+        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=Controller%20Cursor%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
       ]
     },
     {
@@ -45,9 +45,18 @@
       ]
     },
     {
+      "heading": "Pricing, Payment & Refunds",
+      "content": [
+        "<p class=\"mb-4\">The App is a paid download available through the Apple App Store. Payment processing (including taxes/VAT and currency conversion) is handled by Apple; we do not process payments or collect your payment details. There are <strong>no subscriptions or in-app purchases</strong>.</p>",
+        "<p class=\"mb-4\"><strong>Refunds and cooling-off:</strong> Refunds (including any statutory right of withdrawal for digital content) are administered by Apple under the App Store's policies. To request a refund, contact Apple via https://reportaproblem.apple.com.  We cannot issue refunds directly.</p>",
+        "<p class=\"mb-4\"><strong>App Store terms & licence:</strong> Your purchase and use of the App are also governed by Apple's terms, including the Apple Media Services terms and Apple's Standard Licensed Application End User Licence Agreement. If there is any conflict between these Terms and Apple's terms regarding purchase, payment, or licensing, Apple's terms apply.</p>",
+        "<p class=\"mb-4\"><strong>Price changes:</strong> We may change the price of the App for future purchases at any time. Price changes do not affect purchases already completed, and we do not offer price adjustments or credits for past purchases.</p>"
+      ]
+    },
+    {
       "heading": "Privacy",
       "content": [
-        "<p class=\"mb-4\">Your use of the App is subject to our <strong><a href=\"https://cumuluscoding.com/policy.html?app=ps4controller&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong>, which explains that the App does not collect any personal data. Please read it carefully.</p>"
+        "<p class=\"mb-4\">Your use of the App is subject to our <strong><a href=\"https://cumuluscoding.com/policy.html?app=controller-cursor&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong>, which explains that the App does not collect any personal data. Please read it carefully.</p>"
       ]
     },
     {
@@ -85,16 +94,16 @@
       "heading": "Contact Us",
       "content": [
         "<p class=\"mb-4\">If you have questions about this policy or the app, please contact:</p>",
-        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=PS4%20Controller%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Controller%20Cursor%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
         "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
-        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>PS4Controller - [Your Subject Here]</code></p>"
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>Controller Cursor - [Your Subject Here]</code></p>"
       ]
     }
   ],
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2025-10-09",
-    "effectiveDate": "2025-10-09",
+    "lastUpdated": "2026-05-13",
+    "effectiveDate": "2026-05-13",
     "locale": "en-GB"
   }
 }

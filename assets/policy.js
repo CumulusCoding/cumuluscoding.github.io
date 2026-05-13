@@ -33,7 +33,7 @@ class PolicyPage {
       'trail-pacing': 'trailpacing',
       'slackmap': 'slackmap',
       'quick-maths': 'quickmaths',
-      'ps4controller': 'ps4controller',
+      'controller-cursor': 'controller-cursor',
       'food-nutrient-profiles': 'food-nutrient-profiles'
     };
     
