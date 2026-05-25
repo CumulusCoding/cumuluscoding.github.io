@@ -1,0 +1,168 @@
+{
+  "appId": "london-tree-map",
+  "title": "Privacy Policy (London Tree Map)",
+  "sections": [
+    {
+      "heading": "TL;DR (Too Long; Didn't Read)",
+      "content": [
+        "<p class=\"mb-4\">This summary gives you the key points of our Privacy Policy in plain language. It does <strong>not</strong> replace the full policy, which you should read for complete details about how your data is handled.</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No accounts, no analytics, no ads.</strong> We do not operate user accounts or track how you use the App.</li>",
+        "<li><strong>On your device:</strong> Browsing, search, saved trees, and preferences work on your device. The App works offline for core features.</li>",
+        "<li><strong>Tree data:</strong> Public-realm tree information from the <strong>London Datastore</strong> (<a href=\"https://data.london.gov.uk/dataset/london-public-realm-trees-2r45m/\" class=\"text-primary hover:text-blue-600 underline\">London Public Realm Trees</a>) is included in the App under the <strong>Open Government Licence v3.0</strong>. We do not collect personal data when you view the map or Insights.</li>",
+        "<li><strong>Optional reports only:</strong> If you choose to flag a map issue, you may submit a short <strong>user-generated report</strong>. Reports are <strong>not linked to your identity</strong> (no sign-in). You can send a report via <strong>email</strong> or store it in a <strong>shared iCloud (CloudKit) database</strong> we use to receive community corrections.</li>",
+        "<li><strong>No selling or sharing</strong> of personal data with advertisers or data brokers.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "content": [
+        "<p class=\"mb-4\">Welcome to <strong>London Tree Map</strong>. This Privacy Policy explains how we handle information when you use our application (hereafter referred to as \"<strong>the App</strong>\").</p>",
+        "<p class=\"mb-4\">The App helps you explore London's public-realm trees on an interactive map: discover and filter trees, save favourites, view Insights, share a tree, or open its location in your maps app. Tree inventory information is sourced from the <strong>London Public Realm Trees</strong> dataset on the <a href=\"https://data.london.gov.uk/dataset/london-public-realm-trees-2r45m/\" class=\"text-primary hover:text-blue-600 underline\">London Datastore</a>, licensed under the <strong><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a></strong>. Most features run <strong>on your device</strong> and <strong>offline</strong>. We are committed to <strong>data minimisation</strong> and transparency.</p>",
+        "<p class=\"mb-4\">By using the App, you agree to the terms outlined in this Privacy Policy.</p>"
+      ]
+    },
+    {
+      "heading": "Collection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">We distinguish between <strong>personal data</strong> (information that can identify you) and <strong>user-generated reports</strong> (optional corrections you choose to submit about map data).</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">What we do not collect</h3></p>",
+        "<p class=\"mb-4\">The App does <strong>not</strong> include:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>User accounts or sign-in</li>",
+        "<li>Analytics, advertising identifiers, or behavioural tracking</li>",
+        "<li>A backend that profiles you or logs your browsing history</li>",
+        "</ul>",
+        "<p class=\"mb-4\">We do <strong>not</strong> ask for your name, email address, or other contact details within the App.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Data processed on your device</h3></p>",
+        "<p class=\"mb-4\">The following stays on your device (and, where applicable, in storage mechanisms you control, such as <strong>UserDefaults</strong> or <strong>iCloud</strong> for app data on your Apple ID):</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Preferences and settings</strong> (for example, filters or display choices)</li>",
+        "<li><strong>Saved trees</strong> and similar local bookmarks</li>",
+        "<li><strong>Offline use</strong> of map and tree information already available in the App</li>",
+        "</ul>",
+        "<p class=\"mb-4\"><strong>Open data in the App:</strong> The bundled tree dataset describes public-realm trees (locations, species, and related attributes). It is <strong>not</strong> personal data about you. Under the OGL, the licence does <strong>not</strong> cover personal data contained in the Information; the App is not designed to extract or display personal data from that dataset.</p>",
+        "<p class=\"mb-4\">We do <strong>not</strong> receive this on-device data unless you separately choose to submit a report (see below).</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">User-generated reports (optional)</h3></p>",
+        "<p class=\"mb-4\">If something on the map does not match what you see on the street, you may <strong>optionally</strong> submit a <strong>tree data issue report</strong>. A report is <strong>user-generated content</strong> and may include, for example:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Which tree or location you are referring to</li>",
+        "<li>What you believe is wrong, missing, or outdated</li>",
+        "<li>Any short notes you choose to add</li>",
+        "</ul>",
+        "<p class=\"mb-4\"><strong>Reports are not linked to your identity.</strong> We do not assign reports to an account or persistent user identifier.</p>",
+        "<p class=\"mb-4\">You can submit a report in one of two ways:</p>",
+        "<p class=\"mb-4\">1. <strong>Email:</strong> The App may open your email client with a pre-filled message to us. What you send is up to you; we receive only what you choose to include in that email. Your email address is handled by your mail provider and is <strong>not</strong> collected or stored by us through the App itself.</p>",
+        "<p class=\"mb-4\">2. <strong>Shared iCloud (CloudKit):</strong> The App may save the report to a <strong>shared CloudKit database</strong> operated for the purpose of collecting community corrections. Reports stored this way remain <strong>anonymous from our perspective</strong> (no account linkage). We can read these submissions to review and improve map accuracy.</p>",
+        "<p class=\"mb-4\">Submitting a report is <strong>entirely optional</strong>. You can use the App without ever sending one.</p>"
+      ]
+    },
+    {
+      "heading": "Use of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">We use information as follows:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>On-device features:</strong> Tree browsing, Discover, Insights, saved trees, sharing, and offline use require no personal data collection by us.</li>",
+        "<li><strong>Reports you submit:</strong> We use user-generated reports <strong>only</strong> to investigate map issues, correct or improve tree data where appropriate, and maintain the usefulness of the App for everyone. We do <strong>not</strong> use reports for advertising or profiling.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">We do <strong>not</strong> use personal data for marketing unless you have separately contacted us and agreed to further communication outside the App.</p>"
+      ]
+    },
+    {
+      "heading": "Sharing of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">We <strong>do not sell</strong> your personal data. We <strong>do not share</strong> personal data with advertisers or data brokers.</p>",
+        "<p class=\"mb-4\"><strong>User-generated reports</strong> you submit by email are received by us directly. Reports you submit via the shared CloudKit database are accessible to us as the App maintainer for the purposes described above. We do not publish your reports as attributable to you.</p>",
+        "<p class=\"mb-4\">We may disclose information only where <strong>required by law</strong> or to protect our rights, users, or the integrity of the service.</p>"
+      ]
+    },
+    {
+      "heading": "Third-Party Services",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>London Datastore (open data):</strong> Tree inventory data is sourced from the <a href=\"https://data.london.gov.uk/dataset/london-public-realm-trees-2r45m/\" class=\"text-primary hover:text-blue-600 underline\">London Public Realm Trees</a> dataset, published via the London Datastore and licensed under the <a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a>. That data is <strong>included or bundled in the App</strong> for offline use; browsing the map does <strong>not</strong> send your activity to the Greater London Authority or other data publishers. Attribution: <em>Contains public sector information licensed under the Open Government Licence v3.0.</em> For full licensing terms, see the <a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">OGL v3.0</a> and our <a href=\"https://cumuluscoding.com/policy.html?app=london-tree-map&type=terms-of-use\" class=\"text-primary hover:text-blue-600 underline\">Terms of Use</a> (Data Sources and Attribution).</li>",
+        "<li><strong>Apple (iOS, CloudKit, iCloud):</strong> If you use CloudKit submission or device storage tied to your Apple ID, Apple processes data under its own terms and privacy policies. See <a href=\"https://www.apple.com/privacy/\" class=\"text-primary hover:text-blue-600 underline\">Apple's Privacy Policy</a>.</li>",
+        "<li><strong>Apple Maps / sharing:</strong> If you open a tree location in your maps app or use the system share sheet, that interaction is between you and Apple (or the app you choose). We do not receive data from those actions.</li>",
+        "<li><strong>Email:</strong> If you send a report by email, your email provider handles transmission. We receive only the content you send.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">The App does <strong>not</strong> integrate analytics SDKs, advertising networks, or social login providers.</p>"
+      ]
+    },
+    {
+      "heading": "Cookies and Other Technologies",
+      "content": [
+        "<p class=\"mb-4\">London Tree Map is a native iOS application and <strong>does not use cookies</strong> or web trackers. Local storage on your device is used only to support App functionality and preferences.</p>"
+      ]
+    },
+    {
+      "heading": "International Data Transfers",
+      "content": [
+        "<p class=\"mb-4\">We do not operate a user-account database. Processing of on-device data occurs on your device.</p>",
+        "<p class=\"mb-4\">If you submit a report via <strong>CloudKit</strong>, Apple may process and store that data in data centres outside your country of residence, in accordance with Apple's policies and safeguards.</p>",
+        "<p class=\"mb-4\">If you <strong>email</strong> us, your message is handled according to how you and your email provider send and store mail.</p>"
+      ]
+    },
+    {
+      "heading": "Data Retention & Storage",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>On-device data:</strong> Saved trees, settings, and offline content remain on your device until you delete them or remove the App.</li>",
+        "<li><strong>User-generated reports (CloudKit):</strong> We retain reports for as long as needed to review map issues and maintain data quality, then delete or anonymise them when no longer required.</li>",
+        "<li><strong>User-generated reports (email):</strong> We retain email submissions only as long as needed for the same purposes, unless we must keep them longer for legal or operational reasons.</li>",
+        "<li><strong>Deletion:</strong> Deleting the App removes its local data from your device. CloudKit records you submitted are not tied to your identity; contact us if you need help regarding a specific submission sent by email.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Protection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">We apply reasonable <strong>technical and organisational measures</strong> appropriate to the App's minimal collection model, including:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>No account system and no routine collection of identifiers</li>",
+        "<li>Anonymous-by-design report submissions via CloudKit</li>",
+        "<li>Restricted access to report data used for map maintenance</li>",
+        "</ul>",
+        "<p class=\"mb-4\">No method of transmission or storage is completely secure, but we aim to minimise risk through data minimisation and limited retention.</p>"
+      ]
+    },
+    {
+      "heading": "Your Privacy Rights & Choices",
+      "content": [
+        "<p class=\"mb-4\">Depending on where you live (for example, the UK or EEA), you may have rights to <strong>access</strong>, <strong>rectify</strong>, <strong>erase</strong>, <strong>restrict</strong>, or <strong>object</strong> to processing, and <strong>data portability</strong>, in relation to personal data we hold about you.</p>",
+        "<p class=\"mb-4\">Because the App does <strong>not</strong> use accounts, most data stays on your device under your control. For <strong>email reports</strong>, you can ask us about messages you have sent us. For <strong>CloudKit reports</strong>, we do not hold data linked to your identity; if you believe you submitted something in error, contact us with enough detail for us to locate it (without requiring an account).</p>",
+        "<p class=\"mb-4\">You can <strong>stop</strong> submitting reports at any time by simply not using the report feature.</p>",
+        "<p class=\"mb-4\">To exercise your rights or ask questions, contact us using the details in <a href=\"#contact-us\" class=\"text-primary hover:text-blue-600 underline\">Contact Us</a>.</p>"
+      ]
+    },
+    {
+      "heading": "Children & Privacy",
+      "content": [
+        "<p class=\"mb-4\">The App is intended for a <strong>general audience</strong> and is not directed at children. We do not knowingly collect personal data from children.</p>",
+        "<p class=\"mb-4\">Optional reports may contain free-text descriptions. We encourage parents or guardians to supervise younger users if they use the report feature. If you believe a child has sent us personal information by email, contact us and we will take reasonable steps to delete it.</p>"
+      ]
+    },
+    {
+      "heading": "Changes to This Policy",
+      "content": [
+        "<p class=\"mb-4\">We may update this Privacy Policy from time to time to reflect changes in the App, legal requirements, or our practices. When we make significant changes, we will update the \"Last Updated\" date at the top and, where appropriate, provide notice within the App.</p>",
+        "<p class=\"mb-4\">Continued use of the App after changes take effect constitutes your acceptance of the updated policy.</p>"
+      ]
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=London%20Tree%20Map%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>London Tree Map - [Your Subject Here]</code></p>"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-24",
+    "effectiveDate": "2026-05-24",
+    "locale": "en-GB"
+  }
+}
