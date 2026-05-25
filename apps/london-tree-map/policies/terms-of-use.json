@@ -1,0 +1,207 @@
+{
+  "appId": "london-tree-map",
+  "title": "Terms of Use (London Tree Map)",
+  "sections": [
+    {
+      "heading": "TL;DR (Too Long; Didn't Read)",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Agreement:</strong> By using London Tree Map, you agree to these Terms. If you do not agree, please do not use the App.</li>",
+        "<li><strong>Purpose:</strong> Explore London street trees on a map, save favourites, view Insights, and optionally report map issues.</li>",
+        "<li><strong>No accounts:</strong> The App does not require sign-in.</li>",
+        "<li><strong>Your reports:</strong> Optional tree data issue reports must be accurate and respectful. Reports are not linked to your identity but may be stored in a shared CloudKit database or sent to us by email.</li>",
+        "<li><strong>Map data:</strong> Tree information comes from the <strong>London Public Realm Trees</strong> open dataset (London Datastore), licensed under the <strong>Open Government Licence v3.0</strong>. It may be incomplete or outdated—do not rely on the App as your sole source for safety, property, or legal decisions.</li>",
+        "<li><strong>Attribution:</strong> Contains public sector information licensed under the <a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a>.</li>",
+        "<li><strong>Privacy:</strong> See our <a href=\"https://cumuluscoding.com/policy.html?app=london-tree-map&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a>.</li>",
+        "<li><strong>Liability:</strong> The App is provided \"as is.\" Our liability is limited to the extent permitted by law.</li>",
+        "<li><strong>Law:</strong> Governed by the laws of England and Wales.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">This summary does not replace the full Terms—read the full text for complete details.</p>"
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "content": [
+        "<p class=\"mb-4\">These Terms of Use (\"<strong>Terms</strong>\") govern your use of <strong>London Tree Map</strong> (the \"<strong>App</strong>\", \"<strong>we</strong>\", \"<strong>us</strong>\"). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>",
+        "<p class=\"mb-4\">The App displays London street-tree information on an interactive map. You can search and filter in Discover, save trees, view Insights, share a tree, open its location in your maps app, and browse much of the content <strong>offline</strong>. You may optionally submit <strong>tree data issue reports</strong> if map information does not match what you see on the street.</p>",
+        "<p class=\"mb-4\">If you have questions about these Terms, <a href=\"mailto:hello@cumuluscoding.com?subject=London%20Tree%20Map%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">contact us</a>.</p>"
+      ]
+    },
+    {
+      "heading": "Your Use of the Services",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Licence.</strong> We grant you a personal, revocable, non-exclusive, non-transferable licence to use the App on devices you own or control, in accordance with these Terms and the App Store rules.</li>",
+        "<li><strong>Personal use.</strong> The App is for personal, non-commercial use unless we agree otherwise in writing.</li>",
+        "<li><strong>Requirements.</strong> You are responsible for having a compatible device and, where needed, sufficient storage. Offline features depend on data bundled or already available on your device.</li>",
+        "<li><strong>No accounts.</strong> The App does not require registration or sign-in.</li>",
+        "<li><strong>Third-party maps and sharing.</strong> Opening a location in your maps app or using the system share sheet involves services you choose (for example, Apple Maps). We do not control those services and are not responsible for them.</li>",
+        "<li><strong>Prohibited uses.</strong> You may not:</li>",
+        "<li>Use the App for any unlawful purpose</li>",
+        "<li>Interfere with or disrupt the App or related systems</li>",
+        "<li>Attempt to reverse engineer, decompile, or disassemble the App except to the extent permitted by law</li>",
+        "<li>Distribute copies of the App without permission</li>",
+        "<li>Remove or alter any copyright or proprietary notices</li>",
+        "<li>Submit false, misleading, abusive, or harmful reports</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "User Conduct",
+      "content": [
+        "<p class=\"mb-4\">You agree to use the App responsibly and in accordance with applicable laws. In particular, you must not:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Harass, threaten, or abuse others through reports or shared content</li>",
+        "<li>Submit reports that are knowingly false, defamatory, obscene, or infringing</li>",
+        "<li>Use the App in a way that could damage trees, property, or public spaces, or that violates access rules or local regulations when visiting locations shown on the map</li>",
+        "</ul>",
+        "<p class=\"mb-4\">When visiting trees in person, stay aware of your surroundings, respect private property, and follow applicable laws and guidance.</p>"
+      ]
+    },
+    {
+      "heading": "User-Generated Content (Tree Data Issue Reports)",
+      "content": [
+        "<p class=\"mb-4\">If you believe map information is wrong, missing, or outdated, you may submit a <strong>tree data issue report</strong> (\"<strong>Your Report</strong>\").</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Optional.</strong> You are not required to submit reports to use the App.</li>",
+        "<li><strong>No identity linkage.</strong> Reports are not tied to a user account or persistent identifier in the App.</li>",
+        "<li><strong>Submission methods.</strong> You may send a report via <strong>email</strong> (using your email client) or save it to a <strong>shared CloudKit database</strong> used to collect community corrections. See our <a href=\"https://cumuluscoding.com/policy.html?app=london-tree-map&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a> for details.</li>",
+        "<li><strong>Your responsibility.</strong> You agree to provide information that is <strong>honest and accurate to the best of your knowledge</strong>, and not to include unnecessary personal data about yourself or others.</li>",
+        "<li><strong>Licence to us.</strong> By submitting a report, you grant us a <strong>non-exclusive, royalty-free, worldwide licence</strong> to use, store, review, and act on Your Report for the purpose of operating, maintaining, and improving the App and its map data.</li>",
+        "<li><strong>No obligation.</strong> We are not obliged to act on every report or to change map data in any particular way.</li>",
+        "<li><strong>Moderation.</strong> We may disregard or remove report content that violates these Terms, is abusive, or is clearly unfounded.</li>",
+        "</ul>"
+      ],
+      "summary": "Summary: Optional reports you submit about map accuracy, and how we may use them."
+    },
+    {
+      "heading": "Map Data, Insights, and Accuracy",
+      "content": [
+        "<p class=\"mb-4\">Tree locations, species, climate suitability scores, borough statistics, and other information in the App are provided <strong>for general information and exploration</strong>. They are derived primarily from the <strong>London Public Realm Trees</strong> dataset published on the <a href=\"https://data.london.gov.uk/dataset/london-public-realm-trees-2r45m/\" class=\"text-primary hover:text-blue-600 underline\">London Datastore</a> (see <a href=\"#data-sources-and-attribution\" class=\"text-primary hover:text-blue-600 underline\">Data Sources and Attribution</a>). The App may also reflect community corrections submitted through optional reports. Data may be <strong>incomplete, approximate, or out of date</strong>.</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Not a complete picture of London’s trees.</strong> The underlying dataset does <strong>not</strong> represent the entirety of London’s urban forest. For context, the London i-Tree report estimated that there are over eight million trees across the capital, including those in woodlands, parks, streets, private gardens, and more.</li>",
+        "<li><strong>Coverage gaps.</strong> The dataset primarily covers street trees and trees in parks and open spaces, but also includes some trees in school grounds and on publicly maintained housing land. For three boroughs, location data could not be provided for some or all tree records.</li>",
+        "<li><strong>Not professional advice.</strong> The App does not provide arboricultural, surveying, planning, property, or legal advice.</li>",
+        "<li><strong>Not a safety or navigation tool.</strong> Do not rely on the App as your sole source for navigation, emergency response, construction, tree works, or decisions where inaccuracy could cause harm.</li>",
+        "<li><strong>Verify on the ground.</strong> Conditions on the street may differ from what the map shows. Use your own judgement when visiting locations.</li>",
+        "<li><strong>Insights.</strong> Aggregated views (for example, species or borough breakdowns) are derived from the underlying data and share the same limitations.</li>",
+        "<li><strong>Processing.</strong> We present and format the data for use in the App (for example, for offline browsing and map display). Display or processing steps may introduce errors; the authoritative source remains the published dataset.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">If you notice an error, you are encouraged to use the in-app report feature so we can review it.</p>"
+      ]
+    },
+    {
+      "heading": "Data Sources and Attribution",
+      "content": [
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Primary data source</h3></p>",
+        "<p class=\"mb-4\">The tree inventory information displayed in the App is sourced from the <strong>London Public Realm Trees</strong> dataset on the <a href=\"https://data.london.gov.uk/dataset/london-public-realm-trees-2r45m/\" class=\"text-primary hover:text-blue-600 underline\">London Datastore</a>.</p>",
+        "<p class=\"mb-4\">This dataset is used on the <strong>London Public Realm Tree Map</strong>. It includes locations, species, and future climate suitability information for almost <strong>1,140,000</strong> public-realm trees in London. For some trees, additional details such as size and age are also provided.</p>",
+        "<p class=\"mb-4\">The dataset is made available under the <strong><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a></strong> (OGL). In accordance with that licence, we acknowledge the source as follows:</p>",
+        "<p class=\"mb-4\">You are encouraged to review the full licence terms at <a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">The National Archives — Open Government Licence v3.0</a>. Under the OGL, the Information is licensed <strong>“as is”</strong> and the Information Provider excludes warranties and liability to the maximum extent permitted by law.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">About the data</h3></p>",
+        "<p class=\"mb-4\"><strong>Please note:</strong> This dataset does not represent the entirety of London’s urban forest. The London i-Tree report estimated that there are over eight million trees across the capital, including those in woodlands, parks, streets, private gardens, and more.</p>",
+        "<p class=\"mb-4\">The dataset primarily covers street trees and trees in parks and open spaces, but also includes some trees located in school grounds and on publicly maintained housing land.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Upstream data sources</h3></p>",
+        "<p class=\"mb-4\">Tree inventory data in the published dataset was collated by <strong>GiGL</strong> from:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>All <strong>32 London boroughs</strong></li>",
+        "<li>The <strong>City of London</strong></li>",
+        "<li><strong>Transport for London</strong></li>",
+        "<li>The <strong>Royal Parks</strong></li>",
+        "<li>The <strong>London Legacy Development Corporation</strong> (Queen Elizabeth Olympic Park)</li>",
+        "<li><strong>Quintain</strong> (Wembley Park)</li>",
+        "</ul>",
+        "<p class=\"mb-4\">For three boroughs, location data could not be provided for some or all tree records.</p>",
+        "<p class=\"mb-4\"><strong>Future climate suitability</strong> information is drawn from the <em>Future Climate Suitability of London’s Public Realm Trees</em> report, which assesses London’s most common public realm tree species against climate conditions anticipated for <strong>2090</strong>. This assessment is captured in a composite <strong>2090 climate suitability score</strong> included in the dataset.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Your use of the data</h3></p>",
+        "<p class=\"mb-4\">When you use the App, you are viewing data made available under the OGL (as incorporated in the App). You must <strong>not</strong> use the tree data in a way that suggests official status or that the Information Provider endorses you or your use, except as permitted by the OGL. If you extract or reuse the underlying dataset beyond personal use of the App, you must comply with the OGL conditions (including attribution and linking to the licence where required).</p>"
+      ],
+      "summary": "Contains public sector information licensed under the Open Government Licence v3.0."
+    },
+    {
+      "heading": "Intellectual Property",
+      "content": [
+        "<p class=\"mb-4\">The App and its software, design, text, graphics, and compilation of map presentation are owned by us or our licensors and are protected by intellectual property laws. Except for the limited licence above, <strong>no rights</strong> are granted to you.</p>",
+        "<p class=\"mb-4\"><strong>Tree inventory data</strong> in the App is sourced from the London Public Realm Trees dataset on the London Datastore, licensed under the <strong><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a></strong>. That data remains subject to the OGL and the rights of the relevant Information Providers. Our App interface, branding, and presentation are proprietary.</p>",
+        "<p class=\"mb-4\"><strong>Your Reports:</strong> You retain any rights you have in the original content of reports you submit, subject to the licence you grant us above.</p>",
+        "<p class=\"mb-4\">Users must respect copyright and licensing terms for all data sources. Apple, iOS, CloudKit, and other Apple marks are trademarks of Apple Inc.</p>"
+      ]
+    },
+    {
+      "heading": "Third-Party Content and Services",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No ads.</strong> The App does not include third-party advertising.</li>",
+        "<li><strong>Apple services.</strong> The App may use Apple frameworks (for example, MapKit, CloudKit, share sheets). Your use of those services is subject to Apple's terms.</li>",
+        "<li><strong>Maps and links.</strong> Opening a tree in an external maps application is at your discretion and subject to that provider's terms.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">We do not endorse and are not responsible for third-party services you access from the App.</p>"
+      ]
+    },
+    {
+      "heading": "Pricing, Payment & Refunds",
+      "content": [
+        "<p class=\"mb-4\">If the App is distributed through the <strong>Apple App Store</strong>, payment processing (including taxes and currency conversion) is handled by Apple. We do not process payments or collect your payment details through the App.</p>",
+        "<p class=\"mb-4\"><strong>Refunds:</strong> Refunds are administered by Apple under App Store policies. To request a refund, use <a href=\"https://reportaproblem.apple.com\" class=\"text-primary hover:text-blue-600 underline\">reportaproblem.apple.com</a>. We cannot issue refunds directly.</p>",
+        "<p class=\"mb-4\"><strong>App Store terms:</strong> Your purchase and use are also governed by Apple's applicable terms, including the Standard Licensed Application End User Licence Agreement where relevant. If there is a conflict regarding purchase or licensing, Apple's terms apply for those matters.</p>"
+      ]
+    },
+    {
+      "heading": "Privacy",
+      "content": [
+        "<p class=\"mb-4\">Your use of the App is subject to our <strong><a href=\"https://cumuluscoding.com/policy.html?app=london-tree-map&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a></strong>, which explains our minimal data practices and how optional reports are handled. Please read it carefully.</p>"
+      ]
+    },
+    {
+      "heading": "Termination",
+      "content": [
+        "<p class=\"mb-4\">We may suspend or terminate your access to the App if you breach these Terms, if required by law, or if we withdraw or materially change the App. You may stop using and uninstall the App at any time. Upon termination, the licence granted to you ends and you must cease use.</p>"
+      ]
+    },
+    {
+      "heading": "Disclaimers and Limitation of Liability",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No warranties.</strong> The App is provided <strong>\"as is\"</strong> and <strong>\"as available\"</strong>. To the fullest extent permitted by law, we disclaim all warranties (express or implied), including fitness for a particular purpose, reliability, and accuracy of map data.</li>",
+        "<li><strong>Map and Insights limitations.</strong> We do not guarantee that tree locations, species labels, statistics, or other content are complete, current, or error-free.</li>",
+        "<li><strong>Your responsibility.</strong> You are responsible for safe and lawful use, including when visiting locations and when submitting reports.</li>",
+        "<li><strong>Limitation.</strong> To the maximum extent permitted by law, we will <strong>not be liable</strong> for any indirect, consequential, special, or punitive damages, or for loss of profits, data, goodwill, or opportunities, arising from your use of the App. Our total aggregate liability for all claims relating to the App shall not exceed <strong>the amount you paid (if any) to purchase the App</strong>.</li>",
+        "<li><strong>Non-excludable liability.</strong> Nothing in these Terms excludes or limits liability where it would be unlawful to do so (for example, for death or personal injury caused by negligence, or for fraud).</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Indemnity",
+      "content": [
+        "<p class=\"mb-4\">You agree to <strong>indemnify and hold us harmless</strong> from claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in connection with: (a) your breach of these Terms; (b) your unlawful use of the App; (c) content you submit in a report; or (d) your infringement of third-party rights.</p>"
+      ]
+    },
+    {
+      "heading": "Governing Law and Jurisdiction",
+      "content": [
+        "<p class=\"mb-4\">These Terms and any dispute or claim arising out of or in connection with them are governed by the laws of <strong>England and Wales</strong>, and the courts of <strong>England and Wales</strong> shall have exclusive jurisdiction. If you are a consumer in another country, you may have mandatory rights under your local laws which remain unaffected.</p>"
+      ]
+    },
+    {
+      "heading": "Changes to These Terms",
+      "content": [
+        "<p class=\"mb-4\">We may update these Terms from time to time. Changes will be effective when posted or when the App notifies you. The \"Last updated\" date at the top reflects the most recent version. If you continue to use the App after changes take effect, you agree to the updated Terms.</p>"
+      ]
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about these Terms or the App, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=London%20Tree%20Map%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>London Tree Map - [Your Subject Here]</code></p>"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-24",
+    "effectiveDate": "2026-05-24",
+    "locale": "en-GB"
+  }
+}
