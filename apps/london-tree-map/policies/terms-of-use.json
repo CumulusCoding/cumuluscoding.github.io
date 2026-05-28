@@ -12,6 +12,7 @@
         "<li><strong>Your reports:</strong> Optional tree data issue reports must be accurate and respectful. Reports are not linked to your identity but may be stored in a shared CloudKit database or sent to us by email.</li>",
         "<li><strong>Map data:</strong> Tree information comes from the <strong>London Public Realm Trees</strong> open dataset (London Datastore), licensed under the <strong>Open Government Licence v3.0</strong>. It may be incomplete or outdated—do not rely on the App as your sole source for safety, property, or legal decisions.</li>",
         "<li><strong>Attribution:</strong> Contains public sector information licensed under the <a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a>.</li>",
+        "<li><strong>Reuse:</strong> You may use underlying source data under its original licence terms; reuse of our derived in-app dataset, compilations, and app-specific enhancements requires our prior written permission unless otherwise permitted by law or applicable source licence terms.</li>",
         "<li><strong>Privacy:</strong> See our <a href=\"https://cumuluscoding.com/policy.html?app=london-tree-map&type=privacy-policy\" class=\"text-primary hover:text-blue-600 underline\">Privacy Policy</a>.</li>",
         "<li><strong>Liability:</strong> The App is provided \"as is.\" Our liability is limited to the extent permitted by law.</li>",
         "<li><strong>Law:</strong> Governed by the laws of England and Wales.</li>",
@@ -114,7 +115,9 @@
         "<p class=\"mb-4\">For three boroughs, location data could not be provided for some or all tree records.</p>",
         "<p class=\"mb-4\"><strong>Future climate suitability</strong> information is drawn from the <em>Future Climate Suitability of London’s Public Realm Trees</em> report, which assesses London’s most common public realm tree species against climate conditions anticipated for <strong>2090</strong>. This assessment is captured in a composite <strong>2090 climate suitability score</strong> included in the dataset.</p>",
         "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Your use of the data</h3></p>",
-        "<p class=\"mb-4\">When you use the App, you are viewing data made available under the OGL (as incorporated in the App). You must <strong>not</strong> use the tree data in a way that suggests official status or that the Information Provider endorses you or your use, except as permitted by the OGL. If you extract or reuse the underlying dataset beyond personal use of the App, you must comply with the OGL conditions (including attribution and linking to the licence where required).</p>"
+        "<p class=\"mb-4\">Where the App incorporates third-party data, that source material is licensed under the terms specified by the relevant provider (including the OGL where applicable). We may process, standardise, validate, correct, restructure, and enrich that material to create a derived in-app dataset, including updates made by our team and follow-up changes informed by user feedback.</p>",
+        "<p class=\"mb-4\">You may use underlying source data in line with its original licence terms. Reuse of our derived dataset, compilations, and app-specific enhancements requires our prior written permission unless otherwise permitted by law or applicable source licence terms.</p>",
+        "<p class=\"mb-4\">When you use the App, you are viewing data made available under the OGL (as incorporated in the App) and our derived data layers. You must <strong>not</strong> use the tree data in a way that suggests official status or that the Information Provider endorses you or your use, except as permitted by the OGL. If you extract or reuse underlying source data beyond personal use of the App, you must comply with the relevant source licence conditions (including attribution and linking to the licence where required).</p>"
       ],
       "summary": "Contains public sector information licensed under the Open Government Licence v3.0."
     },
@@ -122,7 +125,8 @@
       "heading": "Intellectual Property",
       "content": [
         "<p class=\"mb-4\">The App and its software, design, text, graphics, and compilation of map presentation are owned by us or our licensors and are protected by intellectual property laws. Except for the limited licence above, <strong>no rights</strong> are granted to you.</p>",
-        "<p class=\"mb-4\"><strong>Tree inventory data</strong> in the App is sourced from the London Public Realm Trees dataset on the London Datastore, licensed under the <strong><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a></strong>. That data remains subject to the OGL and the rights of the relevant Information Providers. Our App interface, branding, and presentation are proprietary.</p>",
+        "<p class=\"mb-4\"><strong>Tree inventory data</strong> in the App is sourced from the London Public Realm Trees dataset on the London Datastore, licensed under the <strong><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" class=\"text-primary hover:text-blue-600 underline\">Open Government Licence v3.0</a></strong>. Rights in underlying source data remain with the relevant Information Providers and licensors.</p>",
+        "<p class=\"mb-4\">This App dataset is curated and modified by us, including validation, corrections, restructuring, and user-feedback updates. Accordingly, rights in our compilation, enrichment, derived dataset layers, and presentation are claimed by us, while rights in the underlying source data remain with the original licensors.</p>",
         "<p class=\"mb-4\"><strong>Your Reports:</strong> You retain any rights you have in the original content of reports you submit, subject to the licence you grant us above.</p>",
         "<p class=\"mb-4\">Users must respect copyright and licensing terms for all data sources. Apple, iOS, CloudKit, and other Apple marks are trademarks of Apple Inc.</p>"
       ]
@@ -200,8 +204,8 @@
   ],
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2026-05-24",
-    "effectiveDate": "2026-05-24",
+    "lastUpdated": "2026-05-28",
+    "effectiveDate": "2026-05-28",
     "locale": "en-GB"
   }
 }

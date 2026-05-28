@@ -10,6 +10,7 @@
         "<li><strong>No accounts, no analytics, no ads.</strong> We do not operate user accounts or track how you use the App.</li>",
         "<li><strong>On your device:</strong> Browsing, search, saved trees, and preferences work on your device. The App works offline for core features.</li>",
         "<li><strong>Tree data:</strong> Public-realm tree information from the <strong>London Datastore</strong> (<a href=\"https://data.london.gov.uk/dataset/london-public-realm-trees-2r45m/\" class=\"text-primary hover:text-blue-600 underline\">London Public Realm Trees</a>) is included in the App under the <strong>Open Government Licence v3.0</strong>. We do not collect personal data when you view the map or Insights.</li>",
+        "<li><strong>Data rights split:</strong> Underlying source data remains licensed by original providers. The App dataset may include our team’s validation, corrections, restructuring, and user-feedback updates. Reuse of our derived in-app dataset and app-specific enhancements requires our prior written permission unless otherwise permitted by law or applicable source licence terms.</li>",
         "<li><strong>Optional reports only:</strong> If you choose to flag a map issue, you may submit a short <strong>user-generated report</strong>. Reports are <strong>not linked to your identity</strong> (no sign-in). You can send a report via <strong>email</strong> or store it in a <strong>shared iCloud (CloudKit) database</strong> we use to receive community corrections.</li>",
         "<li><strong>No selling or sharing</strong> of personal data with advertisers or data brokers.</li>",
         "</ul>"
@@ -75,6 +76,15 @@
         "<p class=\"mb-4\">We <strong>do not sell</strong> your personal data. We <strong>do not share</strong> personal data with advertisers or data brokers.</p>",
         "<p class=\"mb-4\"><strong>User-generated reports</strong> you submit by email are received by us directly. Reports you submit via the shared CloudKit database are accessible to us as the App maintainer for the purposes described above. We do not publish your reports as attributable to you.</p>",
         "<p class=\"mb-4\">We may disclose information only where <strong>required by law</strong> or to protect our rights, users, or the integrity of the service.</p>"
+      ]
+    },
+    {
+      "heading": "Data Provenance and Licensing",
+      "content": [
+        "<p class=\"mb-4\">Where the App incorporates third-party data, that source material is licensed under the terms specified by the relevant provider (including the OGL where applicable).</p>",
+        "<p class=\"mb-4\">We may process, standardise, validate, correct, restructure, and enrich that material to create a derived in-app dataset, including updates made by our team and follow-up changes informed by user feedback.</p>",
+        "<p class=\"mb-4\">Rights in underlying source data remain with the original licensors. Rights in our derived dataset, compilations, enrichment, and app-specific presentation are claimed by us.</p>",
+        "<p class=\"mb-4\">You may use underlying source data in line with its original licence terms. Reuse of our derived in-app dataset, compilations, and app-specific enhancements requires our prior written permission unless otherwise permitted by law or applicable source licence terms.</p>"
       ]
     },
     {
@@ -161,8 +171,8 @@
   ],
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2026-05-24",
-    "effectiveDate": "2026-05-24",
+    "lastUpdated": "2026-05-28",
+    "effectiveDate": "2026-05-28",
     "locale": "en-GB"
   }
 }
