@@ -35,7 +35,8 @@ class PolicyPage {
       'quick-maths': 'quickmaths',
       'controller-cursor': 'controller-cursor',
       'food-nutrient-profiles': 'food-nutrient-profiles',
-      'london-tree-map': 'london-tree-map'
+      'london-tree-map': 'london-tree-map',
+      'uk-apprenticeships': 'uk-apprenticeships'
     };
     
     const appId = appIdMap[appFolderName] || appFolderName;
