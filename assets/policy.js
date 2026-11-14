@@ -38,7 +38,8 @@ class PolicyPage {
       'london-tree-map': 'london-tree-map',
       'uk-apprenticeships': 'uk-apprenticeships',
       'bold-reading': 'bold-reading',
-      'stretch-interval-timer': 'stretch-interval-timer'
+      'stretch-interval-timer': 'stretch-interval-timer',
+      'solar-eclipse-map': 'solar-eclipse-map'
     };
     
     const appId = appIdMap[appFolderName] || appFolderName;

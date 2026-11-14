@@ -1,0 +1,185 @@
+{
+  "appId": "solar-eclipse-map",
+  "title": "Privacy Policy (Solar Eclipse Map)",
+  "sections": [
+    {
+      "heading": "TL;DR (Too Long; Didn't Read)",
+      "content": [
+        "<p class=\"mb-4\">This summary gives you the key points of our Privacy Policy in plain language. It does <strong>not</strong> replace the full policy, which you should read for complete details about how your data is handled.</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>No accounts, and no servers of ours:</strong> We do not run user accounts or a backend that collects your data. We do not receive your preferences, favourites, or location.</li>",
+        "<li><strong>Ads (Google AdMob):</strong> After a short free period, the App shows <strong>Google AdMob</strong> banner ads. Ads are served and measured by <strong>Google and its ad partners</strong>, not by us. To do this, Google and its partners may process information such as your device's advertising identifier, IP address, approximate location, and how you interact with ads.</li>",
+        "<li><strong>Your ad choices:</strong> In the EEA, UK, and wherever Google's consent message applies, you will be asked for your choices through Google's consent form, and you can change them later in <strong>Settings → Privacy choices</strong> where this option is shown. Whether ads are personalised or non-personalised depends on your choices and settings. Non-personalised ads can still be shown and can still involve limited data.</li>",
+        "<li><strong>Remove Ads (optional):</strong> A one-time, non-consumable purchase processed entirely by <strong>Apple</strong>. We never see your payment details. Removing ads stops the App requesting ads, but does not undo anything Google has already processed.</li>",
+        "<li><strong>Optional features:</strong> Location is used only when you choose \"near me\" (while the App is in use). Favourites may sync through your own <strong>iCloud</strong> account. Calendar events are added only through Apple's system sheet when you choose to.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "content": [
+        "<p class=\"mb-4\">Welcome to <strong>Solar Eclipse Map</strong>. This Privacy Policy explains how we handle information when you use our application (hereafter referred to as \"<strong>the App</strong>\").</p>",
+        "<p class=\"mb-4\">Solar Eclipse Map shows solar eclipses, past and future, on an interactive map. You can browse eclipses, see where they are visible, use \"near me\", save favourites, and add an eclipse to your calendar.</p>",
+        "<p class=\"mb-4\">Most of the App works <strong>on your device</strong>. We do not run user accounts and we do not operate servers that collect your information. However, the App is <strong>supported by advertising</strong> provided by <strong>Google AdMob</strong>, so Google and its partners may process some device and ad-related information when ads are shown. This policy explains that clearly.</p>",
+        "<p class=\"mb-4\">By using the App, you agree to the terms outlined in this Privacy Policy.</p>"
+      ]
+    },
+    {
+      "heading": "Collection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">What we do not do</h3></p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>We have <strong>no user accounts</strong> or sign-in.</li>",
+        "<li>We do <strong>not</strong> ask for your name, email address, or other contact details within the App.</li>",
+        "<li>We do <strong>not</strong> run our own analytics or a backend that logs your activity.</li>",
+        "<li>We do <strong>not</strong> receive the data stored on your device.</li>",
+        "</ul>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Data stored on your device</h3></p>",
+        "<p class=\"mb-4\">The following is stored <strong>locally on your device</strong> using standard platform storage (such as <strong>UserDefaults</strong>):</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Preferences and settings</strong> (for example, display choices).</li>",
+        "<li><strong>Launch and ad flags</strong> (for example, how many times the App has been opened, which is used to decide when ads begin, and whether Remove Ads has been unlocked).</li>",
+        "</ul>",
+        "<p class=\"mb-4\">We do <strong>not</strong> receive this on-device data.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Favourites and iCloud</h3></p>",
+        "<p class=\"mb-4\">If you save favourites, they may <strong>sync across your devices through Apple's iCloud (CloudKit)</strong> when you are signed in to iCloud. This sync happens within your own iCloud account and is handled by Apple. We do not receive your favourites. You can manage iCloud in your device's Settings.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Location (only when you use \"near me\")</h3></p>",
+        "<p class=\"mb-4\">If you choose \"near me\", the App asks for permission to use your location <strong>while the App is in use</strong>. Your location is used on your device to show eclipses relevant to where you are. We do <strong>not</strong> collect, store, or receive your location, and we do not use it for advertising. You can turn off location permission at any time in your device's Settings, and the rest of the App will continue to work.</p>",
+        "<p class=\"mb-4\">Please note that when ads are requested, Google may derive an <strong>approximate location from your IP address</strong>. See \"Advertising\" below.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Calendar (only if you add an event)</h3></p>",
+        "<p class=\"mb-4\">If you choose to add an eclipse to your calendar, the App uses Apple's <strong>system sheet</strong>. The event is created in the calendar you select on your device. We do not read your calendar and we do not receive the event.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Purchases</h3></p>",
+        "<p class=\"mb-4\">If you buy <strong>Remove Ads</strong>, the transaction is handled entirely by <strong>Apple</strong>. We do not receive your card or payment details. The App checks with Apple, using the App Store's purchase information, whether Remove Ads has been unlocked on your Apple ID so that ads can be switched off.</p>"
+      ]
+    },
+    {
+      "heading": "Advertising (Google AdMob)",
+      "content": [
+        "<p class=\"mb-4\">After a short free period, the App shows <strong>banner ads</strong> provided through <strong>Google AdMob</strong>.</p>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">How ads work</h3></p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Ads are <strong>requested, served, and measured by Google and its ad partners</strong>, not by our own servers.</li>",
+        "<li>To do this, the Google Mobile Ads SDK within the App may share information with Google, such as your <strong>device's advertising identifier or other device identifiers, IP address, approximate location, device and app information, diagnostics and performance data, and information about ads shown and how you interact with them</strong>.</li>",
+        "<li>Google and its ad partners may use that information to deliver and measure ads, prevent fraud and abuse, and, depending on your choices and settings, to personalise ads.</li>",
+        "<li>We do not see the personal data Google processes for this purpose, and we do not control how Google or its partners use it. Google acts under its own privacy policy and terms.</li>",
+        "</ul>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Your choices</h3></p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Consent form:</strong> In the <strong>EEA, the UK</strong>, and wherever Google's consent message (Google User Messaging Platform) applies, the App shows Google's consent form before ads are served. You can review or change your choices later in <strong>Settings → Privacy choices</strong> in the App, where this option is available.</li>",
+        "<li><strong>Personalised and non-personalised ads:</strong> Whether ads are personalised depends on your consent choices, your device settings, and your Google settings. If you decline personalisation, you may still see ads. Those ads are <strong>non-personalised</strong>, but they can still be served using limited information such as contextual information, general location, and device identifiers, and measurement and fraud-prevention processing can still occur. We therefore cannot say that declining consent turns off all data collection by ad providers.</li>",
+        "<li><strong>Device settings:</strong> You can reset or limit your device's advertising identifier, and manage tracking permissions, in your device's Settings. Where the App requests permission to track you through Apple's prompt, your choice is respected.</li>",
+        "<li><strong>Google settings:</strong> You can manage ad personalisation through <a href=\"https://adssettings.google.com\" class=\"text-primary hover:text-blue-600 underline\">Google Ad Settings</a>.</li>",
+        "</ul>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Learn more from Google</h3></p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><a href=\"https://policies.google.com/technologies/partner-sites\" class=\"text-primary hover:text-blue-600 underline\">How Google uses information from sites or apps that use our services</a></li>",
+        "<li><a href=\"https://policies.google.com/privacy\" class=\"text-primary hover:text-blue-600 underline\">Google Privacy Policy</a></li>",
+        "<li><a href=\"https://developers.google.com/admob/ios/privacy/data-disclosure\" class=\"text-primary hover:text-blue-600 underline\">Google Mobile Ads SDK: data collected (App store data disclosure)</a></li>",
+        "<li><a href=\"https://support.google.com/admob/answer/9012903\" class=\"text-primary hover:text-blue-600 underline\">AdMob ad technology partners</a></li>",
+        "</ul>",
+        "<p class=\"mb-4\"><h3 class=\"text-lg font-medium text-gray-900 mt-4 mb-2\">Remove Ads</h3></p>",
+        "<p class=\"mb-4\">The optional <strong>Remove Ads</strong> purchase stops the App from requesting ads from Google AdMob. It does <strong>not</strong> change or reverse any processing Google or its partners have already carried out on data collected earlier, including data collected under consent you previously gave. To manage or withdraw consent for data already collected, use the controls described above or contact Google.</p>"
+      ]
+    },
+    {
+      "heading": "Use of Personal Data",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>We:</strong> We do not collect personal data through the App, so we do not use it for our own purposes. On-device information is used only to run the App, for example to remember your preferences, favourites, and whether ads should be shown.</li>",
+        "<li><strong>Google and its partners:</strong> Information processed for advertising is used by Google and its partners as described above and in their own policies.</li>",
+        "<li><strong>Apple:</strong> Apple processes purchase and iCloud information under its own terms.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">We do not use any information for marketing and we do not sell personal data.</p>"
+      ]
+    },
+    {
+      "heading": "Sharing of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">We do not receive your personal data through the App and so we do not sell or share it. We do not share information with data brokers.</p>",
+        "<p class=\"mb-4\">Information is shared with <strong>Google and its ad partners</strong> by the advertising software within the App, as described in \"Advertising (Google AdMob)\", and with <strong>Apple</strong> where you use iCloud, location services, or the App Store. We may disclose information only where required by law, but because we do not hold your personal data from the App, we generally have nothing to disclose.</p>"
+      ]
+    },
+    {
+      "heading": "Third-Party Services",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>Google AdMob (Google Mobile Ads SDK and ad partners):</strong> Provides and measures the ads shown after the free period, and collects consent where required. Google's use of information is governed by the <a href=\"https://policies.google.com/privacy\" class=\"text-primary hover:text-blue-600 underline\">Google Privacy Policy</a> and <a href=\"https://policies.google.com/technologies/partner-sites\" class=\"text-primary hover:text-blue-600 underline\">how Google uses information from sites or apps that use its services</a>.</li>",
+        "<li><strong>Apple (iOS, App Store, iCloud, Location Services, Calendar):</strong> Apple processes purchases (Remove Ads), iCloud syncing of favourites, location permissions, and calendar features under its own terms. See <a href=\"https://www.apple.com/privacy/\" class=\"text-primary hover:text-blue-600 underline\">Apple's Privacy Policy</a>.</li>",
+        "<li><strong>NASA and eclipse catalogue data:</strong> Eclipse predictions are based on catalogue data by Fred Espenak and Jean Meeus, published via NASA. This data is included in the App, and using the App does not send information to NASA or the catalogue authors. See the Data Sources screen in the App for attribution.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">The App does not use our own analytics, and does not use social login providers.</p>"
+      ]
+    },
+    {
+      "heading": "Cookies and Other Technologies",
+      "content": [
+        "<p class=\"mb-4\">The App is a native iOS application and does not use web cookies. However, advertising software such as the <strong>Google Mobile Ads SDK</strong> may use device identifiers and similar technologies in the App for advertising, measurement, and fraud prevention, as described above. Local storage on your device (such as UserDefaults) is used to support App functionality and preferences.</p>"
+      ]
+    },
+    {
+      "heading": "International Data Transfers",
+      "content": [
+        "<p class=\"mb-4\">We do not operate servers that receive your data from the App, so we do not transfer your personal data internationally ourselves.</p>",
+        "<p class=\"mb-4\">Google, its ad partners, and Apple may process information in countries outside your own, including outside the UK and EEA, under their own policies and safeguards.</p>"
+      ]
+    },
+    {
+      "heading": "Data Retention & Storage",
+      "content": [
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li><strong>On your device:</strong> Preferences, flags, and favourites remain on your device until you change or delete them, or remove the App. Deleting the App removes its local data. Favourites stored in iCloud are managed through your iCloud settings.</li>",
+        "<li><strong>With us:</strong> We do not hold personal data from the App.</li>",
+        "<li><strong>With Google and Apple:</strong> Retention is determined by their own policies. See the links above.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "heading": "Protection of Personal Data",
+      "content": [
+        "<p class=\"mb-4\">Because we do not collect or store personal data from the App on our own servers, there is no personal data held by us that could be exposed in a breach of our systems. On-device information is held in your device's standard storage, protected by your device's security. Purchase, iCloud, and advertising data are protected by Apple and Google under their own security practices.</p>"
+      ]
+    },
+    {
+      "heading": "Your Privacy Rights & Choices",
+      "content": [
+        "<p class=\"mb-4\">Depending on where you live (for example, the UK or EEA), you may have rights to <strong>access</strong>, <strong>rectify</strong>, <strong>erase</strong>, <strong>restrict</strong>, or <strong>object</strong> to processing, and <strong>data portability</strong>, in relation to personal data held about you.</p>",
+        "<p class=\"mb-4\">Because we do not hold personal data from the App, there is generally nothing for us to access, correct, or delete. You can:</p>",
+        "<ul class=\"list-disc list-outside mb-4 space-y-1 pl-5\">",
+        "<li>Change your ad choices through <strong>Settings → Privacy choices</strong> in the App (where shown), your device's Settings, and <a href=\"https://adssettings.google.com\" class=\"text-primary hover:text-blue-600 underline\">Google Ad Settings</a>.</li>",
+        "<li>Turn off location permission in your device's Settings.</li>",
+        "<li>Manage iCloud sync in your device's Settings.</li>",
+        "<li>Delete the App to remove its local data.</li>",
+        "</ul>",
+        "<p class=\"mb-4\">For personal data held by Google or Apple, please use their privacy tools and contact them directly. If you have questions, contact us using the details in <a href=\"#contact-us\" class=\"text-primary hover:text-blue-600 underline\">Contact Us</a>.</p>"
+      ]
+    },
+    {
+      "heading": "Children & Privacy",
+      "content": [
+        "<p class=\"mb-4\">The App is intended for a <strong>general audience</strong> and is <strong>not directed at children</strong>. We do not knowingly collect personal data from children. Ads in the App are not designed for children.</p>"
+      ]
+    },
+    {
+      "heading": "Changes to This Policy",
+      "content": [
+        "<p class=\"mb-4\">We may update this Privacy Policy from time to time to reflect changes in the App, advertising practices, or legal requirements. When we make changes, we will update the \"Last Updated\" date at the top and, where appropriate, provide notice within the App.</p>",
+        "<p class=\"mb-4\">Continued use of the App after changes take effect constitutes your acceptance of the updated policy.</p>"
+      ]
+    },
+    {
+      "heading": "Contact Us",
+      "content": [
+        "<p class=\"mb-4\">If you have questions about this policy or your data, please contact:</p>",
+        "<p class=\"mb-4\"><strong>Email:</strong> <a href=\"mailto:hello@cumuluscoding.com?subject=Solar%20Eclipse%20Map%20-%20Your%20Subject\" class=\"text-primary hover:text-blue-600 underline\">hello@cumuluscoding.com</a></p>",
+        "<p class=\"mb-4\">When emailing us, please include the app name first, followed by your subject in the email's subject line.</p>",
+        "<p class=\"mb-4\">For example: <code class='bg-gray-100 px-1 py-0.5 rounded text-sm'>Solar Eclipse Map - [Your Subject Here]</code></p>"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-11-07",
+    "effectiveDate": "2026-11-07",
+    "locale": "en-GB"
+  }
+}
